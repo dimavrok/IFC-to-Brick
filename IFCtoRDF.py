@@ -1,3 +1,5 @@
+#%% Import packages
+
 import ifcopenshell
 
 from rdflib.namespace import NamespaceManager
@@ -10,7 +12,7 @@ NS_brick = "https://brickschema.org/schema/1.1/Brick#"
 NS_rdf = "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 
 #%% Import IFC file
-f = ifcopenshell.open("101.ifc")
+f = ifcopenshell.open("Example.ifc")
 buildings = f.by_type("IfcBuilding")
 stories = f.by_type("IfcBuildingStorey")
 spaces = f.by_type("IfcSpace")
