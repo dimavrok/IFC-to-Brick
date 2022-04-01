@@ -154,7 +154,7 @@ graph.serialize(destination="graph.ttl", format="turtle")
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix schema: <http://schema.org/> .
 @prefix bot: <https://w3id.org/bot#> .
-@prefix brick1: <https://brickschema.org/schema/1.1/Brick#> .
+@prefix brick: <https://brickschema.org/schema/1.1/Brick#> .
 @prefix om: <http://openmetrics.eu/openmetrics#> .
 
 schema:PersonShape
