@@ -4,9 +4,14 @@ This project attempts to integrate IFC and Brick Schema to allow configuration o
 This is a simple example of transforming an IFC file using Python
 
 Dependencies: 
+
 IFC to RDF --> ifcopenshell/RDFlib
+
 BMS to RDF --> RDFlib/pybrickschema
+
 RDF validation --> RDFlib/pySHACL
+
+
 
 Objectives of this project: 
 1. Transform IFC instances (spaces/zones/systems/equipment) into RDF using BOT, Brick Schema or any other ontology 
