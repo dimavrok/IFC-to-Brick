@@ -8,8 +8,12 @@ from rdflib import Graph, RDF, URIRef
 #%% Create a namespace
 NS_om = "http://openmetrics.eu/openmetrics#"
 NS_bot = "https://w3id.org/bot#"
-NS_brick = "https://brickschema.org/schema/1.1/Brick#"
+NS_brick = "https://brickschema.org/schema/Brick#"
 NS_rdf = "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+NS_rdf = "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+NS_owl = "http://www.w3.org/2002/07/owl#"
+NS_schema = "http://schema.org#"
+
 
 #%% Import IFC file
 f = ifcopenshell.open("Example.ifc")
@@ -25,6 +29,9 @@ graph = Graph()
 graph.namespace_manager.bind("om", URIRef(NS_om))
 graph.namespace_manager.bind("bot", URIRef(NS_bot))
 graph.namespace_manager.bind("brick", URIRef(NS_brick))
+graph.namespace_manager.bind("rdf", URIRef(NS_rdf))
+graph.namespace_manager.bind("owl", URIRef(NS_owl))
+graph.namespace_manager.bind("schema", URIRef(NS_schema))
 
 #%% Converter 
 
