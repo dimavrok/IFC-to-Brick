@@ -1,1 +1,396 @@
+@prefix bot: <https://w3id.org/bot#> .
+@prefix brick1: <https://brickschema.org/schema/1.1/Brick#> .
+@prefix om: <http://openmetrics.eu/openmetrics#> .
+
+om:inst_building_4O09sz a bot:Building ;
+    bot:hasStorey om:inst_storey_7d_WBi,
+        om:inst_storey_7d_WDz,
+        om:inst_storey_7d_qIM,
+        om:inst_storey_7d_s9I .
+
+om:inst_system_DJFJKe a brick1:Terminal_Unit,
+        bot:Element ;
+    brick1:feeds om:inst_zone_H4ihJ_ ;
+    bot:hasLocation om:inst_space_Ram2pW .
+
+om:inst_system_lgpbYy a brick1:Terminal_Unit,
+        bot:Element ;
+    brick1:feeds om:inst_zone_MmgxZ8 ;
+    bot:hasLocation om:inst_space_Pg6v4S .
+
+om:inst_system_lgpbZu a brick1:Terminal_Unit,
+        bot:Element ;
+    brick1:feeds om:inst_zone_MmgxZ9 ;
+    bot:hasLocation om:inst_space_Pg6v4G .
+
+om:inst_system_lgpbbw a brick1:Terminal_Unit,
+        bot:Element ;
+    brick1:feeds om:inst_zone_MmgxZM ;
+    bot:hasLocation om:inst_space_Pg6v4c .
+
+om:inst_system_lgpbdC a brick1:Terminal_Unit,
+        bot:Element ;
+    brick1:feeds om:inst_zone_H4ihJY ;
+    bot:hasLocation om:inst_space_Ram2pd .
+
+om:inst_system_lgpbf9 a brick1:Terminal_Unit,
+        bot:Element ;
+    brick1:feeds om:inst_zone_H4ihJZ ;
+    bot:hasLocation om:inst_space_Ram2oO .
+
+om:inst_system_lgpbgr a brick1:Terminal_Unit,
+        bot:Element ;
+    brick1:feeds om:inst_zone_H4ihJW ;
+    bot:hasLocation om:inst_space_Ram2oQ .
+
+om:inst_system_lgpbis a brick1:Terminal_Unit,
+        bot:Element ;
+    brick1:feeds om:inst_zone_H4ihJu ;
+    bot:hasLocation om:inst_space_Ram2qR .
+
+om:inst_system_lgpbkP a brick1:Terminal_Unit,
+        bot:Element ;
+    brick1:feeds om:inst_zone_H4ihJv ;
+    bot:hasLocation om:inst_space_Ram2qS .
+
+om:inst_system_lgpbm1 a brick1:Terminal_Unit,
+        bot:Element ;
+    brick1:feeds om:inst_zone_H4ihJ_ ;
+    bot:hasLocation om:inst_space_Ram2qU .
+
+om:inst_system_sGfL1E a brick1:Terminal_Unit,
+        bot:Element ;
+    brick1:feeds om:inst_zone_H4ihJj ;
+    bot:hasLocation om:inst_space_Ram2oU .
+
+om:inst_system_sGfL4O a brick1:Terminal_Unit,
+        bot:Element ;
+    brick1:feeds om:inst_zone_H4ihJX ;
+    bot:hasLocation om:inst_space_Ram2oG .
+
+om:inst_system_sGfL7Y a brick1:Terminal_Unit,
+        bot:Element ;
+    brick1:feeds om:inst_zone_H4ihJi ;
+    bot:hasLocation om:inst_space_Ram2oV .
+
+om:inst_system_sGfL8j a brick1:Terminal_Unit,
+        bot:Element ;
+    brick1:feeds om:inst_zone_H4ihJw ;
+    bot:hasLocation om:inst_space_Ram2pl .
+
+om:inst_system_sGfLFp a brick1:Terminal_Unit,
+        bot:Element ;
+    brick1:feeds om:inst_zone_H4ihJx ;
+    bot:hasLocation om:inst_space_Ram2pk .
+
+om:inst_system_sGfL_6 a brick1:Terminal_Unit,
+        bot:Element ;
+    brick1:feeds om:inst_zone_MmgxZC ;
+    bot:hasLocation om:inst_space_Pg6v4h .
+
+om:inst_system_sGfLu5 a brick1:Terminal_Unit,
+        bot:Element ;
+    brick1:feeds om:inst_zone_MmgxZD ;
+    bot:hasLocation om:inst_space_Pg6v4f .
+
+om:inst_system_sGfLwy a brick1:Terminal_Unit,
+        bot:Element ;
+    brick1:feeds om:inst_zone_MmgxZE ;
+    bot:hasLocation om:inst_space_Pg6v4t .
+
+om:inst_zone_5DaaCm a brick1:Zone ;
+    brick1:hasPart om:inst_space_Ram2pa,
+        om:inst_space_Ram2pq,
+        om:inst_space_Ram2rc .
+
+om:inst_storey_7d_WBi a bot:Storey ;
+    bot:hasSpace om:inst_space_MmgxZG,
+        om:inst_space_MmgxZI,
+        om:inst_space_MmgxZK,
+        om:inst_space_MmgxZS,
+        om:inst_space_MmgxZU,
+        om:inst_space_Ram2pW,
+        om:inst_space_Ram2pk,
+        om:inst_space_Ram2pl,
+        om:inst_space_Ram2pq,
+        om:inst_space_Ram2qR,
+        om:inst_space_Ram2qS,
+        om:inst_space_Ram2qU .
+
+om:inst_storey_7d_WDz a bot:Storey .
+
+om:inst_storey_7d_qIM a bot:Storey ;
+    bot:hasSpace om:inst_space_H4ihJn,
+        om:inst_space_H4ihJp,
+        om:inst_space_H4ihJr,
+        om:inst_space_H4ihJt,
+        om:inst_space_H4ihJz,
+        om:inst_space_Ram2oG,
+        om:inst_space_Ram2oO,
+        om:inst_space_Ram2oQ,
+        om:inst_space_Ram2oU,
+        om:inst_space_Ram2oV,
+        om:inst_space_Ram2pa,
+        om:inst_space_Ram2pd .
+
+om:inst_storey_7d_s9I a bot:Storey ;
+    bot:hasSpace om:inst_space_MmgxW_,
+        om:inst_space_MmgxWv,
+        om:inst_space_MmgxWx,
+        om:inst_space_MmgxZ3,
+        om:inst_space_MmgxZ7,
+        om:inst_space_Pg6v4G,
+        om:inst_space_Pg6v4S,
+        om:inst_space_Pg6v4c,
+        om:inst_space_Pg6v4f,
+        om:inst_space_Pg6v4h,
+        om:inst_space_Pg6v4t,
+        om:inst_space_Ram2rc .
+
+om:inst_thermostat_Ram3GO a brick1:Thermostat,
+        bot:Element .
+
+om:inst_thermostat_Ram3GQ a brick1:Thermostat,
+        bot:Element .
+
+om:inst_thermostat_Ram3HW a brick1:Thermostat,
+        bot:Element .
+
+om:inst_thermostat_Ram3HY a brick1:Thermostat,
+        bot:Element .
+
+om:inst_thermostat_Ram3Ha a brick1:Thermostat,
+        bot:Element .
+
+om:inst_thermostat_Ram3Hc a brick1:Thermostat,
+        bot:Element .
+
+om:inst_thermostat_Ram3LX a brick1:Thermostat,
+        bot:Element .
+
+om:inst_thermostat_Ram3Lf a brick1:Thermostat,
+        bot:Element .
+
+om:inst_thermostat_Ram3Lh a brick1:Thermostat,
+        bot:Element .
+
+om:inst_thermostat_Ram3Lj a brick1:Thermostat,
+        bot:Element .
+
+om:inst_thermostat_Ram3Ll a brick1:Thermostat,
+        bot:Element .
+
+om:inst_thermostat_Ram3Lt a brick1:Thermostat,
+        bot:Element .
+
+om:inst_thermostat_fYGWU4 a brick1:Thermostat,
+        bot:Element .
+
+om:inst_thermostat_fYGWV0 a brick1:Thermostat,
+        bot:Element .
+
+om:inst_thermostat_fYGZWG a brick1:Thermostat,
+        bot:Element .
+
+om:inst_thermostat_fYGZYb a brick1:Thermostat,
+        bot:Element .
+
+om:inst_thermostat_fYGZba a brick1:Thermostat,
+        bot:Element .
+
+om:inst_thermostat_fYGZgg a brick1:Thermostat,
+        bot:Element .
+
+om:inst_zone_H4ihJW a brick1:Zone ;
+    brick1:hasPart om:inst_space_H4ihJr,
+        om:inst_space_Ram2oQ .
+
+om:inst_zone_H4ihJX a brick1:Zone ;
+    brick1:hasPart om:inst_space_H4ihJz,
+        om:inst_space_Ram2oG .
+
+om:inst_zone_H4ihJY a brick1:Zone ;
+    brick1:hasPart om:inst_space_H4ihJn,
+        om:inst_space_Ram2pd .
+
+om:inst_zone_H4ihJZ a brick1:Zone ;
+    brick1:hasPart om:inst_space_H4ihJt,
+        om:inst_space_Ram2oO .
+
+om:inst_zone_H4ihJi a brick1:Zone ;
+    brick1:hasPart om:inst_space_Ram2oV .
+
+om:inst_zone_H4ihJj a brick1:Zone ;
+    brick1:hasPart om:inst_space_H4ihJp,
+        om:inst_space_Ram2oU .
+
+om:inst_zone_H4ihJu a brick1:Zone ;
+    brick1:hasPart om:inst_space_MmgxZG,
+        om:inst_space_Ram2qR .
+
+om:inst_zone_H4ihJv a brick1:Zone ;
+    brick1:hasPart om:inst_space_MmgxZU,
+        om:inst_space_Ram2qS .
+
+om:inst_zone_H4ihJw a brick1:Zone ;
+    brick1:hasPart om:inst_space_Ram2pl .
+
+om:inst_zone_H4ihJx a brick1:Zone ;
+    brick1:hasPart om:inst_space_MmgxZI,
+        om:inst_space_Ram2pk .
+
+om:inst_zone_MmgxZ8 a brick1:Zone ;
+    brick1:hasPart om:inst_space_MmgxWx,
+        om:inst_space_Pg6v4S .
+
+om:inst_zone_MmgxZ9 a brick1:Zone ;
+    brick1:hasPart om:inst_space_MmgxWv,
+        om:inst_space_Pg6v4G .
+
+om:inst_zone_MmgxZC a brick1:Zone ;
+    brick1:hasPart om:inst_space_MmgxZ7,
+        om:inst_space_Pg6v4h .
+
+om:inst_zone_MmgxZD a brick1:Zone ;
+    brick1:hasPart om:inst_space_Pg6v4f .
+
+om:inst_zone_MmgxZE a brick1:Zone ;
+    brick1:hasPart om:inst_space_MmgxZ3,
+        om:inst_space_Pg6v4t .
+
+om:inst_zone_MmgxZM a brick1:Zone ;
+    brick1:hasPart om:inst_space_MmgxW_,
+        om:inst_space_Pg6v4c .
+
+om:inst_space_H4ihJn a brick1:Space,
+        bot:Space .
+
+om:inst_space_H4ihJp a brick1:Space,
+        bot:Space .
+
+om:inst_space_H4ihJr a brick1:Space,
+        bot:Space .
+
+om:inst_space_H4ihJt a brick1:Space,
+        bot:Space .
+
+om:inst_space_H4ihJz a brick1:Space,
+        bot:Space .
+
+om:inst_space_MmgxW_ a brick1:Space,
+        bot:Space .
+
+om:inst_space_MmgxWv a brick1:Space,
+        bot:Space .
+
+om:inst_space_MmgxWx a brick1:Space,
+        bot:Space .
+
+om:inst_space_MmgxZ3 a brick1:Space,
+        bot:Space .
+
+om:inst_space_MmgxZ7 a brick1:Space,
+        bot:Space .
+
+om:inst_space_MmgxZG a brick1:Space,
+        bot:Space .
+
+om:inst_space_MmgxZI a brick1:Space,
+        bot:Space .
+
+om:inst_space_MmgxZK a brick1:Space,
+        bot:Space .
+
+om:inst_space_MmgxZS a brick1:Space,
+        bot:Space .
+
+om:inst_space_MmgxZU a brick1:Space,
+        bot:Space .
+
+om:inst_space_Ram2pa a brick1:Space,
+        bot:Space .
+
+om:inst_space_Ram2pq a brick1:Space,
+        bot:Space .
+
+om:inst_space_Ram2rc a brick1:Space,
+        bot:Space .
+
+om:inst_zone_H4ihJ_ a brick1:Zone ;
+    brick1:hasPart om:inst_space_MmgxZK,
+        om:inst_space_MmgxZS,
+        om:inst_space_Ram2pW,
+        om:inst_space_Ram2qU .
+
+om:inst_space_Pg6v4G a brick1:Space,
+        bot:Space ;
+    bot:containsElement om:inst_thermostat_fYGZWG .
+
+om:inst_space_Pg6v4S a brick1:Space,
+        bot:Space ;
+    bot:containsElement om:inst_thermostat_fYGZba .
+
+om:inst_space_Pg6v4c a brick1:Space,
+        bot:Space ;
+    bot:containsElement om:inst_thermostat_fYGZgg .
+
+om:inst_space_Pg6v4f a brick1:Space,
+        bot:Space ;
+    bot:containsElement om:inst_thermostat_fYGWU4 .
+
+om:inst_space_Pg6v4h a brick1:Space,
+        bot:Space ;
+    bot:containsElement om:inst_thermostat_fYGZYb .
+
+om:inst_space_Pg6v4t a brick1:Space,
+        bot:Space ;
+    bot:containsElement om:inst_thermostat_fYGWV0 .
+
+om:inst_space_Ram2oG a brick1:Space,
+        bot:Space ;
+    bot:containsElement om:inst_thermostat_Ram3Ll .
+
+om:inst_space_Ram2oO a brick1:Space,
+        bot:Space ;
+    bot:containsElement om:inst_thermostat_Ram3Lf .
+
+om:inst_space_Ram2oQ a brick1:Space,
+        bot:Space ;
+    bot:containsElement om:inst_thermostat_Ram3Lt .
+
+om:inst_space_Ram2oU a brick1:Space,
+        bot:Space ;
+    bot:containsElement om:inst_thermostat_Ram3Lj .
+
+om:inst_space_Ram2oV a brick1:Space,
+        bot:Space ;
+    bot:containsElement om:inst_thermostat_Ram3LX .
+
+om:inst_space_Ram2pW a brick1:Space,
+        bot:Space ;
+    bot:containsElement om:inst_thermostat_Ram3GO .
+
+om:inst_space_Ram2pd a brick1:Space,
+        bot:Space ;
+    bot:containsElement om:inst_thermostat_Ram3Lh .
+
+om:inst_space_Ram2pk a brick1:Space,
+        bot:Space ;
+    bot:containsElement om:inst_thermostat_Ram3Hc .
+
+om:inst_space_Ram2pl a brick1:Space,
+        bot:Space ;
+    bot:containsElement om:inst_thermostat_Ram3GQ .
+
+om:inst_space_Ram2qR a brick1:Space,
+        bot:Space ;
+    bot:containsElement om:inst_thermostat_Ram3Ha .
+
+om:inst_space_Ram2qS a brick1:Space,
+        bot:Space ;
+    bot:containsElement om:inst_thermostat_Ram3HY .
+
+om:inst_space_Ram2qU a brick1:Space,
+        bot:Space ;
+    bot:containsElement om:inst_thermostat_Ram3HW .
 
