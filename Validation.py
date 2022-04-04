@@ -33,3 +33,10 @@ print("conforms", conforms)
 
 print(report_text)
 # %%
+
+report_g = Graph()
+report_g.parse(data=report_graph, format="ttl", encoding="utf-8")
+nm = report_g.namespace_manager
+
+for s, p, o in sorted(report_g):
+    print(s.n3(nm), p.n3(nm), o.n3(nm))
