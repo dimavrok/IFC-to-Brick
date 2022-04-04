@@ -33,7 +33,6 @@ om:inst_system_lgpbbw a brick:Terminal_Unit,
 
 om:inst_system_lgpbdC a brick:Terminal_Unit,
         bot:Element ;
-    brick:feeds om:inst_zone_H4ihJY ;
     bot:hasLocation om:inst_space_Ram2pd .
 
 om:inst_system_lgpbf9 a brick:Terminal_Unit,
