@@ -1,6 +1,9 @@
 @prefix bot: <https://w3id.org/bot#> .
 @prefix brick: <https://brickschema.org/schema/Brick#> .
 @prefix om: <http://openmetrics.eu/openmetrics#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
 om:inst_building_4O09sz a bot:Building ;
     bot:hasStorey om:inst_storey_7d_WBi,

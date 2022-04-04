@@ -144,71 +144,11 @@ for thermostat in thermostats:
                 inst_space = URIRef(NS_om + "inst_space_" + space.GlobalId.replace("$","_")[16:])
                 graph.add((inst_space, URIRef(NS_bot+"containsElement"), inst_thermostat))
         except:
-                pass      
+                pass    
+        # Thermostat-Systems(Terminal Units) relationship  
+        
+
 
 #%% Export the graph
 graph.serialize(destination="graph.ttl", format="turtle")
 
-
-
-# %% VALIDATION
-#import pyshacl
-#from pyshacl import validate
-
-#shapes_graph = 
-"""
-@prefix sh:     <http://www.w3.org/ns/shacl#> .
-@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
-@prefix schema: <http://schema.org/> .
-@prefix bot: <https://w3id.org/bot#> .
-@prefix brick: <https://brickschema.org/schema/1.1/Brick#> .
-@prefix om: <http://openmetrics.eu/openmetrics#> .
-
-schema:PersonShape
-    a sh:NodeShape ;
-    sh:targetClass schema:Person ;
-    sh:property [
-        sh:path schema:givenName ;
-        sh:datatype xsd:string ;
-        sh:name "given name" ;
-    ] ;
-    sh:property [
-        sh:path schema:birthDate ;
-        sh:lessThan schema:deathDate ;
-        sh:maxCount 1 ;
-    ] ;
-    sh:property [
-        sh:path schema:gender ;
-        sh:in ( "female" "male" "nonbinary" "self-descr" ) ;
-    ] ;
-    sh:property [
-        sh:path schema:address ;
-        sh:node schema:AddressShape ;
-    ] .
-
-schema:AddressShape
-    a sh:NodeShape ;
-    sh:closed true ;
-    sh:property [
-        sh:path schema:streetAddress ;
-        sh:datatype xsd:string ;
-    ] ;
-    sh:property [
-        sh:path schema:postalCode ;
-        sh:datatype xsd:integer ;
-        sh:minInclusive 10000 ;
-        sh:maxInclusive 99999 ;
-    ] .
-"""
-
-"""results = validate(graph,               #Insert the graph you want to validate
-        shacl_graph = shapes_graph,     #Insert the shapes graph
-        graph_format="ttl",             #Specify the format of the graph, can be JSonLD
-        shacl_graph_format="ttl",       #Sepcify the format of the shapes graph
-        inference="rdfs",               #Say if you want to infer data and how
-        debug=True,                     #Report violations
-        serialize_report_graph="ttl",   #....covert the report into ttl
-    )
-conforms, report_graph, report_text = results
-
-print("conforms", conforms)"""

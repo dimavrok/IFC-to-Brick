@@ -1,0 +1,14 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix bot: <https://w3id.org/bot#> .
+@prefix brick: <https://brickschema.org/schema/Brick#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+
+brick:Terminal_Unit_Shape a sh:NodeShape, rdfs:class ;
+    sh:targetClass brick:Terminal_Unit ;
+    sh:property [
+        sh:path brick:feeds ;
+        sh:name "Feeds" ; 
+        sh:minCount 1;
+    ] .
