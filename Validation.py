@@ -6,10 +6,10 @@ from rdflib import Graph
 
 #%% Parse the data graph and the shapes graph
 graph = Graph()
-graph.parse('graph.ttl', format='ttl')
+graph.parse('Data_Graph.ttl', format='ttl')
 
 shapes = Graph()
-shapes.parse('shapes.ttl', format='ttl')
+shapes.parse('Data_Shapes.ttl', format='ttl')
 
 
 #%% Validate and Print Results

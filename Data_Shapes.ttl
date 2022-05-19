@@ -7,11 +7,12 @@
 
 #Simple shape : Terminal Unit --> feeds --> brick:zone
 
-brick:Terminal_Unit_Shape a sh:NodeShape ;
+brick:Terminal_Unit_Shape1 a sh:NodeShape ;
     sh:targetClass brick:Terminal_Unit ;
     sh:property [
         sh:path brick:feeds ;
-        sh:name "Feeds" ; 
-        sh:minCount 1;
-        sh:maxCount 1;
-    ] .
+        sh:name "Terminal Unit --> Feeds" ; 
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+    ] ;
+.

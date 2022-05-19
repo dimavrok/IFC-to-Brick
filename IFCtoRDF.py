@@ -1,9 +1,10 @@
 #%% Import packages
 
 import ifcopenshell
+import json
 
 from rdflib.namespace import NamespaceManager
-from rdflib import Graph, RDF, URIRef
+from rdflib import Graph, RDF, URIRef, Literal
 
 #%% Create a namespace
 NS_om = "http://openmetrics.eu/openmetrics#"
@@ -16,13 +17,16 @@ NS_schema = "http://schema.org#"
 
 
 #%% Import IFC file
-f = ifcopenshell.open("Example.ifc")
+f = ifcopenshell.open("PM-Merged-Lighting-Spaces.ifc")
+
 buildings = f.by_type("IfcBuilding")
 stories = f.by_type("IfcBuildingStorey")
 spaces = f.by_type("IfcSpace")
 zones = f.by_type("IfcZone")
 systems = f.by_type("IfcUnitaryEquipment")
 thermostats = f.by_type("IfcUnitaryControlElement")
+lights = f.by_type("IfcLightFixture")
+bboxes = f.by_type("IfcBoundingBox")
 
 #%% 
 graph = Graph()
@@ -68,6 +72,7 @@ for zone in zones:
         # Create: inst_1234 a bot:zone, brick:Zone                         
         graph.add((inst_zone, RDF.type, brick_zone))
 
+'''
 # System instances
 for system in systems:
         #Create the URIs using guid
@@ -95,7 +100,7 @@ for system in systems:
                 graph.add((inst_system, URIRef(NS_brick+"feeds"), inst_zone))
         except:
                 pass
-
+'''
 
 # Space instances
 for space in spaces:
@@ -126,7 +131,27 @@ for space in spaces:
 
         except:
                 pass
+        #Extract the bounding box geometry (cp --> Corner Point,)  
+        # ATTENTION: May need to debug in Representations[0] in case there are more representations as in the lighting instances - to discuss this
+        try:
+                cpx = space.Representation.Representations[1].Items[0].Corner.Coordinates[0]
+                cpy = space.Representation.Representations[1].Items[0].Corner.Coordinates[1]
+                cpz = space.Representation.Representations[1].Items[0].Corner.Coordinates[2]
+                xDim = space.Representation.Representations[1].Items[0].XDim
+                yDim = space.Representation.Representations[1].Items[0].YDim
+                zDim = space.Representation.Representations[1].Items[0].ZDim
+                # The element below is an effort to represent the bbox as a 3D vector: see here --> https://datatracker.ietf.org/doc/html/rfc7946#section-5   
+                geojson_rep = {"type":"FeatureCollection","bbox":[cpx,cpy,cpz,cpx+xDim,cpy+yDim,cpz+zDim]}
+                # Add instaces in the graph
+                inst_3d_rep = Literal(json.dumps(geojson_rep))
+                bot_simple3d = URIRef(NS_bot + "hasSimple3DModel")      
+                graph.add((inst_space, bot_simple3d, inst_3d_rep))
+        except:
+                print("not detected")
+                pass
 
+
+'''
 # Element (thermostat) instances
 for thermostat in thermostats:
         #Create the URIs using guid
@@ -146,9 +171,31 @@ for thermostat in thermostats:
         except:
                 pass    
         # Thermostat-Systems(Terminal Units) relationship  
-        
+'''
+
+# Lighting instances
+for light in lights:
+        #Extract the bounding box geometry (cp --> Corner Point,)  
+        cpx = light.Representation.Representations[1].Items[0].Corner.Coordinates[0]
+        cpy = light.Representation.Representations[1].Items[0].Corner.Coordinates[1]
+        cpz = light.Representation.Representations[1].Items[0].Corner.Coordinates[2]
+        xDim = light.Representation.Representations[1].Items[0].XDim
+        yDim = light.Representation.Representations[1].Items[0].YDim
+        zDim = light.Representation.Representations[1].Items[0].ZDim
+        # Create instances
+        inst_light_fixture = URIRef(NS_om + "inst_light_" + light.GlobalId.replace("$","_")[16:])
+        bot_element = URIRef(NS_bot + "Element")
+        brick_lighting = URIRef(NS_brick + "Lighting")
+        bot_simple3d = URIRef(NS_bot + "hasSimple3DModel")      
+        # The element below is an effort to represent the bbox as a 3D vector: see here --> https://datatracker.ietf.org/doc/html/rfc7946#section-5   
+        geojson_rep = {"type":"FeatureCollection","bbox":[cpx,cpy,cpz,cpx+xDim,cpy+yDim,cpz+zDim]}
+        inst_3d_rep = Literal(json.dumps(geojson_rep))
+        # Add instances in the graph
+        graph.add((inst_light_fixture, RDF.type, bot_element))
+        graph.add((inst_light_fixture, RDF.type, brick_lighting))
+        graph.add((inst_light_fixture, bot_simple3d, inst_3d_rep))
 
 
 #%% Export the graph
-graph.serialize(destination="graph.ttl", format="turtle")
+graph.serialize(destination="Data_Graph.ttl", format="turtle")
 
