@@ -17,7 +17,7 @@ NS_schema = "http://schema.org#"
 
 
 #%% Import IFC file
-f = ifcopenshell.open("PM-Merged-Lighting-Spaces.ifc")
+f = ifcopenshell.open("Basement_East_Plantroom.ifc")
 
 buildings = f.by_type("IfcBuilding")
 stories = f.by_type("IfcBuildingStorey")
@@ -26,7 +26,7 @@ zones = f.by_type("IfcZone")
 systems = f.by_type("IfcUnitaryEquipment")
 thermostats = f.by_type("IfcUnitaryControlElement")
 lights = f.by_type("IfcLightFixture")
-bboxes = f.by_type("IfcBoundingBox")
+
 
 #%% 
 graph = Graph()
@@ -108,6 +108,7 @@ for space in spaces:
         inst_space = URIRef(NS_om + "inst_space_" + space.GlobalId.replace("$","_")[16:])
         bot_space = URIRef(NS_bot + "Space")
         brick_space = URIRef(NS_brick + "Space")
+        bot_simple3d = URIRef(NS_bot + "hasSimple3DModel")      
         # Create: Inst_1234 a bot:space
         graph.add((inst_space, RDF.type, bot_space))
         graph.add((inst_space, RDF.type, brick_space))
@@ -128,7 +129,6 @@ for space in spaces:
                 inst_zone = URIRef(NS_om + "inst_zone_" + zone.GlobalId.replace("$","_")[16:])
                 graph.add((inst_zone, URIRef(NS_brick+"hasPart"), inst_space))
                 #Create relationship: inst_zone brick:hasPart inst:space
-
         except:
                 pass
         #Extract the bounding box geometry (cp --> Corner Point,)  
@@ -144,10 +144,10 @@ for space in spaces:
                 geojson_rep = {"type":"FeatureCollection","bbox":[cpx,cpy,cpz,cpx+xDim,cpy+yDim,cpz+zDim]}
                 # Add instaces in the graph
                 inst_3d_rep = Literal(json.dumps(geojson_rep))
-                bot_simple3d = URIRef(NS_bot + "hasSimple3DModel")      
                 graph.add((inst_space, bot_simple3d, inst_3d_rep))
         except:
                 print("not detected")
+                graph.add((inst_space, bot_simple3d, Literal("BBox not found in space with guID:" + str(space.GlobalId) )))
                 pass
 
 
@@ -194,7 +194,6 @@ for light in lights:
         graph.add((inst_light_fixture, RDF.type, bot_element))
         graph.add((inst_light_fixture, RDF.type, brick_lighting))
         graph.add((inst_light_fixture, bot_simple3d, inst_3d_rep))
-
 
 #%% Export the graph
 graph.serialize(destination="Data_Graph.ttl", format="turtle")

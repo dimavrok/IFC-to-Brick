@@ -16901,686 +16901,914 @@ om:inst_storey_YVfPBU a bot:Storey ;
         om:inst_space_yrtzMF .
 
 om:inst_space_2_Q_0h a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:2cxI587Pj2PAFRfo2$Q_0h" .
 
 om:inst_space_2_Q_I0 a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:2cxI587Pj2PAFRfo2$Q_I0" .
 
 om:inst_space_2_Q_I1 a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:2cxI587Pj2PAFRfo2$Q_I1" .
 
 om:inst_space_2_Q_I2 a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:2cxI587Pj2PAFRfo2$Q_I2" .
 
 om:inst_space_2_Q_IC a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:2cxI587Pj2PAFRfo2$Q_IC" .
 
 om:inst_space_2_Q_IE a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:2cxI587Pj2PAFRfo2$Q_IE" .
 
 om:inst_space_2_Q_IF a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:2cxI587Pj2PAFRfo2$Q_IF" .
 
 om:inst_space_2_Q_IO a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:2cxI587Pj2PAFRfo2$Q_IO" .
 
 om:inst_space_2_Q_IW a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:2cxI587Pj2PAFRfo2$Q_IW" .
 
 om:inst_space_2_Q_IX a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:2cxI587Pj2PAFRfo2$Q_IX" .
 
 om:inst_space_2_Q_IZ a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:2cxI587Pj2PAFRfo2$Q_IZ" .
 
 om:inst_space_2_Q_Ik a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:2cxI587Pj2PAFRfo2$Q_Ik" .
 
 om:inst_space_2_Q_Il a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:2cxI587Pj2PAFRfo2$Q_Il" .
 
 om:inst_space_2_Q_Sm a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:2cxI587Pj2PAFRfo2$Q$Sm" .
 
 om:inst_space_2_Q_So a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:2cxI587Pj2PAFRfo2$Q$So" .
 
 om:inst_space_2_Q_Sp a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:2cxI587Pj2PAFRfo2$Q$Sp" .
 
 om:inst_space_2_Q_Sq a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:2cxI587Pj2PAFRfo2$Q$Sq" .
 
 om:inst_space_2_Q_Sr a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:2cxI587Pj2PAFRfo2$Q$Sr" .
 
 om:inst_space_2_Q_Ss a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:2cxI587Pj2PAFRfo2$Q$Ss" .
 
 om:inst_space_2_Q_TC a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:2cxI587Pj2PAFRfo2$Q$TC" .
 
 om:inst_space_2_Q_TI a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:2cxI587Pj2PAFRfo2$Q$TI" .
 
 om:inst_space_2_Q_TJ a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:2cxI587Pj2PAFRfo2$Q$TJ" .
 
 om:inst_space_2_Q_TK a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:2cxI587Pj2PAFRfo2$Q$TK" .
 
 om:inst_space_2_Q_TL a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:2cxI587Pj2PAFRfo2$Q$TL" .
 
 om:inst_space_2_Q_TN a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:2cxI587Pj2PAFRfo2$Q$TN" .
 
 om:inst_space_4IgM2g a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:0WVhyIaNT39BFSkn4IgM2g" .
 
 om:inst_space_4IgMWK a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:0WVhyIaNT39BFSkn4IgMWK" .
 
 om:inst_space_63Er9S a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:0dwofxnVHApxaiOG63Er9S" .
 
 om:inst_space_6Gm798 a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3OkaQSkHjAnh7oi36Gm798" .
 
 om:inst_space_6Gm79W a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3OkaQSkHjAnh7oi36Gm79W" .
 
 om:inst_space_6Gm79g a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3OkaQSkHjAnh7oi36Gm79g" .
 
 om:inst_space_6Gm79r a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3OkaQSkHjAnh7oi36Gm79r" .
 
 om:inst_space_6Gm79v a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3OkaQSkHjAnh7oi36Gm79v" .
 
 om:inst_space_6Gm7EK a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3OkaQSkHjAnh7oi36Gm7EK" .
 
 om:inst_space_6Gm7EN a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3OkaQSkHjAnh7oi36Gm7EN" .
 
 om:inst_space_6QnN_1 a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:0VtqGU7un0w8fKJQ6QnN$1" .
 
 om:inst_space_6QnN_6 a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:0VtqGU7un0w8fKJQ6QnN$6" .
 
 om:inst_space_6QnN_C a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:0VtqGU7un0w8fKJQ6QnN$C" .
 
 om:inst_space_6QnN_u a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:0VtqGU7un0w8fKJQ6QnN$u" .
 
 om:inst_space_6QnN_x a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:0VtqGU7un0w8fKJQ6QnN$x" .
 
 om:inst_space_6QnN_z a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:0VtqGU7un0w8fKJQ6QnN$z" .
 
 om:inst_space_6QnNqm a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:0VtqGU7un0w8fKJQ6QnNqm" .
 
 om:inst_space_6QnNqr a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:0VtqGU7un0w8fKJQ6QnNqr" .
 
 om:inst_space_7M6KXV a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3olK2R1ZD92xKK1E7M6KXV" .
 
 om:inst_space_DCDCgZ a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:06xd1Ahy1FhBsAhIDCDCgZ" .
 
 om:inst_space_DCDCmx a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:06xd1Ahy1FhBsAhIDCDCmx" .
 
 om:inst_space_DCDD4L a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:06xd1Ahy1FhBsAhIDCDD4L" .
 
 om:inst_space_DCDD4M a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:06xd1Ahy1FhBsAhIDCDD4M" .
 
 om:inst_space_DCDD4O a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:06xd1Ahy1FhBsAhIDCDD4O" .
 
 om:inst_space_EzcSW3 a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3V2fAcYFf5sPuMj9EzcSW3" .
 
 om:inst_space_EzcSs6 a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3V2fAcYFf5sPuMj9EzcSs6" .
 
 om:inst_space_EzcTJs a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3V2fAcYFf5sPuMj9EzcTJs" .
 
 om:inst_space_EzcTL1 a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3V2fAcYFf5sPuMj9EzcTL1" .
 
 om:inst_space_FukQFX a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:2jmmTIvKD0GOFPiXFukQFX" .
 
 om:inst_space_IXyIa1 a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:1hxFSdH6TFNxfymTIXyIa1" .
 
 om:inst_space_IXyIam a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:1hxFSdH6TFNxfymTIXyIam" .
 
 om:inst_space_IXyIat a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:1hxFSdH6TFNxfymTIXyIat" .
 
 om:inst_space_IXyIfH a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:1hxFSdH6TFNxfymTIXyIfH" .
 
 om:inst_space_IXyIgW a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:1hxFSdH6TFNxfymTIXyIgW" .
 
 om:inst_space_IXyKE5 a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:1hxFSdH6TFNxfymTIXyKE5" .
 
 om:inst_space_IXyKEP a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:1hxFSdH6TFNxfymTIXyKEP" .
 
 om:inst_space_IXyKoQ a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:1hxFSdH6TFNxfymTIXyKoQ" .
 
 om:inst_space_IXyMvO a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:1hxFSdH6TFNxfymTIXyMvO" .
 
 om:inst_space_IXyMz2 a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:1hxFSdH6TFNxfymTIXyMz2" .
 
 om:inst_space_Jv_LNK a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:0BjCHJBUz0fhn1UKJv_LNK" .
 
 om:inst_space_Jv_NR4 a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:0BjCHJBUz0fhn1UKJv_NR4" .
 
 om:inst_space_K7nbjH a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:2NBcGWda51VBlInEK7nbjH" .
 
 om:inst_space_K7nbjI a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:2NBcGWda51VBlInEK7nbjI" .
 
 om:inst_space_K7nbjK a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:2NBcGWda51VBlInEK7nbjK" .
 
 om:inst_space_Ozt0Di a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3c1r6fy4bFuAdiNoOzt0Di" .
 
 om:inst_space_Ozt0Dl a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3c1r6fy4bFuAdiNoOzt0Dl" .
 
 om:inst_space_Ozt0_4 a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3c1r6fy4bFuAdiNoOzt0$4" .
 
 om:inst_space_Ozt0_G a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3c1r6fy4bFuAdiNoOzt0$G" .
 
 om:inst_space_Ozt0_J a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3c1r6fy4bFuAdiNoOzt0$J" .
 
 om:inst_space_Ozt0_M a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3c1r6fy4bFuAdiNoOzt0$M" .
 
 om:inst_space_Ozt0_f a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3c1r6fy4bFuAdiNoOzt0$f" .
 
 om:inst_space_Ozt0_l a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3c1r6fy4bFuAdiNoOzt0$l" .
 
 om:inst_space_Ozt1a3 a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3c1r6fy4bFuAdiNoOzt1a3" .
 
 om:inst_space_Ozt1a6 a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3c1r6fy4bFuAdiNoOzt1a6" .
 
 om:inst_space_Ozt1aI a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3c1r6fy4bFuAdiNoOzt1aI" .
 
 om:inst_space_Ozt1aS a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3c1r6fy4bFuAdiNoOzt1aS" .
 
 om:inst_space_Ozt1aV a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3c1r6fy4bFuAdiNoOzt1aV" .
 
 om:inst_space_Ozt1ae a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3c1r6fy4bFuAdiNoOzt1ae" .
 
 om:inst_space_Ozt1vM a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3c1r6fy4bFuAdiNoOzt1vM" .
 
 om:inst_space_Ozt1vf a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3c1r6fy4bFuAdiNoOzt1vf" .
 
 om:inst_space_QCsmUm a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:2EhJxB2oDE9R_FGYQCsmUm" .
 
 om:inst_space_QCsmUv a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:2EhJxB2oDE9R_FGYQCsmUv" .
 
 om:inst_space_QCsmV4 a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:2EhJxB2oDE9R_FGYQCsmV4" .
 
 om:inst_space_QCsmVF a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:2EhJxB2oDE9R_FGYQCsmVF" .
 
 om:inst_space_QCsnm_ a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:2EhJxB2oDE9R_FGYQCsnm_" .
 
 om:inst_space_QCsnpW a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:2EhJxB2oDE9R_FGYQCsnpW" .
 
 om:inst_space_QCsnpZ a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:2EhJxB2oDE9R_FGYQCsnpZ" .
 
 om:inst_space_QCsnpk a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:2EhJxB2oDE9R_FGYQCsnpk" .
 
 om:inst_space_QCsnx7 a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:2EhJxB2oDE9R_FGYQCsnx7" .
 
 om:inst_space_RZlU32 a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:0TjW237WT5EBvq0VRZlU32" .
 
 om:inst_space_RZlU34 a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:0TjW237WT5EBvq0VRZlU34" .
 
 om:inst_space_RZlU37 a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:0TjW237WT5EBvq0VRZlU37" .
 
 om:inst_space_RZlUKY a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:0TjW237WT5EBvq0VRZlUKY" .
 
 om:inst_space_RZlUKa a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:0TjW237WT5EBvq0VRZlUKa" .
 
 om:inst_space_RZlUKd a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:0TjW237WT5EBvq0VRZlUKd" .
 
 om:inst_space_RZlUNO a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:0TjW237WT5EBvq0VRZlUNO" .
 
 om:inst_space_RZlUNT a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:0TjW237WT5EBvq0VRZlUNT" .
 
 om:inst_space_RZlUSe a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:0TjW237WT5EBvq0VRZlUSe" .
 
 om:inst_space_RZlUSj a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:0TjW237WT5EBvq0VRZlUSj" .
 
 om:inst_space_RZlUTk a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:0TjW237WT5EBvq0VRZlUTk" .
 
 om:inst_space_RZlUTp a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:0TjW237WT5EBvq0VRZlUTp" .
 
 om:inst_space_RZlUTr a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:0TjW237WT5EBvq0VRZlUTr" .
 
 om:inst_space_V2aqL9 a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3LydAWNxbBHfy0UtV2aqL9" .
 
 om:inst_space_axhE28 a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3Rx5ujEQ1EZO86dhaxhE28" .
 
 om:inst_space_axhE2B a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3Rx5ujEQ1EZO86dhaxhE2B" .
 
 om:inst_space_axhE88 a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3Rx5ujEQ1EZO86dhaxhE88" .
 
 om:inst_space_axhEAW a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3Rx5ujEQ1EZO86dhaxhEAW" .
 
 om:inst_space_axhEAZ a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3Rx5ujEQ1EZO86dhaxhEAZ" .
 
 om:inst_space_axhEAc a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3Rx5ujEQ1EZO86dhaxhEAc" .
 
 om:inst_space_axhEH_ a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3Rx5ujEQ1EZO86dhaxhEH_" .
 
 om:inst_space_axhEHf a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3Rx5ujEQ1EZO86dhaxhEHf" .
 
 om:inst_space_axhES5 a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3Rx5ujEQ1EZO86dhaxhES5" .
 
 om:inst_space_axhESO a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3Rx5ujEQ1EZO86dhaxhESO" .
 
 om:inst_space_axhETx a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3Rx5ujEQ1EZO86dhaxhETx" .
 
 om:inst_space_axhEed a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3Rx5ujEQ1EZO86dhaxhEed" .
 
 om:inst_space_axhF_2 a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3Rx5ujEQ1EZO86dhaxhF$2" .
 
 om:inst_space_eHmxat a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:0FnB9gSJ9EJRukSOeHmxat" .
 
 om:inst_space_eHmxaw a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:0FnB9gSJ9EJRukSOeHmxaw" .
 
 om:inst_space_gN7OA5 a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:2jkmm$lNP2xAfCc4gN7OA5" .
 
 om:inst_space_gN7ODZ a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:2jkmm$lNP2xAfCc4gN7ODZ" .
 
 om:inst_space_gN7OHE a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:2jkmm$lNP2xAfCc4gN7OHE" .
 
 om:inst_space_gN7OMJ a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:2jkmm$lNP2xAfCc4gN7OMJ" .
 
 om:inst_space_gN7ONO a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:2jkmm$lNP2xAfCc4gN7ONO" .
 
 om:inst_space_gN7OSP a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:2jkmm$lNP2xAfCc4gN7OSP" .
 
 om:inst_space_gN7OSg a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:2jkmm$lNP2xAfCc4gN7OSg" .
 
 om:inst_space_gN7Pn7 a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:2jkmm$lNP2xAfCc4gN7Pn7" .
 
 om:inst_space_oQrMe1 a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:0N1at_JFb1iOYbQooQrMe1" .
 
 om:inst_space_oQrMe4 a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:0N1at_JFb1iOYbQooQrMe4" .
 
 om:inst_space_oQrMe7 a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:0N1at_JFb1iOYbQooQrMe7" .
 
 om:inst_space_oQrMeA a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:0N1at_JFb1iOYbQooQrMeA" .
 
 om:inst_space_oQrMeD a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:0N1at_JFb1iOYbQooQrMeD" .
 
 om:inst_space_oQrMeG a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:0N1at_JFb1iOYbQooQrMeG" .
 
 om:inst_space_oQrMeJ a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:0N1at_JFb1iOYbQooQrMeJ" .
 
 om:inst_space_oQrMeM a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:0N1at_JFb1iOYbQooQrMeM" .
 
 om:inst_space_oQrMe_ a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:0N1at_JFb1iOYbQooQrMe_" .
 
 om:inst_space_oQrMec a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:0N1at_JFb1iOYbQooQrMec" .
 
 om:inst_space_oQrMef a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:0N1at_JFb1iOYbQooQrMef" .
 
 om:inst_space_oQrMei a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:0N1at_JFb1iOYbQooQrMei" .
 
 om:inst_space_oQrMel a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:0N1at_JFb1iOYbQooQrMel" .
 
 om:inst_space_oQrMeo a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:0N1at_JFb1iOYbQooQrMeo" .
 
 om:inst_space_oQrMer a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:0N1at_JFb1iOYbQooQrMer" .
 
 om:inst_space_oQrMeu a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:0N1at_JFb1iOYbQooQrMeu" .
 
 om:inst_space_oQrMex a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:0N1at_JFb1iOYbQooQrMex" .
 
 om:inst_space_qqeOpb a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:1tBmjVWA97bvfLfkqqeOpb" .
 
 om:inst_space_rtpdmf a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:0dodXhj8T3awT6HWrtpdmf" .
 
 om:inst_space_rtpdmq a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:0dodXhj8T3awT6HWrtpdmq" .
 
 om:inst_space_sZYW0J a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:0NrahN4unEyujQrssZYW0J" .
 
 om:inst_space_sZYW0K a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:0NrahN4unEyujQrssZYW0K" .
 
 om:inst_space_sZYW0P a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:0NrahN4unEyujQrssZYW0P" .
 
 om:inst_space_sZYW0Q a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:0NrahN4unEyujQrssZYW0Q" .
 
 om:inst_space_sZYW0V a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:0NrahN4unEyujQrssZYW0V" .
 
 om:inst_space_sZYW0X a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:0NrahN4unEyujQrssZYW0X" .
 
 om:inst_space_sZYW0Y a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:0NrahN4unEyujQrssZYW0Y" .
 
 om:inst_space_sZYW0d a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:0NrahN4unEyujQrssZYW0d" .
 
 om:inst_space_sZYW0e a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:0NrahN4unEyujQrssZYW0e" .
 
 om:inst_space_sZYW0j a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:0NrahN4unEyujQrssZYW0j" .
 
 om:inst_space_sZYW0k a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:0NrahN4unEyujQrssZYW0k" .
 
 om:inst_space_sZYW0m a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:0NrahN4unEyujQrssZYW0m" .
 
 om:inst_space_sZYW0r a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:0NrahN4unEyujQrssZYW0r" .
 
 om:inst_space_sZYW0s a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:0NrahN4unEyujQrssZYW0s" .
 
 om:inst_space_sZYW0x a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:0NrahN4unEyujQrssZYW0x" .
 
 om:inst_space_sZYW0y a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:0NrahN4unEyujQrssZYW0y" .
 
 om:inst_space_sZYW1F a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:0NrahN4unEyujQrssZYW1F" .
 
 om:inst_space_yrtwiI a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3wqhpCiLX4Kv$L5lyrtwiI" .
 
 om:inst_space_yrtwiK a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3wqhpCiLX4Kv$L5lyrtwiK" .
 
 om:inst_space_yrtwiN a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3wqhpCiLX4Kv$L5lyrtwiN" .
 
 om:inst_space_yrtwiY a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3wqhpCiLX4Kv$L5lyrtwiY" .
 
 om:inst_space_yrtwi_ a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3wqhpCiLX4Kv$L5lyrtwi_" .
 
 om:inst_space_yrtwia a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3wqhpCiLX4Kv$L5lyrtwia" .
 
 om:inst_space_yrtwid a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3wqhpCiLX4Kv$L5lyrtwid" .
 
 om:inst_space_yrtwie a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3wqhpCiLX4Kv$L5lyrtwie" .
 
 om:inst_space_yrtwih a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3wqhpCiLX4Kv$L5lyrtwih" .
 
 om:inst_space_yrtwij a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3wqhpCiLX4Kv$L5lyrtwij" .
 
 om:inst_space_yrtwir a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3wqhpCiLX4Kv$L5lyrtwir" .
 
 om:inst_space_yrtwiv a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3wqhpCiLX4Kv$L5lyrtwiv" .
 
 om:inst_space_yrtwjV a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3wqhpCiLX4Kv$L5lyrtwjV" .
 
 om:inst_space_yrtwlZ a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3wqhpCiLX4Kv$L5lyrtwlZ" .
 
 om:inst_space_yrtwlf a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3wqhpCiLX4Kv$L5lyrtwlf" .
 
 om:inst_space_yrtwlk a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3wqhpCiLX4Kv$L5lyrtwlk" .
 
 om:inst_space_yrtwz_ a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3wqhpCiLX4Kv$L5lyrtwz_" .
 
 om:inst_space_yrtwza a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3wqhpCiLX4Kv$L5lyrtwza" .
 
 om:inst_space_yrtwzp a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3wqhpCiLX4Kv$L5lyrtwzp" .
 
 om:inst_space_yrtwzv a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3wqhpCiLX4Kv$L5lyrtwzv" .
 
 om:inst_space_yrtz83 a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3wqhpCiLX4Kv$L5lyrtz83" .
 
 om:inst_space_yrtz8E a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3wqhpCiLX4Kv$L5lyrtz8E" .
 
 om:inst_space_yrtz8c a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3wqhpCiLX4Kv$L5lyrtz8c" .
 
 om:inst_space_yrtz8g a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3wqhpCiLX4Kv$L5lyrtz8g" .
 
 om:inst_space_yrtz8l a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3wqhpCiLX4Kv$L5lyrtz8l" .
 
 om:inst_space_yrtz8o a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3wqhpCiLX4Kv$L5lyrtz8o" .
 
 om:inst_space_yrtz8q a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3wqhpCiLX4Kv$L5lyrtz8q" .
 
 om:inst_space_yrtz8t a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3wqhpCiLX4Kv$L5lyrtz8t" .
 
 om:inst_space_yrtz8u a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3wqhpCiLX4Kv$L5lyrtz8u" .
 
 om:inst_space_yrtz8x a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3wqhpCiLX4Kv$L5lyrtz8x" .
 
 om:inst_space_yrtz8z a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3wqhpCiLX4Kv$L5lyrtz8z" .
 
 om:inst_space_yrtzG4 a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3wqhpCiLX4Kv$L5lyrtzG4" .
 
 om:inst_space_yrtzG7 a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3wqhpCiLX4Kv$L5lyrtzG7" .
 
 om:inst_space_yrtzGn a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3wqhpCiLX4Kv$L5lyrtzGn" .
 
 om:inst_space_yrtzGs a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3wqhpCiLX4Kv$L5lyrtzGs" .
 
 om:inst_space_yrtzI2 a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3wqhpCiLX4Kv$L5lyrtzI2" .
 
 om:inst_space_yrtzI4 a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3wqhpCiLX4Kv$L5lyrtzI4" .
 
 om:inst_space_yrtzI8 a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3wqhpCiLX4Kv$L5lyrtzI8" .
 
 om:inst_space_yrtzIB a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3wqhpCiLX4Kv$L5lyrtzIB" .
 
 om:inst_space_yrtzID a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3wqhpCiLX4Kv$L5lyrtzID" .
 
 om:inst_space_yrtzIP a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3wqhpCiLX4Kv$L5lyrtzIP" .
 
 om:inst_space_yrtzIZ a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3wqhpCiLX4Kv$L5lyrtzIZ" .
 
 om:inst_space_yrtzI_ a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3wqhpCiLX4Kv$L5lyrtzI$" .
 
 om:inst_space_yrtzIf a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3wqhpCiLX4Kv$L5lyrtzIf" .
 
 om:inst_space_yrtzIk a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3wqhpCiLX4Kv$L5lyrtzIk" .
 
 om:inst_space_yrtzIn a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3wqhpCiLX4Kv$L5lyrtzIn" .
 
 om:inst_space_yrtzIs a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3wqhpCiLX4Kv$L5lyrtzIs" .
 
 om:inst_space_yrtzIy a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3wqhpCiLX4Kv$L5lyrtzIy" .
 
 om:inst_space_yrtzJ6 a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3wqhpCiLX4Kv$L5lyrtzJ6" .
 
 om:inst_space_yrtzJA a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3wqhpCiLX4Kv$L5lyrtzJA" .
 
 om:inst_space_yrtzJF a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3wqhpCiLX4Kv$L5lyrtzJF" .
 
 om:inst_space_yrtzJI a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3wqhpCiLX4Kv$L5lyrtzJI" .
 
 om:inst_space_yrtzJN a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3wqhpCiLX4Kv$L5lyrtzJN" .
 
 om:inst_space_yrtzJO a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3wqhpCiLX4Kv$L5lyrtzJO" .
 
 om:inst_space_yrtzJR a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3wqhpCiLX4Kv$L5lyrtzJR" .
 
 om:inst_space_yrtzJT a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3wqhpCiLX4Kv$L5lyrtzJT" .
 
 om:inst_space_yrtzJg a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3wqhpCiLX4Kv$L5lyrtzJg" .
 
 om:inst_space_yrtzJm a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3wqhpCiLX4Kv$L5lyrtzJm" .
 
 om:inst_space_yrtzJp a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3wqhpCiLX4Kv$L5lyrtzJp" .
 
 om:inst_space_yrtzMF a brick:Space,
-        bot:Space .
+        bot:Space ;
+    bot:hasSimple3DModel "BBox not found in space with guID:3wqhpCiLX4Kv$L5lyrtzMF" .
 
