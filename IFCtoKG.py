@@ -1,9 +1,11 @@
 #%% Import packages
 
+from distutils.command.sdist import sdist
 from lib2to3.pgen2.pgen import DFAState
 from signal import SIG_DFL
 import ifcopenshell
 import json
+from importlib_metadata import distribution
 from numpy import dsplit
 
 from rdflib.namespace import NamespaceManager
@@ -18,13 +20,13 @@ NS_rdf = "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 NS_owl = "http://www.w3.org/2002/07/owl#"
 NS_schema = "http://schema.org#"
 NS_mep = "https://pi.pauwel.be/voc/distributionelement#"
-NS_fso = "https://pi.pauwel.be/voc/distributionelement#"
-
+NS_fso = "http://www.w3id.org/fso#"
 
 
 #%% Import IFC file
 f = ifcopenshell.open("MoL_GM_Services_Example_Geometry_01.ifc")
 
+'''
 buildings = f.by_type("IfcBuilding")
 stories = f.by_type("IfcBuildingStorey")
 spaces = f.by_type("IfcSpace")
@@ -32,6 +34,7 @@ zones = f.by_type("IfcZone")
 systems = f.by_type("IfcUnitaryEquipment")
 thermostats = f.by_type("IfcUnitaryControlElement")
 lights = f.by_type("IfcLightFixture")
+'''
 
 # Elements related to Ventilation System
 ductsegments = f.by_type("IfcDuctSegment")
@@ -40,7 +43,6 @@ airterminals = f.by_type("IfcAirTerminal")
 dampers = f.by_type("IfcDamper")
 fans = f.by_type("IfcFan")
 ductsilencers = f.by_type("IfcDuctSilencer")
-ports = f.by_type("ifcdistributionport")
 
 #Elements related to Electrical Systems 
 electricdistributionboards = f.by_type("ifcelectricdistributionboard")
@@ -53,6 +55,21 @@ electricappliances = f.by_type("IfcElectricAppliance")
 pipesegments = f.by_type("ifcpipesegment")
 pipefittings = f.by_type("ifcpipefitting")
 firesuppresionterminals = f.by_type("ifcFireSuppressionTerminal")
+tanks = f.by_type("ifcTank")
+pumps = f.by_type("ifcPump")
+
+#Elements related to Central Heating
+heatexchangers = f.by_type("IfcHeatExchanger")
+spaceheaters = f.by_type("IfcSpaceHeater") 
+
+#Elements related to "Others" - General
+controllers = f.by_type("IfcController")
+unitaryequipment = f.by_type("IfcUnitaryEquipment")
+sensors = f.by_type("IfcSensor")
+
+# These are used for creating relations
+connections = f.by_type("IfcRelConnectsPorts")
+nests = f.by_type("IfcRelNests")
 
 
 #%% 
@@ -71,6 +88,192 @@ bot_element = URIRef(NS_bot + "Element")
 
 #%% Converter 
 
+#####################################################################################
+###############     TRANSFORM and LOAD product instances      #######################
+#####################################################################################
+
+# IfcDuctfitting instances
+for element in ductfittings:
+        inst = URIRef(NS_om + "inst_" + element.GlobalId.replace("$","_"))
+        mep = URIRef(NS_mep + "DuctFitting")
+        graph.add((inst, RDF.type, bot_element))
+        graph.add((inst, RDF.type, mep))
+
+# IfcDuctSilencer instances
+for element in ductsilencers:
+        inst = URIRef(NS_om + "inst_" + element.GlobalId.replace("$","_"))
+        mep = URIRef(NS_mep + "DuctSilencer")
+        graph.add((inst, RDF.type, bot_element))
+        graph.add((inst, RDF.type, mep))
+
+# IfcDuctSegment instances
+for element in ductsegments:
+        inst = URIRef(NS_om + "inst_" + element.GlobalId.replace("$","_"))
+        mep = URIRef(NS_mep + "DuctSegment")
+        graph.add((inst, RDF.type, bot_element))
+        graph.add((inst, RDF.type, mep))
+
+# IfcAirTerminal instances
+for element in airterminals:
+        inst = URIRef(NS_om + "inst_" + element.GlobalId.replace("$","_"))
+        mep = URIRef(NS_mep + "AirTerminal")
+        graph.add((inst, RDF.type, bot_element))
+        graph.add((inst, RDF.type, mep))
+
+# IfcDamper instances
+for element in dampers:
+        inst = URIRef(NS_om + "inst_" + element.GlobalId.replace("$","_"))
+        mep = URIRef(NS_mep + "Damper")
+        graph.add((inst, RDF.type, bot_element))
+        graph.add((inst, RDF.type, mep))
+        
+# IfcFan instances
+for element in airterminals:
+        inst = URIRef(NS_om + "inst_" + element.GlobalId.replace("$","_"))
+        mep = URIRef(NS_mep + "Fan")
+        graph.add((inst, RDF.type, bot_element))
+        graph.add((inst, RDF.type, mep))
+
+# IfcDuctSilencer instances
+for element in ductsilencers:
+        inst = URIRef(NS_om + "inst_" + element.GlobalId.replace("$","_"))
+        mep = URIRef(NS_mep + "DuctSilencer")
+        graph.add((inst, RDF.type, bot_element))
+        graph.add((inst, RDF.type, mep))
+
+# ifcelectricdistributionboard instances
+for element in electricdistributionboards:
+        inst = URIRef(NS_om + "inst_" + element.GlobalId.replace("$","_"))
+        mep = URIRef(NS_mep + "ElectricDistributionBoard")
+        graph.add((inst, RDF.type, bot_element))
+        graph.add((inst, RDF.type, mep))
+
+# ifcalarm instances
+for element in alarms:
+        inst = URIRef(NS_om + "inst_" + element.GlobalId.replace("$","_"))
+        mep = URIRef(NS_mep + "Alarm")
+        graph.add((inst, RDF.type, bot_element))
+        graph.add((inst, RDF.type, mep))
+
+# IfcLightFixture instances
+for element in lightfixtures:
+        inst = URIRef(NS_om + "inst_" + element.GlobalId.replace("$","_"))
+        mep = URIRef(NS_mep + "LightFixture")
+        graph.add((inst, RDF.type, bot_element))
+        graph.add((inst, RDF.type, mep))
+        
+# IfcSwitchingDevice instances
+for element in switchingdevices:
+        inst = URIRef(NS_om + "inst_" + element.GlobalId.replace("$","_"))
+        mep = URIRef(NS_mep + "SwitchingDevice")
+        graph.add((inst, RDF.type, bot_element))
+        graph.add((inst, RDF.type, mep))
+
+# IfcSwitchingDevice instances
+for element in electricappliances:
+        inst = URIRef(NS_om + "inst_" + element.GlobalId.replace("$","_"))
+        mep = URIRef(NS_mep + "ElectricAppliance")
+        graph.add((inst, RDF.type, bot_element))
+        graph.add((inst, RDF.type, mep))
+
+# ifcFireSuppressionTerminal instances
+for element in firesuppresionterminals:
+        inst = URIRef(NS_om + "inst_" + element.GlobalId.replace("$","_"))
+        mep = URIRef(NS_mep + "FireSuppressionTerminal")
+        graph.add((inst, RDF.type, bot_element))
+        graph.add((inst, RDF.type, mep))
+
+# ifcTank instances
+for element in tanks:
+        inst = URIRef(NS_om + "inst_" + element.GlobalId.replace("$","_"))
+        mep = URIRef(NS_mep + "Tank")
+        graph.add((inst, RDF.type, bot_element))
+        graph.add((inst, RDF.type, mep))
+
+# IfcTank instances
+for element in tanks:
+        inst = URIRef(NS_om + "inst_" + element.GlobalId.replace("$","_"))
+        mep = URIRef(NS_mep + "Tank")
+        graph.add((inst, RDF.type, bot_element))
+        graph.add((inst, RDF.type, mep))
+
+# IfcPump instances
+for element in pumps:
+        inst = URIRef(NS_om + "inst_" + element.GlobalId.replace("$","_"))
+        mep = URIRef(NS_mep + "Pump")
+        graph.add((inst, RDF.type, bot_element))
+        graph.add((inst, RDF.type, mep))
+
+
+# IfcHeatExchanger instances
+for element in heatexchangers:
+        inst = URIRef(NS_om + "inst_" + element.GlobalId.replace("$","_"))
+        mep = URIRef(NS_mep + "HeatExchanger")
+        graph.add((inst, RDF.type, bot_element))
+        graph.add((inst, RDF.type, mep))
+        
+# IfcSpaceHeater instances
+for element in spaceheaters:
+        inst = URIRef(NS_om + "inst_" + element.GlobalId.replace("$","_"))
+        mep = URIRef(NS_mep + "IfcSpaceHeater")
+        graph.add((inst, RDF.type, bot_element))
+        graph.add((inst, RDF.type, mep))
+
+# IfcController instances
+for element in controllers:
+        inst = URIRef(NS_om + "inst_" + element.GlobalId.replace("$","_"))
+        mep = URIRef(NS_mep + "Controller")
+        graph.add((inst, RDF.type, bot_element))
+        graph.add((inst, RDF.type, mep))
+
+# IfcUnitaryEquipment instances
+for element in unitaryequipment:
+        inst = URIRef(NS_om + "inst_" + element.GlobalId.replace("$","_"))
+        mep = URIRef(NS_mep + "UnitaryEquipment")
+        graph.add((inst, RDF.type, bot_element))
+        graph.add((inst, RDF.type, mep))
+
+# IfcSensor instances
+for element in sensors:
+        inst = URIRef(NS_om + "inst_" + element.GlobalId.replace("$","_"))
+        mep = URIRef(NS_mep + "Sensor")
+        graph.add((inst, RDF.type, bot_element))
+        graph.add((inst, RDF.type, mep))
+
+
+# PipeSegment instances
+for element in pipesegments:
+        inst = URIRef(NS_om + "inst_" + element.GlobalId.replace("$","_"))
+        mep = URIRef(NS_mep + "PipeSegment")
+        graph.add((inst, RDF.type, bot_element))
+        graph.add((inst, RDF.type, mep))
+
+# Pipefitting instances
+for element in pipefittings:
+        inst = URIRef(NS_om + "inst_" + element.GlobalId.replace("$","_"))
+        mep = URIRef(NS_mep + "PipeFitting")
+        graph.add((inst, RDF.type, bot_element))
+        graph.add((inst, RDF.type, mep))
+
+
+#########################################################################################
+############################     Create Relationships      ##############################
+#########################################################################################
+
+# Distribution Element Ports for connecivity of elements (using BOT, FSO)
+
+connections = f.by_type("IFCRELCONNECTSPORTS")
+
+connectedWith = URIRef(NS_fso + "connectedWith")
+
+for connection in connections:
+        component_1 = connection.RelatedPort.Nests[0].RelatingObject
+        inst_1 = URIRef(NS_om + "inst_" + component_1.GlobalId.replace("$","_"))
+        component_2 = connection.RelatingPort.Nests[0].RelatingObject              
+        inst_2 = URIRef(NS_om + "inst_" + component_2.GlobalId.replace("$","_"))
+        graph.add((inst_1, connectedWith, inst_2))     
+                
+'''
 # Building instances
 for building in buildings:        
         # Create the URIs for stories using the guid#
@@ -99,21 +302,10 @@ for storey in stories:
 # Zone instances
 for zone in zones:
         #Create the URIs using guid
-        inst_zone = URIRef(NS_om + "inst_zone_" + zone.GlobalId.replace("$","_")[16:])
+        inst_zone = URIRef(NS_om + "inst_" + zone.GlobalId.replace("$","_"))
         brick_zone = URIRef(NS_brick + "Zone")
-        # Create: inst_1234 a bot:zone, brick:Zone                         
         graph.add((inst_zone, RDF.type, brick_zone))
-
-# Parsing distribution ports
-for ductsegment in ductsegments:
-        ductsegment.IsNestedBy
-        # create ductsegment instance 
-        inst_ductsgm = URIRef(NS_om + "inst_ductsgm_" + ductsegment.GlobalId.replace("$","_"))
-        mep_ductsgm = URIRef(NS_mep + "DuctSegment")
-        graph.add((inst_ductsgm, RDF.type, bot_element))
-        graph.add((inst_ductsgm, RDF.type, mep_ductsgm))
-
-
+'''
 '''
 # Space instances
 for space in spaces:
@@ -214,3 +406,5 @@ for light in lights:
 #%% Export the graph
 graph.serialize(destination="Data_Graph.ttl", format="turtle")
 
+
+# %%

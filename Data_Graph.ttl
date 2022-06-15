@@ -1,63 +1,413 @@
 @prefix bot: <https://w3id.org/bot#> .
 @prefix mep: <https://pi.pauwel.be/voc/distributionelement#> .
+@prefix ns1: <http://www.w3id.org/fso#> .
 @prefix om: <http://openmetrics.eu/openmetrics#> .
 
-om:inst_building_1UY4BM a bot:Building ;
-    bot:hasStorey om:inst_storey_2Z8GWH,
-        om:inst_storey_2Z8GWI .
+om:inst_017WUZjPnF1RcjLmCulPwf a mep:PipeFitting,
+        bot:Element ;
+    ns1:connectedWith om:inst_017WUZjPnF1RcjLmCulPws,
+        om:inst_017WUZjPnF1RcjLmCulU08 .
 
-om:inst_ductsgm_0J2HntQTD0Cfj81Y7VmMt0 a mep:DuctSegment,
+om:inst_017WUZjPnF1RcjLmCulPzU a mep:PipeFitting,
+        bot:Element ;
+    ns1:connectedWith om:inst_017WUZjPnF1RcjLmCulPvM,
+        om:inst_017WUZjPnF1RcjLmCulPvt .
+
+om:inst_0J2HntQTD0Cfj81Y7VmMtg a mep:DuctFitting,
+        bot:Element ;
+    ns1:connectedWith om:inst_0J2HntQTD0Cfj81Y7VmMt0,
+        om:inst_0J2HntQTD0Cfj81Y7VmMtq .
+
+om:inst_0J2HntQTD0Cfj81Y7VmMtn a mep:DuctFitting,
+        bot:Element ;
+    ns1:connectedWith om:inst_0J2HntQTD0Cfj81Y7VmMtm .
+
+om:inst_0VZk6NVn93Cx7YwaVImAnJ a mep:Tank,
         bot:Element .
 
-om:inst_ductsgm_0J2HntQTD0Cfj81Y7VmMt3 a mep:DuctSegment,
+om:inst_0___6xnf51Re9mFagqlbWB a mep:PipeFitting,
+        bot:Element ;
+    ns1:connectedWith om:inst_0___6xnf51Re9mFagqlbxq .
+
+om:inst_0___6xnf51Re9mFagqlbXM a mep:PipeSegment,
+        bot:Element ;
+    ns1:connectedWith om:inst_0___6xnf51Re9mFagqlbXN,
+        om:inst_1yHkGhWg9A9hDhc2VyR8Aw .
+
+om:inst_0dEFKdNSbC89HHvDCjPZnP a mep:Controller,
         bot:Element .
 
-om:inst_ductsgm_0J2HntQTD0Cfj81Y7VmMtm a mep:DuctSegment,
+om:inst_1KpHzaq3108QQm093t1uuY a mep:PipeFitting,
+        bot:Element ;
+    ns1:connectedWith om:inst_017WUZjPnF1RcjLmCulPzy .
+
+om:inst_1_rw25VZXEpul6EQwUqvsL a mep:PipeFitting,
+        bot:Element ;
+    ns1:connectedWith om:inst_1yHkGhWg9A9hDhc2VyR81p,
+        om:inst_3azR3VHfb3EQ4JtVZXJriB .
+
+om:inst_1tWBPyWV53Cu3aC1nq9kbW a mep:DuctSilencer,
+        bot:Element ;
+    ns1:connectedWith om:inst_0JnwG94pj0Sfr4CtbCX2Ry .
+
+om:inst_1tWBPyWV53Cu3aC1nq9kxS a mep:DuctSegment,
+        bot:Element ;
+    ns1:connectedWith om:inst_0J2HntQTD0Cfj81Y7VmMtr,
+        om:inst_1tWBPyWV53Cu3aC1nq9kxJ .
+
+om:inst_2IZG0KtWj2_v81x_hPjXNG a mep:LightFixture,
         bot:Element .
 
-om:inst_ductsgm_0J2HntQTD0Cfj81Y7VmMtq a mep:DuctSegment,
+om:inst_2avJWZ6hTELg_evZJqM_IT a mep:DuctFitting,
+        bot:Element ;
+    ns1:connectedWith om:inst_3mUHM42X55veEDGhGiZ0bE .
+
+om:inst_2avJWZ6hTELg_evZJqM_Ib a mep:DuctFitting,
+        bot:Element ;
+    ns1:connectedWith om:inst_0J2HntQTD0Cfj81Y7VmMt3,
+        om:inst_0X0T_l_MH4t9Y5p9QQx96X .
+
+om:inst_2avJWZ6hTELg_evZJqM_JJ a mep:DuctSegment,
+        bot:Element ;
+    ns1:connectedWith om:inst_0X0T_l_MH4t9Y5p9QQx95A,
+        om:inst_2avJWZ6hTELg_evZJqM_JN .
+
+om:inst_2eVCqj_0XAyh2oDdEscoYy a mep:PipeSegment,
+        bot:Element ;
+    ns1:connectedWith om:inst_2eVCqj_0XAyh2oDdEscoYx,
+        om:inst_2eVCqj_0XAyh2oDdEscobT .
+
+om:inst_2eVCqj_0XAyh2oDdEscob3 a mep:PipeFitting,
+        bot:Element ;
+    ns1:connectedWith om:inst_2eVCqj_0XAyh2oDdEscobN,
+        om:inst_2eVCqj_0XAyh2oDdEscobU .
+
+om:inst_2eVCqj_0XAyh2oDdEscob6 a mep:PipeFitting,
+        bot:Element ;
+    ns1:connectedWith om:inst_2eVCqj_0XAyh2oDdEscobK,
+        om:inst_2eVCqj_0XAyh2oDdEscobN .
+
+om:inst_2eVCqj_0XAyh2oDdEscobs a mep:HeatExchanger,
         bot:Element .
 
-om:inst_ductsgm_0J2HntQTD0Cfj81Y7VmMts a mep:DuctSegment,
+om:inst_2eVCqj_0XAyh2oDdEscobw a mep:Tank,
         bot:Element .
 
-om:inst_ductsgm_0JnwG94pj0Sfr4CtbCX26p a mep:DuctSegment,
+om:inst_2eVCqj_0XAyh2oDdEsczQC a mep:PipeFitting,
+        bot:Element ;
+    ns1:connectedWith om:inst_2eVCqj_0XAyh2oDdEscoYq,
+        om:inst_2eVCqj_0XAyh2oDdEscoba .
+
+om:inst_2eVCqj_0XAyh2oDdEsczQM a mep:PipeFitting,
+        bot:Element ;
+    ns1:connectedWith om:inst_2eVCqj_0XAyh2oDdEscoYv,
+        om:inst_2eVCqj_0XAyh2oDdEscobk .
+
+om:inst_2y6Amr9816pA8zfOJsH4E7 a mep:PipeFitting,
+        bot:Element ;
+    ns1:connectedWith om:inst_2y6Amr9816pA8zfOJsH4EK .
+
+om:inst_3DhiIWbuLFNAZg_ray4X0P a mep:PipeSegment,
+        bot:Element ;
+    ns1:connectedWith om:inst_2blOxXvUzFGuvkYcbNYTw7,
+        om:inst_3DhiIWbuLFNAZg_ray4X06 .
+
+om:inst_3DhiIWbuLFNAZg_ray4X0i a mep:PipeSegment,
         bot:Element .
 
-om:inst_ductsgm_0JnwG94pj0Sfr4CtbCX2QQ a mep:DuctSegment,
+om:inst_3DhiIWbuLFNAZg_ray4XEq a mep:PipeFitting,
+        bot:Element ;
+    ns1:connectedWith om:inst_3DhiIWbuLFNAZg_ray4X1H,
+        om:inst_3DhiIWbuLFNAZg_ray4XEW .
+
+om:inst_3DhiIWbuLFNAZg_ray4XEu a mep:PipeFitting,
+        bot:Element ;
+    ns1:connectedWith om:inst_3DhiIWbuLFNAZg_ray4XEW .
+
+om:inst_3Se9_t3Ov5bRnojEeqfqet a mep:DuctFitting,
+        bot:Element ;
+    ns1:connectedWith om:inst_0J2HntQTD0Cfj81Y7VmMts,
+        om:inst_3Se9_t3Ov5bRnojEeqfqgy .
+
+om:inst_3Se9_t3Ov5bRnojEeqfqev a mep:DuctFitting,
+        bot:Element ;
+    ns1:connectedWith om:inst_0J2HntQTD0Cfj81Y7VmMtt,
+        om:inst_3Se9_t3Ov5bRnojEeqfqgy .
+
+om:inst_3Se9_t3Ov5bRnojEeqfqex a mep:DuctFitting,
+        bot:Element ;
+    ns1:connectedWith om:inst_0J2HntQTD0Cfj81Y7VmMt0,
+        om:inst_0X0T_l_MH4t9Y5p9QQx9Ry .
+
+om:inst_3Yxt8RFQP1d9W6ZFfBx_dc a mep:Sensor,
         bot:Element .
 
-om:inst_ductsgm_0JnwG94pj0Sfr4CtbCX2Ry a mep:DuctSegment,
+om:inst_017WUZjPnF1RcjLmCulPu1 a mep:PipeFitting,
+        bot:Element ;
+    ns1:connectedWith om:inst_017WUZjPnF1RcjLmCulPws .
+
+om:inst_017WUZjPnF1RcjLmCulPvM a mep:PipeSegment,
+        bot:Element ;
+    ns1:connectedWith om:inst_017WUZjPnF1RcjLmCulPu1 .
+
+om:inst_017WUZjPnF1RcjLmCulPz3 a mep:PipeFitting,
+        bot:Element ;
+    ns1:connectedWith om:inst_017WUZjPnF1RcjLmCulPvt,
+        om:inst_1yHkGhWg9A9hDhc2VyR824 .
+
+om:inst_017WUZjPnF1RcjLmCulPzy a mep:PipeSegment,
+        bot:Element ;
+    ns1:connectedWith om:inst_017WUZjPnF1RcjLmCulPz3 .
+
+om:inst_017WUZjPnF1RcjLmCulU08 a mep:PipeSegment,
         bot:Element .
 
-om:inst_ductsgm_0X0T_l_MH4t9Y5p9QQx96X a mep:DuctSegment,
+om:inst_0J2HntQTD0Cfj81Y7VmMtr a mep:DuctFitting,
+        bot:Element ;
+    ns1:connectedWith om:inst_0J2HntQTD0Cfj81Y7VmMts .
+
+om:inst_0J2HntQTD0Cfj81Y7VmMtt a mep:DuctFitting,
+        bot:Element ;
+    ns1:connectedWith om:inst_0J2HntQTD0Cfj81Y7VmMtm .
+
+om:inst_0JnwG94pj0Sfr4CtbCX24b a mep:DuctFitting,
+        bot:Element ;
+    ns1:connectedWith om:inst_14aLuRP9HDNvsYDjDLwZsi .
+
+om:inst_0JnwG94pj0Sfr4CtbCX24c a mep:DuctFitting,
+        bot:Element ;
+    ns1:connectedWith om:inst_26gSXv3dP7TxpOtleMM7CJ .
+
+om:inst_0JnwG94pj0Sfr4CtbCX26p a mep:DuctSegment,
+        bot:Element ;
+    ns1:connectedWith om:inst_0JnwG94pj0Sfr4CtbCX24b .
+
+om:inst_0JnwG94pj0Sfr4CtbCX2O8 a mep:DuctFitting,
+        bot:Element ;
+    ns1:connectedWith om:inst_0JnwG94pj0Sfr4CtbCX2QQ .
+
+om:inst_0JnwG94pj0Sfr4CtbCX2QQ a mep:DuctSegment,
+        bot:Element ;
+    ns1:connectedWith om:inst_3ywDhlZfHF1OQ96cGksQRQ .
+
+om:inst_0JnwG94pj0Sfr4CtbCX2Ry a mep:DuctSegment,
+        bot:Element ;
+    ns1:connectedWith om:inst_0JnwG94pj0Sfr4CtbCX2O8 .
+
+om:inst_0VZk6NVn93Cx7YwaVImAnH a mep:Pump,
+        bot:Element ;
+    ns1:connectedWith om:inst_2eVCqj_0XAyh2oDdEscoba .
+
+om:inst_0X0T_l_MH4t9Y5p9QQx95A a mep:DuctFitting,
+        bot:Element ;
+    ns1:connectedWith om:inst_0X0T_l_MH4t9Y5p9QQx96X .
+
+om:inst_0X0T_l_MH4t9Y5p9QQx9Ry a mep:DuctFitting,
+        bot:Element ;
+    ns1:connectedWith om:inst_0J2HntQTD0Cfj81Y7VmMt3 .
+
+om:inst_0___6xnf51Re9mFagqlb_F a mep:PipeSegment,
+        bot:Element ;
+    ns1:connectedWith om:inst_1yHkGhWg9A9hDhc2VyR81v .
+
+om:inst_0___6xnf51Re9mFagqlbxq a mep:PipeSegment,
+        bot:Element ;
+    ns1:connectedWith om:inst_0___6xnf51Re9mFagqlbXN .
+
+om:inst_14aLuRP9HDNvsYDjDLwZsi a mep:DuctSegment,
+        bot:Element ;
+    ns1:connectedWith om:inst_0JnwG94pj0Sfr4CtbCX24c .
+
+om:inst_14aLuRP9HDNvsYDjDLwZtT a mep:DuctSegment,
+        bot:Element ;
+    ns1:connectedWith om:inst_3ywDhlZfHF1OQ96cGksQRs .
+
+om:inst_1tWBPyWV53Cu3aC1nq9kxJ a mep:DuctSilencer,
+        bot:Element ;
+    ns1:connectedWith om:inst_0J2HntQTD0Cfj81Y7VmMtq .
+
+om:inst_1yHkGhWg9A9hDhc2VyR81v a mep:PipeFitting,
+        bot:Element ;
+    ns1:connectedWith om:inst_1yHkGhWg9A9hDhc2VyR824 .
+
+om:inst_1yHkGhWg9A9hDhc2VyR8Aw a mep:PipeFitting,
+        bot:Element ;
+    ns1:connectedWith om:inst_1yHkGhWg9A9hDhc2VyR81p .
+
+om:inst_26gSXv3dP7TxpOtleMM7Bs a mep:DuctSegment,
+        bot:Element ;
+    ns1:connectedWith om:inst_3ywDhlZfHF1OQ96cGksQRR .
+
+om:inst_26gSXv3dP7TxpOtleMM7CJ a mep:DuctSegment,
+        bot:Element ;
+    ns1:connectedWith om:inst_26gSXv3dP7TxpOtleMM7Fi .
+
+om:inst_26gSXv3dP7TxpOtleMM7Fi a mep:DuctSilencer,
         bot:Element .
 
-om:inst_ductsgm_14aLuRP9HDNvsYDjDLwZsi a mep:DuctSegment,
+om:inst_2avJWZ6hTELg_evZJqM_JN a mep:Damper,
+        bot:Element ;
+    ns1:connectedWith om:inst_3mUHM42X55veEDGhGiZ0bE .
+
+om:inst_2blOxXvUzFGuvkYcbNYTw7 a mep:PipeFitting,
+        bot:Element ;
+    ns1:connectedWith om:inst_2blOxXvUzFGuvkYcbNYTwX .
+
+om:inst_2blOxXvUzFGuvkYcbNYTwX a mep:PipeSegment,
+        bot:Element ;
+    ns1:connectedWith om:inst_3azR3VHfb3EQ4JtVZXJri8 .
+
+om:inst_2eVCqj_0XAyh2oDdEscoYp a mep:PipeFitting,
+        bot:Element ;
+    ns1:connectedWith om:inst_2eVCqj_0XAyh2oDdEscobC,
+        om:inst_2eVCqj_0XAyh2oDdEscob_ .
+
+om:inst_2eVCqj_0XAyh2oDdEscoYq a mep:PipeSegment,
+        bot:Element ;
+    ns1:connectedWith om:inst_2eVCqj_0XAyh2oDdEscoYp .
+
+om:inst_2eVCqj_0XAyh2oDdEscoYx a mep:PipeFitting,
+        bot:Element ;
+    ns1:connectedWith om:inst_2eVCqj_0XAyh2oDdEscoYv,
+        om:inst_2eVCqj_0XAyh2oDdEscobF .
+
+om:inst_2eVCqj_0XAyh2oDdEscob9 a mep:Pump,
+        bot:Element ;
+    ns1:connectedWith om:inst_2eVCqj_0XAyh2oDdEscobC .
+
+om:inst_2eVCqj_0XAyh2oDdEscobF a mep:PipeSegment,
+        bot:Element ;
+    ns1:connectedWith om:inst_2eVCqj_0XAyh2oDdEscob9 .
+
+om:inst_2eVCqj_0XAyh2oDdEscobH a mep:PipeSegment,
         bot:Element .
 
-om:inst_ductsgm_14aLuRP9HDNvsYDjDLwZtT a mep:DuctSegment,
+om:inst_2eVCqj_0XAyh2oDdEscobK a mep:PipeSegment,
         bot:Element .
 
-om:inst_ductsgm_1tWBPyWV53Cu3aC1nq9kxS a mep:DuctSegment,
+om:inst_2eVCqj_0XAyh2oDdEscobU a mep:PipeSegment,
+        bot:Element ;
+    ns1:connectedWith om:inst_2eVCqj_0XAyh2oDdEscobT .
+
+om:inst_2eVCqj_0XAyh2oDdEscob_ a mep:PipeSegment,
         bot:Element .
 
-om:inst_ductsgm_26gSXv3dP7TxpOtleMM7Bs a mep:DuctSegment,
+om:inst_2eVCqj_0XAyh2oDdEscobk a mep:PipeSegment,
+        bot:Element ;
+    ns1:connectedWith om:inst_0VZk6NVn93Cx7YwaVImAnH .
+
+om:inst_2y6Amr9816pA8zfOJsH40A a mep:PipeSegment,
+        bot:Element ;
+    ns1:connectedWith om:inst_2y6Amr9816pA8zfOJsH43m .
+
+om:inst_2y6Amr9816pA8zfOJsH41W a mep:PipeFitting,
+        bot:Element ;
+    ns1:connectedWith om:inst_2y6Amr9816pA8zfOJsH40A .
+
+om:inst_2y6Amr9816pA8zfOJsH43m a mep:PipeFitting,
+        bot:Element ;
+    ns1:connectedWith om:inst_3azR3VHfb3EQ4JtVZXJriG .
+
+om:inst_2y6Amr9816pA8zfOJsH4EK a mep:PipeSegment,
+        bot:Element ;
+    ns1:connectedWith om:inst_2y6Amr9816pA8zfOJsH41W .
+
+om:inst_3DhiIWbuLFNAZg_ray4X08 a mep:PipeSegment,
         bot:Element .
 
-om:inst_ductsgm_26gSXv3dP7TxpOtleMM7CJ a mep:DuctSegment,
+om:inst_3DhiIWbuLFNAZg_ray4X1H a mep:PipeSegment,
+        bot:Element ;
+    ns1:connectedWith om:inst_3DhiIWbuLFNAZg_ray4X06 .
+
+om:inst_3azR3VHfb3EQ4JtVZXJriB a mep:PipeSegment,
+        bot:Element ;
+    ns1:connectedWith om:inst_3azR3VHfb3EQ4JtVZXJri8 .
+
+om:inst_3ywDhlZfHF1OQ96cGksQRQ a mep:DuctFitting,
+        bot:Element ;
+    ns1:connectedWith om:inst_26gSXv3dP7TxpOtleMM7Bs .
+
+om:inst_3ywDhlZfHF1OQ96cGksQRR a mep:DuctFitting,
+        bot:Element ;
+    ns1:connectedWith om:inst_3ywDhlZfHF1OQ96cGksQV1 .
+
+om:inst_3ywDhlZfHF1OQ96cGksQRs a mep:DuctFitting,
+        bot:Element ;
+    ns1:connectedWith om:inst_0JnwG94pj0Sfr4CtbCX26p .
+
+om:inst_3ywDhlZfHF1OQ96cGksQRt a mep:DuctFitting,
+        bot:Element ;
+    ns1:connectedWith om:inst_14aLuRP9HDNvsYDjDLwZtT .
+
+om:inst_3ywDhlZfHF1OQ96cGksQV1 ns1:connectedWith om:inst_3ywDhlZfHF1OQ96cGksQRt .
+
+om:inst_017WUZjPnF1RcjLmCulPvt a mep:PipeSegment,
         bot:Element .
 
-om:inst_ductsgm_2avJWZ6hTELg_evZJqM_JJ a mep:DuctSegment,
+om:inst_017WUZjPnF1RcjLmCulPws a mep:PipeSegment,
         bot:Element .
 
-om:inst_ductsgm_3Se9_t3Ov5bRnojEeqfqgy a mep:DuctSegment,
+om:inst_0J2HntQTD0Cfj81Y7VmMt0 a mep:DuctSegment,
         bot:Element .
 
-om:inst_ductsgm_3mUHM42X55veEDGhGiZ0bE a mep:DuctSegment,
+om:inst_0J2HntQTD0Cfj81Y7VmMt3 a mep:DuctSegment,
         bot:Element .
 
-om:inst_storey_2Z8GWH a bot:Storey .
+om:inst_0J2HntQTD0Cfj81Y7VmMtm a mep:DuctSegment,
+        bot:Element .
 
-om:inst_storey_2Z8GWI a bot:Storey .
+om:inst_0J2HntQTD0Cfj81Y7VmMtq a mep:DuctSegment,
+        bot:Element .
+
+om:inst_0J2HntQTD0Cfj81Y7VmMts a mep:DuctSegment,
+        bot:Element .
+
+om:inst_0X0T_l_MH4t9Y5p9QQx96X a mep:DuctSegment,
+        bot:Element .
+
+om:inst_0___6xnf51Re9mFagqlbXN a mep:PipeFitting,
+        bot:Element ;
+    ns1:connectedWith om:inst_0___6xnf51Re9mFagqlb_F .
+
+om:inst_1yHkGhWg9A9hDhc2VyR81p a mep:PipeSegment,
+        bot:Element .
+
+om:inst_1yHkGhWg9A9hDhc2VyR824 a mep:PipeSegment,
+        bot:Element .
+
+om:inst_2eVCqj_0XAyh2oDdEscoYv a mep:PipeSegment,
+        bot:Element .
+
+om:inst_2eVCqj_0XAyh2oDdEscobC a mep:PipeSegment,
+        bot:Element .
+
+om:inst_2eVCqj_0XAyh2oDdEscobN a mep:PipeSegment,
+        bot:Element .
+
+om:inst_2eVCqj_0XAyh2oDdEscobT a mep:PipeFitting,
+        bot:Element ;
+    ns1:connectedWith om:inst_2eVCqj_0XAyh2oDdEscobH .
+
+om:inst_2eVCqj_0XAyh2oDdEscoba a mep:PipeSegment,
+        bot:Element .
+
+om:inst_3DhiIWbuLFNAZg_ray4X06 a mep:PipeFitting,
+        bot:Element ;
+    ns1:connectedWith om:inst_3DhiIWbuLFNAZg_ray4X08 .
+
+om:inst_3DhiIWbuLFNAZg_ray4XEW a mep:PipeSegment,
+        bot:Element .
+
+om:inst_3Se9_t3Ov5bRnojEeqfqgy a mep:DuctSegment,
+        bot:Element .
+
+om:inst_3azR3VHfb3EQ4JtVZXJri8 a mep:PipeFitting,
+        bot:Element ;
+    ns1:connectedWith om:inst_3azR3VHfb3EQ4JtVZXJriG .
+
+om:inst_3azR3VHfb3EQ4JtVZXJriG a mep:PipeSegment,
+        bot:Element .
+
+om:inst_3mUHM42X55veEDGhGiZ0bE a mep:DuctSegment,
+        bot:Element .
 
