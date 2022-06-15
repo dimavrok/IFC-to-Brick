@@ -1,7 +1,10 @@
 #%% Import packages
 
+from lib2to3.pgen2.pgen import DFAState
+from signal import SIG_DFL
 import ifcopenshell
 import json
+from numpy import dsplit
 
 from rdflib.namespace import NamespaceManager
 from rdflib import Graph, RDF, URIRef, Literal
@@ -14,10 +17,13 @@ NS_rdf = "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 NS_rdf = "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 NS_owl = "http://www.w3.org/2002/07/owl#"
 NS_schema = "http://schema.org#"
+NS_mep = "https://pi.pauwel.be/voc/distributionelement#"
+NS_fso = "https://pi.pauwel.be/voc/distributionelement#"
+
 
 
 #%% Import IFC file
-f = ifcopenshell.open("Basement_East_Plantroom.ifc")
+f = ifcopenshell.open("MoL_GM_Services_Example_Geometry_01.ifc")
 
 buildings = f.by_type("IfcBuilding")
 stories = f.by_type("IfcBuildingStorey")
@@ -26,6 +32,27 @@ zones = f.by_type("IfcZone")
 systems = f.by_type("IfcUnitaryEquipment")
 thermostats = f.by_type("IfcUnitaryControlElement")
 lights = f.by_type("IfcLightFixture")
+
+# Elements related to Ventilation System
+ductsegments = f.by_type("IfcDuctSegment")
+ductfittings = f.by_type("IfcDuctFitting")
+airterminals = f.by_type("IfcAirTerminal")
+dampers = f.by_type("IfcDamper")
+fans = f.by_type("IfcFan")
+ductsilencers = f.by_type("IfcDuctSilencer")
+ports = f.by_type("ifcdistributionport")
+
+#Elements related to Electrical Systems 
+electricdistributionboards = f.by_type("ifcelectricdistributionboard")
+alarms = f.by_type("ifcalarm")
+lightfixtures = f.by_type("IfcLightFixture")
+switchingdevices = f.by_type("IfcSwitchingDevice")
+electricappliances = f.by_type("IfcElectricAppliance")
+
+#Elements related to Plumbing/Drainage
+pipesegments = f.by_type("ifcpipesegment")
+pipefittings = f.by_type("ifcpipefitting")
+firesuppresionterminals = f.by_type("ifcFireSuppressionTerminal")
 
 
 #%% 
@@ -36,6 +63,11 @@ graph.namespace_manager.bind("brick", URIRef(NS_brick))
 graph.namespace_manager.bind("rdf", URIRef(NS_rdf))
 graph.namespace_manager.bind("owl", URIRef(NS_owl))
 graph.namespace_manager.bind("schema", URIRef(NS_schema))
+graph.namespace_manager.bind("mep", URIRef(NS_mep))
+
+# Some generic classes
+bot_element = URIRef(NS_bot + "Element")
+
 
 #%% Converter 
 
@@ -72,40 +104,21 @@ for zone in zones:
         # Create: inst_1234 a bot:zone, brick:Zone                         
         graph.add((inst_zone, RDF.type, brick_zone))
 
-'''
-# System instances
-for system in systems:
-        #Create the URIs using guid
-        inst_system = URIRef(NS_om + "inst_system_" + system.GlobalId.replace("$","_")[16:])
-        bot_element = URIRef(NS_bot + "Element")
-        brick_system = URIRef(NS_brick + "Terminal_Unit")
-        # Create: inst_1234 a bot:element, brick:Terminal_unit                          
-        graph.add((inst_system, RDF.type, bot_element))
-        graph.add((inst_system, RDF.type, brick_system))
-        # Try and find related spaces
-        try: 
-                space = system.ContainedInStructure[0].RelatingStructure
-                #Create relationship: inst_space bot:hasLocation inst_system
-                inst_space = URIRef(NS_om + "inst_space_" + space.GlobalId.replace("$","_")[16:])
-                graph.add((inst_system, URIRef(NS_bot+"hasLocation"), inst_space))      
-                # Find the related zones for these spaces
-        except:
-                pass
-        # Try and find relation of zones and systems
-        try:
-                space = system.ContainedInStructure[0].RelatingStructure
-                zone = space.HasAssignments[0].RelatingGroup
-                #Create relationship: inst_space bot:hasLocation inst_system
-                inst_zone = URIRef(NS_om + "inst_zone_" + zone.GlobalId.replace("$","_")[16:])
-                graph.add((inst_system, URIRef(NS_brick+"feeds"), inst_zone))
-        except:
-                pass
-'''
+# Parsing distribution ports
+for ductsegment in ductsegments:
+        ductsegment.IsNestedBy
+        # create ductsegment instance 
+        inst_ductsgm = URIRef(NS_om + "inst_ductsgm_" + ductsegment.GlobalId.replace("$","_"))
+        mep_ductsgm = URIRef(NS_mep + "DuctSegment")
+        graph.add((inst_ductsgm, RDF.type, bot_element))
+        graph.add((inst_ductsgm, RDF.type, mep_ductsgm))
 
+
+'''
 # Space instances
 for space in spaces:
         #Create the URIs for spaces
-        inst_space = URIRef(NS_om + "inst_space_" + space.GlobalId.replace("$","_")[16:])
+        inst_space = URIRef(NS_om + "inst_space_" + space.GlobalId.rfgveplace("$","_")[16:])
         bot_space = URIRef(NS_bot + "Space")
         brick_space = URIRef(NS_brick + "Space")
         bot_simple3d = URIRef(NS_bot + "hasSimple3DModel")      
@@ -131,7 +144,9 @@ for space in spaces:
                 #Create relationship: inst_zone brick:hasPart inst:space
         except:
                 pass
-        #Extract the bounding box geometry (cp --> Corner Point,)  
+
+        #Extract the bounding box geometry (cp --> Corner Point,) 
+
         # ATTENTION: May need to debug in Representations[0] in case there are more representations as in the lighting instances - to discuss this
         try:
                 cpx = space.Representation.Representations[1].Items[0].Corner.Coordinates[0]
@@ -151,7 +166,6 @@ for space in spaces:
                 pass
 
 
-'''
 # Element (thermostat) instances
 for thermostat in thermostats:
         #Create the URIs using guid
@@ -171,7 +185,8 @@ for thermostat in thermostats:
         except:
                 pass    
         # Thermostat-Systems(Terminal Units) relationship  
-'''
+
+
 
 # Lighting instances
 for light in lights:
@@ -194,6 +209,7 @@ for light in lights:
         graph.add((inst_light_fixture, RDF.type, bot_element))
         graph.add((inst_light_fixture, RDF.type, brick_lighting))
         graph.add((inst_light_fixture, bot_simple3d, inst_3d_rep))
+'''
 
 #%% Export the graph
 graph.serialize(destination="Data_Graph.ttl", format="turtle")
