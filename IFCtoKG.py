@@ -1,12 +1,6 @@
 #%% Import packages
-
-from distutils.command.sdist import sdist
-from lib2to3.pgen2.pgen import DFAState
-from signal import SIG_DFL
 import ifcopenshell
 import json
-from importlib_metadata import distribution
-from numpy import dsplit
 
 from rdflib.namespace import NamespaceManager
 from rdflib import Graph, RDF, URIRef, Literal
@@ -75,16 +69,17 @@ nests = f.by_type("IfcRelNests")
 #%% 
 graph = Graph()
 graph.namespace_manager.bind("om", URIRef(NS_om))
-graph.namespace_manager.bind("bot", URIRef(NS_bot))
-graph.namespace_manager.bind("brick", URIRef(NS_brick))
+#graph.namespace_manager.bind("bot", URIRef(NS_bot))
+#graph.namespace_manager.bind("brick", URIRef(NS_brick))
 graph.namespace_manager.bind("rdf", URIRef(NS_rdf))
 graph.namespace_manager.bind("owl", URIRef(NS_owl))
 graph.namespace_manager.bind("schema", URIRef(NS_schema))
 graph.namespace_manager.bind("mep", URIRef(NS_mep))
+graph.namespace_manager.bind("fso", URIRef(NS_fso))
+
 
 # Some generic classes
-bot_element = URIRef(NS_bot + "Element")
-
+fso_element = URIRef(NS_fso + "Component")
 
 #%% Converter 
 
@@ -96,112 +91,112 @@ bot_element = URIRef(NS_bot + "Element")
 for element in ductfittings:
         inst = URIRef(NS_om + "inst_" + element.GlobalId.replace("$","_"))
         mep = URIRef(NS_mep + "DuctFitting")
-        graph.add((inst, RDF.type, bot_element))
+        graph.add((inst, RDF.type, fso_element))
         graph.add((inst, RDF.type, mep))
 
 # IfcDuctSilencer instances
 for element in ductsilencers:
         inst = URIRef(NS_om + "inst_" + element.GlobalId.replace("$","_"))
         mep = URIRef(NS_mep + "DuctSilencer")
-        graph.add((inst, RDF.type, bot_element))
+        graph.add((inst, RDF.type, fso_element))
         graph.add((inst, RDF.type, mep))
 
 # IfcDuctSegment instances
 for element in ductsegments:
         inst = URIRef(NS_om + "inst_" + element.GlobalId.replace("$","_"))
         mep = URIRef(NS_mep + "DuctSegment")
-        graph.add((inst, RDF.type, bot_element))
+        graph.add((inst, RDF.type, fso_element))
         graph.add((inst, RDF.type, mep))
 
 # IfcAirTerminal instances
 for element in airterminals:
         inst = URIRef(NS_om + "inst_" + element.GlobalId.replace("$","_"))
         mep = URIRef(NS_mep + "AirTerminal")
-        graph.add((inst, RDF.type, bot_element))
+        graph.add((inst, RDF.type, fso_element))
         graph.add((inst, RDF.type, mep))
 
 # IfcDamper instances
 for element in dampers:
         inst = URIRef(NS_om + "inst_" + element.GlobalId.replace("$","_"))
         mep = URIRef(NS_mep + "Damper")
-        graph.add((inst, RDF.type, bot_element))
+        graph.add((inst, RDF.type, fso_element))
         graph.add((inst, RDF.type, mep))
         
 # IfcFan instances
 for element in airterminals:
         inst = URIRef(NS_om + "inst_" + element.GlobalId.replace("$","_"))
         mep = URIRef(NS_mep + "Fan")
-        graph.add((inst, RDF.type, bot_element))
+        graph.add((inst, RDF.type, fso_element))
         graph.add((inst, RDF.type, mep))
 
 # IfcDuctSilencer instances
 for element in ductsilencers:
         inst = URIRef(NS_om + "inst_" + element.GlobalId.replace("$","_"))
         mep = URIRef(NS_mep + "DuctSilencer")
-        graph.add((inst, RDF.type, bot_element))
+        graph.add((inst, RDF.type, fso_element))
         graph.add((inst, RDF.type, mep))
 
 # ifcelectricdistributionboard instances
 for element in electricdistributionboards:
         inst = URIRef(NS_om + "inst_" + element.GlobalId.replace("$","_"))
         mep = URIRef(NS_mep + "ElectricDistributionBoard")
-        graph.add((inst, RDF.type, bot_element))
+        graph.add((inst, RDF.type, fso_element))
         graph.add((inst, RDF.type, mep))
 
 # ifcalarm instances
 for element in alarms:
         inst = URIRef(NS_om + "inst_" + element.GlobalId.replace("$","_"))
         mep = URIRef(NS_mep + "Alarm")
-        graph.add((inst, RDF.type, bot_element))
+        graph.add((inst, RDF.type, fso_element))
         graph.add((inst, RDF.type, mep))
 
 # IfcLightFixture instances
 for element in lightfixtures:
         inst = URIRef(NS_om + "inst_" + element.GlobalId.replace("$","_"))
         mep = URIRef(NS_mep + "LightFixture")
-        graph.add((inst, RDF.type, bot_element))
+        graph.add((inst, RDF.type, fso_element))
         graph.add((inst, RDF.type, mep))
         
 # IfcSwitchingDevice instances
 for element in switchingdevices:
         inst = URIRef(NS_om + "inst_" + element.GlobalId.replace("$","_"))
         mep = URIRef(NS_mep + "SwitchingDevice")
-        graph.add((inst, RDF.type, bot_element))
+        graph.add((inst, RDF.type, fso_element))
         graph.add((inst, RDF.type, mep))
 
 # IfcSwitchingDevice instances
 for element in electricappliances:
         inst = URIRef(NS_om + "inst_" + element.GlobalId.replace("$","_"))
         mep = URIRef(NS_mep + "ElectricAppliance")
-        graph.add((inst, RDF.type, bot_element))
+        graph.add((inst, RDF.type, fso_element))
         graph.add((inst, RDF.type, mep))
 
 # ifcFireSuppressionTerminal instances
 for element in firesuppresionterminals:
         inst = URIRef(NS_om + "inst_" + element.GlobalId.replace("$","_"))
         mep = URIRef(NS_mep + "FireSuppressionTerminal")
-        graph.add((inst, RDF.type, bot_element))
+        graph.add((inst, RDF.type, fso_element))
         graph.add((inst, RDF.type, mep))
 
 # ifcTank instances
 for element in tanks:
         inst = URIRef(NS_om + "inst_" + element.GlobalId.replace("$","_"))
         mep = URIRef(NS_mep + "Tank")
-        graph.add((inst, RDF.type, bot_element))
+        graph.add((inst, RDF.type, fso_element))
         graph.add((inst, RDF.type, mep))
 
 # IfcTank instances
 for element in tanks:
         inst = URIRef(NS_om + "inst_" + element.GlobalId.replace("$","_"))
         mep = URIRef(NS_mep + "Tank")
-        graph.add((inst, RDF.type, bot_element))
+        graph.add((inst, RDF.type, fso_element))
         graph.add((inst, RDF.type, mep))
 
 # IfcPump instances
 for element in pumps:
         inst = URIRef(NS_om + "inst_" + element.GlobalId.replace("$","_"))
         mep = URIRef(NS_mep + "Pump")
-        graph.add((inst, RDF.type, bot_element))
+        graph.add((inst, RDF.type, fso_element))
         graph.add((inst, RDF.type, mep))
 
 
@@ -209,35 +204,35 @@ for element in pumps:
 for element in heatexchangers:
         inst = URIRef(NS_om + "inst_" + element.GlobalId.replace("$","_"))
         mep = URIRef(NS_mep + "HeatExchanger")
-        graph.add((inst, RDF.type, bot_element))
+        graph.add((inst, RDF.type, fso_element))
         graph.add((inst, RDF.type, mep))
         
 # IfcSpaceHeater instances
 for element in spaceheaters:
         inst = URIRef(NS_om + "inst_" + element.GlobalId.replace("$","_"))
         mep = URIRef(NS_mep + "IfcSpaceHeater")
-        graph.add((inst, RDF.type, bot_element))
+        graph.add((inst, RDF.type, fso_element))
         graph.add((inst, RDF.type, mep))
 
 # IfcController instances
 for element in controllers:
         inst = URIRef(NS_om + "inst_" + element.GlobalId.replace("$","_"))
         mep = URIRef(NS_mep + "Controller")
-        graph.add((inst, RDF.type, bot_element))
+        graph.add((inst, RDF.type, fso_element))
         graph.add((inst, RDF.type, mep))
 
 # IfcUnitaryEquipment instances
 for element in unitaryequipment:
         inst = URIRef(NS_om + "inst_" + element.GlobalId.replace("$","_"))
         mep = URIRef(NS_mep + "UnitaryEquipment")
-        graph.add((inst, RDF.type, bot_element))
+        graph.add((inst, RDF.type, fso_element))
         graph.add((inst, RDF.type, mep))
 
 # IfcSensor instances
 for element in sensors:
         inst = URIRef(NS_om + "inst_" + element.GlobalId.replace("$","_"))
         mep = URIRef(NS_mep + "Sensor")
-        graph.add((inst, RDF.type, bot_element))
+        graph.add((inst, RDF.type, fso_element))
         graph.add((inst, RDF.type, mep))
 
 
@@ -245,14 +240,14 @@ for element in sensors:
 for element in pipesegments:
         inst = URIRef(NS_om + "inst_" + element.GlobalId.replace("$","_"))
         mep = URIRef(NS_mep + "PipeSegment")
-        graph.add((inst, RDF.type, bot_element))
+        graph.add((inst, RDF.type, fso_element))
         graph.add((inst, RDF.type, mep))
 
 # Pipefitting instances
 for element in pipefittings:
         inst = URIRef(NS_om + "inst_" + element.GlobalId.replace("$","_"))
         mep = URIRef(NS_mep + "PipeFitting")
-        graph.add((inst, RDF.type, bot_element))
+        graph.add((inst, RDF.type, fso_element))
         graph.add((inst, RDF.type, mep))
 
 
@@ -362,10 +357,10 @@ for space in spaces:
 for thermostat in thermostats:
         #Create the URIs using guid
         inst_thermostat = URIRef(NS_om + "inst_thermostat_" + thermostat.GlobalId.replace("$","_")[16:])
-        bot_element = URIRef(NS_bot + "Element")
+        fso_element = URIRef(NS_bot + "Element")
         brick_thermostat = URIRef(NS_brick + "Thermostat")
         # Create: inst_1234 a bot:element, brick:thermostat                          
-        graph.add((inst_thermostat, RDF.type, bot_element))
+        graph.add((inst_thermostat, RDF.type, fso_element))
         graph.add((inst_thermostat, RDF.type, brick_thermostat))
         # Thermostat-Space relationship
         try: 
@@ -391,14 +386,14 @@ for light in lights:
         zDim = light.Representation.Representations[1].Items[0].ZDim
         # Create instances
         inst_light_fixture = URIRef(NS_om + "inst_light_" + light.GlobalId.replace("$","_")[16:])
-        bot_element = URIRef(NS_bot + "Element")
+        fso_element = URIRef(NS_bot + "Element")
         brick_lighting = URIRef(NS_brick + "Lighting")
         bot_simple3d = URIRef(NS_bot + "hasSimple3DModel")      
         # The element below is an effort to represent the bbox as a 3D vector: see here --> https://datatracker.ietf.org/doc/html/rfc7946#section-5   
         geojson_rep = {"type":"FeatureCollection","bbox":[cpx,cpy,cpz,cpx+xDim,cpy+yDim,cpz+zDim]}
         inst_3d_rep = Literal(json.dumps(geojson_rep))
         # Add instances in the graph
-        graph.add((inst_light_fixture, RDF.type, bot_element))
+        graph.add((inst_light_fixture, RDF.type, fso_element))
         graph.add((inst_light_fixture, RDF.type, brick_lighting))
         graph.add((inst_light_fixture, bot_simple3d, inst_3d_rep))
 '''
