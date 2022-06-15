@@ -1,0 +1,26 @@
+@prefix fso: <http://www.w3id.org/fso#> .
+@prefix om: <http://openmetrics.eu/openmetrics#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+[] a sh:ValidationReport ;
+    sh:conforms false ;
+    sh:result [ a sh:ValidationResult ;
+            sh:focusNode om:inst_2eVCqj_0XAyh2oDdEscobw ;
+            sh:resultMessage "Less than 1 values on om:inst_2eVCqj_0XAyh2oDdEscobw->fso:connectedWith" ;
+            sh:resultPath fso:connectedWith ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:na3f4fc9e52da4d39ab4cbd890f3e4e09b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode om:inst_0VZk6NVn93Cx7YwaVImAnJ ;
+            sh:resultMessage "Less than 1 values on om:inst_0VZk6NVn93Cx7YwaVImAnJ->fso:connectedWith" ;
+            sh:resultPath fso:connectedWith ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:na3f4fc9e52da4d39ab4cbd890f3e4e09b3 ] .
+
+_:na3f4fc9e52da4d39ab4cbd890f3e4e09b3 sh:minCount 1 ;
+    sh:name "Tank is not connected with any other components" ;
+    sh:path fso:connectedWith .
+

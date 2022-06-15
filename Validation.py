@@ -40,3 +40,6 @@ nm = report_g.namespace_manager
 
 for s, p, o in sorted(report_g):
     print(s.n3(nm), p.n3(nm), o.n3(nm))
+
+
+report_g.serialize(destination="Validation_Report.ttl", format="turtle")
