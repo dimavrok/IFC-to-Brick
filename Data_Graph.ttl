@@ -3,515 +3,828 @@
 @prefix om: <http://openmetrics.eu/openmetrics#> .
 @prefix props: <https://w3id.org/props#> .
 
-om:inst_017WUZjPnF1RcjLmCulPwf a fso:Component,
+om:inst_0J2HntQTD0Cfj81Y7VmMte fso:hasComponent om:inst_00ypNIs4H5HPjD_CCNuvMo,
+        om:inst_08mFCiqgf3au1wqb4U1FBv,
+        om:inst_0Av3_Ao0DB_ON8QwK_6jSW,
+        om:inst_0J2HntQTD0Cfj81Y7VmMt0,
+        om:inst_0J2HntQTD0Cfj81Y7VmMt3,
+        om:inst_0J2HntQTD0Cfj81Y7VmMtg,
+        om:inst_0J2HntQTD0Cfj81Y7VmMtm,
+        om:inst_0J2HntQTD0Cfj81Y7VmMtn,
+        om:inst_0J2HntQTD0Cfj81Y7VmMtq,
+        om:inst_0J2HntQTD0Cfj81Y7VmMtr,
+        om:inst_0J2HntQTD0Cfj81Y7VmMts,
+        om:inst_0J2HntQTD0Cfj81Y7VmMtt,
+        om:inst_0JOAzmtLP8bv9G4H9OFAZR,
+        om:inst_0Pt1sdYWz8hPulK4zF8q_2,
+        om:inst_0X0T_l_MH4t9Y5p9QQx95A,
+        om:inst_0X0T_l_MH4t9Y5p9QQx96X,
+        om:inst_0X0T_l_MH4t9Y5p9QQx9Ry,
+        om:inst_0nPldqRsf8vxFB0_tyEeZf,
+        om:inst_0qrt87Ykb6tPi_6AcRe2RC,
+        om:inst_0zwVGp7QX76hbr_KBpXi9i,
+        om:inst_12Oo5Jjvz8CuDMxRZn2Qam,
+        om:inst_1HZ_B3V6TCzAZyDgw5xOZI,
+        om:inst_1MZxrb04n2AgT876cEbgpI,
+        om:inst_1Qu6Uie_9D4vBUN3v0f5pe,
+        om:inst_1SzoOtEI14SO6msoBtqqs0,
+        om:inst_1T4ixCfCnBhhsX9bxQmATM,
+        om:inst_1YAbEpxuXEhw_C_zsplPfr,
+        om:inst_1_NmWfbfL3S9RgMRSGmBiZ,
+        om:inst_1enk00uWbAfP2YtJifxtQQ,
+        om:inst_1kdHEWUpn08PwYrBbdJsIg,
+        om:inst_1kj84dm6r23AyoJxW6gbXe,
+        om:inst_1qSCXHNVjC8vxHuCW8242Q,
+        om:inst_1spz39vFjEAB5GrHnwmN6s,
+        om:inst_1t6oxwROP78RzECjz0XYU3,
+        om:inst_1tWBPyWV53Cu3aC1nq9kxJ,
+        om:inst_1tWBPyWV53Cu3aC1nq9kxS,
+        om:inst_1uSHPAG5z90B3ItwCuIjkd,
+        om:inst_1wUPxYAOLDBw0Iy0rtIB0G,
+        om:inst_22DsUawez6UPD23UMzYMbX,
+        om:inst_24DzrVKbj1j9lO_LlcnnLC,
+        om:inst_2G6jy8oIzAHObrN8X6a5RO,
+        om:inst_2Hbw_VQND9vBLbjnTv_iHQ,
+        om:inst_2UQJsET8P8jeMytzLXa_fu,
+        om:inst_2VMYmp5pv52B085yztHlQ2,
+        om:inst_2avJWZ6hTELg_evZJqM_IT,
+        om:inst_2avJWZ6hTELg_evZJqM_Ib,
+        om:inst_2avJWZ6hTELg_evZJqM_JJ,
+        om:inst_2avJWZ6hTELg_evZJqM_JN,
+        om:inst_2bJaCUQk18ygQpF6tHq4ys,
+        om:inst_2lbbffBnD29Au5DE2ulIVC,
+        om:inst_2ot6EndKzCsQz8BbZJBrwY,
+        om:inst_2pBQ81tnbClgF_DZo9HQlJ,
+        om:inst_2w_Anir8TF7OeyD7Y1Wnzw,
+        om:inst_35b_GWrdn2W9tAINNr4bA1,
+        om:inst_3GgrZZsrz5pfPfy38Cp_dA,
+        om:inst_3M8cJcwGT1uund52T1Sj0r,
+        om:inst_3Se9_t3Ov5bRnojEeqfqet,
+        om:inst_3Se9_t3Ov5bRnojEeqfqev,
+        om:inst_3Se9_t3Ov5bRnojEeqfqex,
+        om:inst_3Se9_t3Ov5bRnojEeqfqgy,
+        om:inst_3VHvkVxF58ghoXI5t0Ez64,
+        om:inst_3_eTRaonjCqv5ikzzcGBb1,
+        om:inst_3ekyVW63XFUvfY48d_qTwq,
+        om:inst_3mUHM42X55veEDGhGiZ0bE,
+        om:inst_3nSvy1b55EERIUa4z_WD7k,
+        om:inst_3qkaDaprfEwvGEJ_k7fScc,
+        om:inst_3wW8QrpJrApPLdCoo6FFDa,
+        om:inst_3xLI7lBKn62gLgipKThT3V,
+        om:inst_3yuSPSGJTAYhCQkq9hrX1B ;
+    props:hasName "M - Fresh Air - General" .
+
+om:inst_0VZk6NVn93Cx7YwaVImAnJ a fso:StorageDevice,
+        mep:Tank ;
+    props:hasGuid "0VZk6NVn93Cx7YwaVImAnJ" .
+
+om:inst_0dEFKdNSbC89HHvDCjPZnP a mep:Controller ;
+    props:hasGuid "0dEFKdNSbC89HHvDCjPZnP" .
+
+om:inst_2IZG0KtWj2_v81x_hPjXNG a fso:Terminal,
+        mep:LightFixture ;
+    props:hasGuid "2IZG0KtWj2_v81x_hPjXNG" .
+
+om:inst_2Z_Ljd6vf32uneDAxeD09K fso:hasComponent om:inst_02nXTqcgPDRfut_1d8_cws,
+        om:inst_0DrUzB_Nr1Xx5CMjgakOtZ,
+        om:inst_0JnwG94pj0Sfr4CtbCX2O8,
+        om:inst_0JnwG94pj0Sfr4CtbCX2QQ,
+        om:inst_0JnwG94pj0Sfr4CtbCX2Ry,
+        om:inst_0VcOyLEsf73A1EB2U8Gc_c,
+        om:inst_0X0vpVGjL1hv1wms_XceKX,
+        om:inst_0v2hd6Vcz6OQt44KzGOQ6B,
+        om:inst_1h_dfkkN17EwVcmcDnwIJH,
+        om:inst_1tWBPyWV53Cu3aC1nq9kbW,
+        om:inst_24FSZKBlr5Wg2tbhFWujv0,
+        om:inst_26gSXv3dP7TxpOtleMM7Bs,
+        om:inst_2Av4X6EJD0FRE3cW8wlQal,
+        om:inst_2EzKdfDnv0Sh6RKbgUtBOl,
+        om:inst_2HDVQ46qjFgQlMKN0Njp_R,
+        om:inst_2lPnmcc7zCjulxwQQRiD9w,
+        om:inst_2mrqByD8HE_BWVpa_uEya_,
+        om:inst_30ONvf4J12uOx8xtQJ_7kj,
+        om:inst_30qgNBfxrD2wG0oh3qMu_E,
+        om:inst_3wa_Wua69Bp9i_4fStNa6r,
+        om:inst_3ywDhlZfHF1OQ96cGksQRQ,
+        om:inst_3ywDhlZfHF1OQ96cGksQRR,
+        om:inst_3ywDhlZfHF1OQ96cGksQV1 ;
+    props:hasName "M - Exhaust Air - Toilet" .
+
+om:inst_2b7BtLw3PBnQPdlFH_R96n fso:hasComponent om:inst_1GSHX6l5X0oe9SG0jWGci6,
+        om:inst_2IaBNyIUH8hQKP7hab6M77,
+        om:inst_3DhiIWbuLFNAZg_ray4X0i ;
+    props:hasName "PH - Waste - Pumping Main" .
+
+om:inst_2eVCqj_0XAyh2oDdEscoYY fso:hasComponent om:inst_06TK5_rWfDjO2mpYArVbf6,
+        om:inst_0GnElXwgL1fOFxXI5HM_iy,
+        om:inst_0PyCORdnXBJApfGTEzeFoH,
+        om:inst_0Qj3GNHeLBjxwo5zvCphJV,
+        om:inst_0VZk6NVn93Cx7YwaVImAnH,
+        om:inst_0WlM7LCnHEThHTPIGMuUTN,
+        om:inst_0quvjN1Dn8kv_PCWewhfTa,
+        om:inst_0xvPNBIjP7_8K6PD4d9wC4,
+        om:inst_13l7t_3yDEjgkt1HxkjaIH,
+        om:inst_14ey2nRwzACBzjTShcRtnp,
+        om:inst_16m00S2GrAERaUCgUOCfPH,
+        om:inst_1IPkFG9lf6Wg2QAb_cUYaQ,
+        om:inst_1MvLQvHCz7MfXvhVQwldvn,
+        om:inst_1OGq0ycpTBa9VfshBLSinQ,
+        om:inst_1Pb7iGYGL6Bgj0_SLvK1LS,
+        om:inst_1R__DMQbjE9vhFTP98yRnF,
+        om:inst_1TrDiFaOnCK9x_CTlwKWzv,
+        om:inst_1W7t3bDd57bumFWqlaR_KK,
+        om:inst_1YtWBZ7cn5QRUrxFLvavhE,
+        om:inst_1_CYm7tgf36OytFQPXOdVd,
+        om:inst_1l8wLvis13tg0h2zgM1LTZ,
+        om:inst_1pIXxapaPAfuQ0HGP8CyKk,
+        om:inst_1zkxNqaYX72BeaPEccjC2e,
+        om:inst_21ULZkQMr4ePcwsRxt5hOC,
+        om:inst_23i1vZHiz1HOS71_rDRBDV,
+        om:inst_27CNjaBB9EMwEU56iPSjS8,
+        om:inst_29tsAS_Or6n8eSOg8ycy37,
+        om:inst_2DLfsraVzA_u6zMp6GZKxt,
+        om:inst_2NPtdrjYrBsx97pfAztSvc,
+        om:inst_2RM6Mtl8f9pRed_kqdhfmI,
+        om:inst_2_6CadziTFwRnePEPxQPmm,
+        om:inst_2_ZBILGEvFu8Swz8KRlff7,
+        om:inst_2ba0cELJzEjvqTjl_091Q_,
+        om:inst_2c05WL8P5FkQTuSDaN32_R,
+        om:inst_2dag_9_XP9ZORXfAiBg4cY,
+        om:inst_2eVCqj_0XAyh2oDdEscoYp,
+        om:inst_2eVCqj_0XAyh2oDdEscoYq,
+        om:inst_2eVCqj_0XAyh2oDdEscoYv,
+        om:inst_2eVCqj_0XAyh2oDdEscoYx,
+        om:inst_2eVCqj_0XAyh2oDdEscoYy,
+        om:inst_2eVCqj_0XAyh2oDdEscob3,
+        om:inst_2eVCqj_0XAyh2oDdEscob6,
+        om:inst_2eVCqj_0XAyh2oDdEscob9,
+        om:inst_2eVCqj_0XAyh2oDdEscobC,
+        om:inst_2eVCqj_0XAyh2oDdEscobF,
+        om:inst_2eVCqj_0XAyh2oDdEscobH,
+        om:inst_2eVCqj_0XAyh2oDdEscobK,
+        om:inst_2eVCqj_0XAyh2oDdEscobN,
+        om:inst_2eVCqj_0XAyh2oDdEscobT,
+        om:inst_2eVCqj_0XAyh2oDdEscobU,
+        om:inst_2eVCqj_0XAyh2oDdEscob_,
+        om:inst_2eVCqj_0XAyh2oDdEscoba,
+        om:inst_2eVCqj_0XAyh2oDdEscobk,
+        om:inst_2eVCqj_0XAyh2oDdEsczQC,
+        om:inst_2eVCqj_0XAyh2oDdEsczQM,
+        om:inst_2hhNr_fKrBxfwAM4W91kb_,
+        om:inst_2l1le3yY9FAPHgPbegwfjB,
+        om:inst_2r6j6DDVP81A_7vNSvzF66,
+        om:inst_3DQ0HwnzTAfwDfkXL86My9,
+        om:inst_3F5TaVZ6H1w8Of4RxXa_y7,
+        om:inst_3Gp_jRNU50UR9y8xwWmJf4,
+        om:inst_3MJxuZ_19AnPdkZGt4t86p,
+        om:inst_3QJW0g0jz1U9F2YAVu4B5g,
+        om:inst_3cPtrkQp99lQaGm9tDuwxd,
+        om:inst_3hVZTQenPCDPZMJhgp6vuP,
+        om:inst_3w8zckZiX4iAix7DNHiMmY ;
+    props:hasName "Pr - Reverse Osmosis" .
+
+om:inst_2eVCqj_0XAyh2oDdEscobs a fso:EnergyConversionDevice,
+        mep:HeatExchanger ;
+    props:hasGuid "2eVCqj$0XAyh2oDdEscobs" .
+
+om:inst_2eVCqj_0XAyh2oDdEscobw a fso:StorageDevice,
+        mep:Tank ;
+    props:hasGuid "2eVCqj$0XAyh2oDdEscobw" .
+
+om:inst_3Yxt8RFQP1d9W6ZFfBx_dc a mep:Sensor ;
+    props:hasGuid "3Yxt8RFQP1d9W6ZFfBx$dc" .
+
+om:inst_3_LcjD3fH5HBhSwnpD2YoZ fso:hasComponent om:inst_017WUZjPnF1RcjLmCulPu1,
+        om:inst_017WUZjPnF1RcjLmCulPvM,
+        om:inst_017WUZjPnF1RcjLmCulPvt,
+        om:inst_017WUZjPnF1RcjLmCulPwf,
+        om:inst_017WUZjPnF1RcjLmCulPws,
+        om:inst_017WUZjPnF1RcjLmCulPz3,
+        om:inst_017WUZjPnF1RcjLmCulPzU,
+        om:inst_017WUZjPnF1RcjLmCulPzy,
+        om:inst_017WUZjPnF1RcjLmCulU08,
+        om:inst_04kFtql0r4IutCjJYAgGDp,
+        om:inst_08UhEBzQb0tBBmWifuiIWu,
+        om:inst_09_fK5UiDF0gFZJ7_MyEy6,
+        om:inst_0A3bp80evDlgzuaOXqlHFq,
+        om:inst_0BA5DxOQz18Ozq_ukBNRqB,
+        om:inst_0I9jKv_kfDJAyDS_NcT8eP,
+        om:inst_0NPWen_GPE28xIlhUZBzqB,
+        om:inst_0VWLs_ukH038_7ZTHB584A,
+        om:inst_0WCWG7uJf9MOZLBuTMXJJ0,
+        om:inst_0Xn2tw8ETEkhTNkJzNgqU3,
+        om:inst_0ZxQ6L_uL9JOX3loUtHgw9,
+        om:inst_0_VvLx1KXDBRAQsVA58Po0,
+        om:inst_0___6xnf51Re9mFagqlbWB,
+        om:inst_0___6xnf51Re9mFagqlbXM,
+        om:inst_0___6xnf51Re9mFagqlbXN,
+        om:inst_0___6xnf51Re9mFagqlb_F,
+        om:inst_0___6xnf51Re9mFagqlbxq,
+        om:inst_0dSO9MN8D029vWhlN9_wR_,
+        om:inst_0hDSeiv5X1ZAB_KGw5TcFD,
+        om:inst_0iJf_SlYj52AoJJ2gYUQGy,
+        om:inst_0j6qbB4HL9dg_2sKPFb9Xf,
+        om:inst_0qlPYqclnFHgJI7gkNw9OZ,
+        om:inst_0tiYSzUFrA3e_Wuuw5BbsA,
+        om:inst_0vLsQfA0T7hBLdVttQpPGi,
+        om:inst_0wq3NJ7sD84RCfZQlMNlIh,
+        om:inst_0xr1epytv3FPmK3NCM8sbx,
+        om:inst_1CHBf53jXF5OV60fDe_eTm,
+        om:inst_1Cd1eLguX7fvyux0p4EjaW,
+        om:inst_1CkYY1G7X9A87bCokr6oGt,
+        om:inst_1DgYArSbT4L9KyvibtU07F,
+        om:inst_1Fi2ZJz4vBYw0owOsQLYYz,
+        om:inst_1GPPlBjwrDnh1zNNXY4GlP,
+        om:inst_1Hpbd5bKb0QR5VDF8Y5oRR,
+        om:inst_1KpHzaq3108QQm093t1uuY,
+        om:inst_1RMFM77KTDeQttgqng0Gux,
+        om:inst_1TsE8vb1D2NfvkuJuWBpQF,
+        om:inst_1_iN2s5UbFu9gTRuls2XJK,
+        om:inst_1_rw25VZXEpul6EQwUqvsL,
+        om:inst_1cFTif2aj9EuaAq2lt_y3V,
+        om:inst_1g9CyfYqb3Lx3XPUB_RK2n,
+        om:inst_1hoELFoCH2mQTajH45wwf8,
+        om:inst_1jr3M_m4r4UfcKsqnzK3u3,
+        om:inst_1s4uQnz5D3I8o1RMPushJj,
+        om:inst_1tV9iOxiz2EgPFVFanQJXE,
+        om:inst_1v1vrDVtv5mOLkejNMON_R,
+        om:inst_1yHkGhWg9A9hDhc2VyR81p,
+        om:inst_1yHkGhWg9A9hDhc2VyR81v,
+        om:inst_1yHkGhWg9A9hDhc2VyR824,
+        om:inst_1yHkGhWg9A9hDhc2VyR8Aw,
+        om:inst_2BX_heWuTC4e8MECy7XkU3,
+        om:inst_2CCaPjbYb8jf2zGvE8ABZE,
+        om:inst_2FlZh9S2LBAvddEkSW9sW6,
+        om:inst_2Fp3sec7f1sgULPNH4ewId,
+        om:inst_2GRS7CxJLCkfmcW6Qu93h1,
+        om:inst_2HqlMSZqH959rPlxa8ZdGX,
+        om:inst_2KyWaf7jX5CQYBAuZJdkDK,
+        om:inst_2R7__X9r181ArcBC0keq8X,
+        om:inst_2RC1cP9kXDgxGfGrkyKw99,
+        om:inst_2UsR0D3h93ExaJZuBGEToj,
+        om:inst_2Wma5wjXnEsQ3BB9aXunYR,
+        om:inst_2X4TgfSoDFyRUAJL4pEs4E,
+        om:inst_2_Ja_yW_98NAe3gYYilw3a,
+        om:inst_2blOxXvUzFGuvkYcbNYTw7,
+        om:inst_2blOxXvUzFGuvkYcbNYTwX,
+        om:inst_2gYSpM_Cv9Eeh_n6Cvo4_C,
+        om:inst_2iIxvV3iPDyRi2IekNEH9B,
+        om:inst_2mFQIUo_HA7xtydBrFjaQp,
+        om:inst_2oRNYihqDCmuTqFLviCnZ3,
+        om:inst_2pGX3U8OX8efs07dzAxsoN,
+        om:inst_2q_1unMYv6awDiO9wGSiYf,
+        om:inst_2qvcGP8mbBK8HWxRa3SBU3,
+        om:inst_2rZ8OpCiHESfPYAwf58AFe,
+        om:inst_2wXlj5x_XAJAmwoQE_fXpd,
+        om:inst_2y6Amr9816pA8zfOJsH40A,
+        om:inst_2y6Amr9816pA8zfOJsH41W,
+        om:inst_2y6Amr9816pA8zfOJsH43m,
+        om:inst_2y6Amr9816pA8zfOJsH4E7,
+        om:inst_2y6Amr9816pA8zfOJsH4EK,
+        om:inst_2zouN1iSrDmeP_pBXrBwRl,
+        om:inst_34WF6PEY16HRYL1wZ5lahR,
+        om:inst_37Ohu6RBLAjvNxzOb0bECP,
+        om:inst_3DhiIWbuLFNAZg_ray4X06,
+        om:inst_3DhiIWbuLFNAZg_ray4X08,
+        om:inst_3DhiIWbuLFNAZg_ray4X0P,
+        om:inst_3DhiIWbuLFNAZg_ray4X1H,
+        om:inst_3DhiIWbuLFNAZg_ray4XEW,
+        om:inst_3DhiIWbuLFNAZg_ray4XEq,
+        om:inst_3DhiIWbuLFNAZg_ray4XEu,
+        om:inst_3E1ZdZuhT0FP__eoUYx_HW,
+        om:inst_3FuzSYLeT9bOYhyHb4R8jr,
+        om:inst_3GjvFN1uT7dwkf7Haba7n8,
+        om:inst_3HYUGllqb2ofEsNV8T9DDf,
+        om:inst_3TkTkJpVj8RxruDPZ7stpU,
+        om:inst_3WbgXn7u18VABzl2_K305C,
+        om:inst_3ZFQIQw_97dfZK27Pz48pw,
+        om:inst_3Zhvc9a_fDa8smR_d8t_Xq,
+        om:inst_3azR3VHfb3EQ4JtVZXJri8,
+        om:inst_3azR3VHfb3EQ4JtVZXJriB,
+        om:inst_3azR3VHfb3EQ4JtVZXJriG,
+        om:inst_3c2CJOd3fAD94wzYvdqx9j,
+        om:inst_3kWdSpNAzFTxdfXqCScmZp,
+        om:inst_3nvZ_eG79E4AIoR_VtzIol,
+        om:inst_3tKWY5r2TC2vhB_VVHCvgZ,
+        om:inst_3uj2uzqu11dewSdIFcw2Pc ;
+    props:hasName "PH - Waste - Foul Water - Above Ground" .
+
+om:inst_3ywDhlZfHF1OQ96cGksQPe fso:hasComponent om:inst_0ETDIgEQjFrewx5vxAemsV,
+        om:inst_0JnwG94pj0Sfr4CtbCX24b,
+        om:inst_0JnwG94pj0Sfr4CtbCX24c,
+        om:inst_0JnwG94pj0Sfr4CtbCX26p,
+        om:inst_0JrLG4UWj9Hxedzz_W3MZr,
+        om:inst_0Mws5dwf53Zv3SeXc8EXLj,
+        om:inst_0ScO_RUf94nAymTHP50eN3,
+        om:inst_0oaopAe8f1u8_G_6ArakRD,
+        om:inst_124GmxMbj0kvw7b7Gl921G,
+        om:inst_14aLuRP9HDNvsYDjDLwZsi,
+        om:inst_14aLuRP9HDNvsYDjDLwZtT,
+        om:inst_19k4dLZ6v3vvfmmSg7cOmH,
+        om:inst_1AxVPs3Yz01w0bvS2aJgJQ,
+        om:inst_1H8H7JSa53FBvs7TGGdUFF,
+        om:inst_1HaqGqepH4lPCsqTAAOcU9,
+        om:inst_1w61d55Hj9YgbXEbS9S_vN,
+        om:inst_26gSXv3dP7TxpOtleMM7CJ,
+        om:inst_26gSXv3dP7TxpOtleMM7Fi,
+        om:inst_27xGhmFIz3uRkc_h3A6cDC,
+        om:inst_299vy3gKnANhiF41WrBYjd,
+        om:inst_2W_rvdyIPF8PS65di_cFVX,
+        om:inst_3FRyP_WrD0Q9QECLwXNiBk,
+        om:inst_3bcVoy8793DeQUg3sMbwi0,
+        om:inst_3bfXVT1Az5pgND_WNXJhWd,
+        om:inst_3tTXv3mNz2nxdX2qeRdmoq,
+        om:inst_3vjpOJV75BpxkuziMH_NTY,
+        om:inst_3ywDhlZfHF1OQ96cGksQRs,
+        om:inst_3ywDhlZfHF1OQ96cGksQRt,
+        om:inst_3ywDhlZfHF1OQ96cGksQV1 ;
+    props:hasName "M - Exhaust Air - Toilet" .
+
+om:inst_017WUZjPnF1RcjLmCulPwf a fso:Fitting,
         mep:PipeFitting ;
     fso:connectedWith om:inst_017WUZjPnF1RcjLmCulPws,
         om:inst_017WUZjPnF1RcjLmCulU08 ;
     props:hasGuid "017WUZjPnF1RcjLmCulPwf" .
 
-om:inst_017WUZjPnF1RcjLmCulPzU a fso:Component,
+om:inst_017WUZjPnF1RcjLmCulPzU a fso:Fitting,
         mep:PipeFitting ;
     fso:connectedWith om:inst_017WUZjPnF1RcjLmCulPvM,
         om:inst_017WUZjPnF1RcjLmCulPvt ;
     props:hasGuid "017WUZjPnF1RcjLmCulPzU" .
 
-om:inst_0J2HntQTD0Cfj81Y7VmMtg a fso:Component,
+om:inst_0J2HntQTD0Cfj81Y7VmMtg a fso:Fitting,
         mep:DuctFitting ;
     fso:connectedWith om:inst_0J2HntQTD0Cfj81Y7VmMt0,
         om:inst_0J2HntQTD0Cfj81Y7VmMtq ;
     props:hasGuid "0J2HntQTD0Cfj81Y7VmMtg" .
 
-om:inst_0J2HntQTD0Cfj81Y7VmMtn a fso:Component,
+om:inst_0J2HntQTD0Cfj81Y7VmMtn a fso:Fitting,
         mep:DuctFitting ;
     fso:connectedWith om:inst_0J2HntQTD0Cfj81Y7VmMtm ;
     props:hasGuid "0J2HntQTD0Cfj81Y7VmMtn" .
 
-om:inst_0VZk6NVn93Cx7YwaVImAnJ a fso:Component,
-        mep:Tank ;
-    props:hasGuid "0VZk6NVn93Cx7YwaVImAnJ" .
-
-om:inst_0___6xnf51Re9mFagqlbWB a fso:Component,
+om:inst_0___6xnf51Re9mFagqlbWB a fso:Fitting,
         mep:PipeFitting ;
     fso:connectedWith om:inst_0___6xnf51Re9mFagqlbxq ;
     props:hasGuid "0__$6xnf51Re9mFagqlbWB" .
 
-om:inst_0___6xnf51Re9mFagqlbXM a fso:Component,
+om:inst_0___6xnf51Re9mFagqlbXM a fso:Segment,
         mep:PipeSegment ;
     fso:connectedWith om:inst_0___6xnf51Re9mFagqlbXN,
         om:inst_1yHkGhWg9A9hDhc2VyR8Aw ;
     props:hasGuid "0__$6xnf51Re9mFagqlbXM" .
 
-om:inst_0dEFKdNSbC89HHvDCjPZnP a fso:Component,
-        mep:Controller ;
-    props:hasGuid "0dEFKdNSbC89HHvDCjPZnP" .
-
-om:inst_1KpHzaq3108QQm093t1uuY a fso:Component,
+om:inst_1KpHzaq3108QQm093t1uuY a fso:Fitting,
         mep:PipeFitting ;
     fso:connectedWith om:inst_017WUZjPnF1RcjLmCulPzy ;
     props:hasGuid "1KpHzaq3108QQm093t1uuY" .
 
-om:inst_1_rw25VZXEpul6EQwUqvsL a fso:Component,
+om:inst_1_rw25VZXEpul6EQwUqvsL a fso:Fitting,
         mep:PipeFitting ;
     fso:connectedWith om:inst_1yHkGhWg9A9hDhc2VyR81p,
         om:inst_3azR3VHfb3EQ4JtVZXJriB ;
     props:hasGuid "1$rw25VZXEpul6EQwUqvsL" .
 
-om:inst_1tWBPyWV53Cu3aC1nq9kbW a fso:Component,
+om:inst_1tWBPyWV53Cu3aC1nq9kbW a fso:TreatmentDevice,
         mep:DuctSilencer ;
     fso:connectedWith om:inst_0JnwG94pj0Sfr4CtbCX2Ry ;
     props:hasGuid "1tWBPyWV53Cu3aC1nq9kbW" .
 
-om:inst_1tWBPyWV53Cu3aC1nq9kxS a fso:Component,
+om:inst_1tWBPyWV53Cu3aC1nq9kxS a fso:Segment,
         mep:DuctSegment ;
     fso:connectedWith om:inst_0J2HntQTD0Cfj81Y7VmMtr,
         om:inst_1tWBPyWV53Cu3aC1nq9kxJ ;
     props:hasGuid "1tWBPyWV53Cu3aC1nq9kxS" .
 
-om:inst_2IZG0KtWj2_v81x_hPjXNG a fso:Component,
-        mep:LightFixture ;
-    props:hasGuid "2IZG0KtWj2_v81x_hPjXNG" .
-
-om:inst_2avJWZ6hTELg_evZJqM_IT a fso:Component,
+om:inst_2avJWZ6hTELg_evZJqM_IT a fso:Fitting,
         mep:DuctFitting ;
     fso:connectedWith om:inst_3mUHM42X55veEDGhGiZ0bE ;
     props:hasGuid "2avJWZ6hTELg_evZJqM_IT" .
 
-om:inst_2avJWZ6hTELg_evZJqM_Ib a fso:Component,
+om:inst_2avJWZ6hTELg_evZJqM_Ib a fso:Fitting,
         mep:DuctFitting ;
     fso:connectedWith om:inst_0J2HntQTD0Cfj81Y7VmMt3,
         om:inst_0X0T_l_MH4t9Y5p9QQx96X ;
     props:hasGuid "2avJWZ6hTELg_evZJqM_Ib" .
 
-om:inst_2avJWZ6hTELg_evZJqM_JJ a fso:Component,
+om:inst_2avJWZ6hTELg_evZJqM_JJ a fso:Segment,
         mep:DuctSegment ;
     fso:connectedWith om:inst_0X0T_l_MH4t9Y5p9QQx95A,
         om:inst_2avJWZ6hTELg_evZJqM_JN ;
     props:hasGuid "2avJWZ6hTELg_evZJqM_JJ" .
 
-om:inst_2eVCqj_0XAyh2oDdEscoYy a fso:Component,
+om:inst_2eVCqj_0XAyh2oDdEscoYy a fso:Segment,
         mep:PipeSegment ;
     fso:connectedWith om:inst_2eVCqj_0XAyh2oDdEscoYx,
         om:inst_2eVCqj_0XAyh2oDdEscobT ;
     props:hasGuid "2eVCqj$0XAyh2oDdEscoYy" .
 
-om:inst_2eVCqj_0XAyh2oDdEscob3 a fso:Component,
+om:inst_2eVCqj_0XAyh2oDdEscob3 a fso:Fitting,
         mep:PipeFitting ;
     fso:connectedWith om:inst_2eVCqj_0XAyh2oDdEscobN,
         om:inst_2eVCqj_0XAyh2oDdEscobU ;
     props:hasGuid "2eVCqj$0XAyh2oDdEscob3" .
 
-om:inst_2eVCqj_0XAyh2oDdEscob6 a fso:Component,
+om:inst_2eVCqj_0XAyh2oDdEscob6 a fso:Fitting,
         mep:PipeFitting ;
     fso:connectedWith om:inst_2eVCqj_0XAyh2oDdEscobK,
         om:inst_2eVCqj_0XAyh2oDdEscobN ;
     props:hasGuid "2eVCqj$0XAyh2oDdEscob6" .
 
-om:inst_2eVCqj_0XAyh2oDdEscobs a fso:Component,
-        mep:HeatExchanger ;
-    props:hasGuid "2eVCqj$0XAyh2oDdEscobs" .
-
-om:inst_2eVCqj_0XAyh2oDdEscobw a fso:Component,
-        mep:Tank ;
-    props:hasGuid "2eVCqj$0XAyh2oDdEscobw" .
-
-om:inst_2eVCqj_0XAyh2oDdEsczQC a fso:Component,
+om:inst_2eVCqj_0XAyh2oDdEsczQC a fso:Fitting,
         mep:PipeFitting ;
     fso:connectedWith om:inst_2eVCqj_0XAyh2oDdEscoYq,
         om:inst_2eVCqj_0XAyh2oDdEscoba ;
     props:hasGuid "2eVCqj$0XAyh2oDdEsczQC" .
 
-om:inst_2eVCqj_0XAyh2oDdEsczQM a fso:Component,
+om:inst_2eVCqj_0XAyh2oDdEsczQM a fso:Fitting,
         mep:PipeFitting ;
     fso:connectedWith om:inst_2eVCqj_0XAyh2oDdEscoYv,
         om:inst_2eVCqj_0XAyh2oDdEscobk ;
     props:hasGuid "2eVCqj$0XAyh2oDdEsczQM" .
 
-om:inst_2y6Amr9816pA8zfOJsH4E7 a fso:Component,
+om:inst_2y6Amr9816pA8zfOJsH4E7 a fso:Fitting,
         mep:PipeFitting ;
     fso:connectedWith om:inst_2y6Amr9816pA8zfOJsH4EK ;
     props:hasGuid "2y6Amr9816pA8zfOJsH4E7" .
 
-om:inst_3DhiIWbuLFNAZg_ray4X0P a fso:Component,
+om:inst_3DhiIWbuLFNAZg_ray4X0P a fso:Segment,
         mep:PipeSegment ;
     fso:connectedWith om:inst_2blOxXvUzFGuvkYcbNYTw7,
         om:inst_3DhiIWbuLFNAZg_ray4X06 ;
     props:hasGuid "3DhiIWbuLFNAZg$ray4X0P" .
 
-om:inst_3DhiIWbuLFNAZg_ray4X0i a fso:Component,
+om:inst_3DhiIWbuLFNAZg_ray4X0i a fso:Segment,
         mep:PipeSegment ;
     props:hasGuid "3DhiIWbuLFNAZg$ray4X0i" .
 
-om:inst_3DhiIWbuLFNAZg_ray4XEq a fso:Component,
+om:inst_3DhiIWbuLFNAZg_ray4XEq a fso:Fitting,
         mep:PipeFitting ;
     fso:connectedWith om:inst_3DhiIWbuLFNAZg_ray4X1H,
         om:inst_3DhiIWbuLFNAZg_ray4XEW ;
     props:hasGuid "3DhiIWbuLFNAZg$ray4XEq" .
 
-om:inst_3DhiIWbuLFNAZg_ray4XEu a fso:Component,
+om:inst_3DhiIWbuLFNAZg_ray4XEu a fso:Fitting,
         mep:PipeFitting ;
     fso:connectedWith om:inst_3DhiIWbuLFNAZg_ray4XEW ;
     props:hasGuid "3DhiIWbuLFNAZg$ray4XEu" .
 
-om:inst_3Se9_t3Ov5bRnojEeqfqet a fso:Component,
+om:inst_3Se9_t3Ov5bRnojEeqfqet a fso:Fitting,
         mep:DuctFitting ;
     fso:connectedWith om:inst_0J2HntQTD0Cfj81Y7VmMts,
         om:inst_3Se9_t3Ov5bRnojEeqfqgy ;
     props:hasGuid "3Se9$t3Ov5bRnojEeqfqet" .
 
-om:inst_3Se9_t3Ov5bRnojEeqfqev a fso:Component,
+om:inst_3Se9_t3Ov5bRnojEeqfqev a fso:Fitting,
         mep:DuctFitting ;
     fso:connectedWith om:inst_0J2HntQTD0Cfj81Y7VmMtt,
         om:inst_3Se9_t3Ov5bRnojEeqfqgy ;
     props:hasGuid "3Se9$t3Ov5bRnojEeqfqev" .
 
-om:inst_3Se9_t3Ov5bRnojEeqfqex a fso:Component,
+om:inst_3Se9_t3Ov5bRnojEeqfqex a fso:Fitting,
         mep:DuctFitting ;
     fso:connectedWith om:inst_0J2HntQTD0Cfj81Y7VmMt0,
         om:inst_0X0T_l_MH4t9Y5p9QQx9Ry ;
     props:hasGuid "3Se9$t3Ov5bRnojEeqfqex" .
 
-om:inst_3Yxt8RFQP1d9W6ZFfBx_dc a fso:Component,
-        mep:Sensor ;
-    props:hasGuid "3Yxt8RFQP1d9W6ZFfBx$dc" .
-
-om:inst_017WUZjPnF1RcjLmCulPu1 a fso:Component,
+om:inst_017WUZjPnF1RcjLmCulPu1 a fso:Fitting,
         mep:PipeFitting ;
     fso:connectedWith om:inst_017WUZjPnF1RcjLmCulPws ;
     props:hasGuid "017WUZjPnF1RcjLmCulPu1" .
 
-om:inst_017WUZjPnF1RcjLmCulPvM a fso:Component,
+om:inst_017WUZjPnF1RcjLmCulPvM a fso:Segment,
         mep:PipeSegment ;
     fso:connectedWith om:inst_017WUZjPnF1RcjLmCulPu1 ;
     props:hasGuid "017WUZjPnF1RcjLmCulPvM" .
 
-om:inst_017WUZjPnF1RcjLmCulPz3 a fso:Component,
+om:inst_017WUZjPnF1RcjLmCulPz3 a fso:Fitting,
         mep:PipeFitting ;
     fso:connectedWith om:inst_017WUZjPnF1RcjLmCulPvt,
         om:inst_1yHkGhWg9A9hDhc2VyR824 ;
     props:hasGuid "017WUZjPnF1RcjLmCulPz3" .
 
-om:inst_017WUZjPnF1RcjLmCulPzy a fso:Component,
+om:inst_017WUZjPnF1RcjLmCulPzy a fso:Segment,
         mep:PipeSegment ;
     fso:connectedWith om:inst_017WUZjPnF1RcjLmCulPz3 ;
     props:hasGuid "017WUZjPnF1RcjLmCulPzy" .
 
-om:inst_017WUZjPnF1RcjLmCulU08 a fso:Component,
+om:inst_017WUZjPnF1RcjLmCulU08 a fso:Segment,
         mep:PipeSegment ;
     props:hasGuid "017WUZjPnF1RcjLmCulU08" .
 
-om:inst_0J2HntQTD0Cfj81Y7VmMtr a fso:Component,
+om:inst_0J2HntQTD0Cfj81Y7VmMtr a fso:Fitting,
         mep:DuctFitting ;
     fso:connectedWith om:inst_0J2HntQTD0Cfj81Y7VmMts ;
     props:hasGuid "0J2HntQTD0Cfj81Y7VmMtr" .
 
-om:inst_0J2HntQTD0Cfj81Y7VmMtt a fso:Component,
+om:inst_0J2HntQTD0Cfj81Y7VmMtt a fso:Fitting,
         mep:DuctFitting ;
     fso:connectedWith om:inst_0J2HntQTD0Cfj81Y7VmMtm ;
     props:hasGuid "0J2HntQTD0Cfj81Y7VmMtt" .
 
-om:inst_0JnwG94pj0Sfr4CtbCX24b a fso:Component,
+om:inst_0JnwG94pj0Sfr4CtbCX24b a fso:Fitting,
         mep:DuctFitting ;
     fso:connectedWith om:inst_14aLuRP9HDNvsYDjDLwZsi ;
     props:hasGuid "0JnwG94pj0Sfr4CtbCX24b" .
 
-om:inst_0JnwG94pj0Sfr4CtbCX24c a fso:Component,
+om:inst_0JnwG94pj0Sfr4CtbCX24c a fso:Fitting,
         mep:DuctFitting ;
     fso:connectedWith om:inst_26gSXv3dP7TxpOtleMM7CJ ;
     props:hasGuid "0JnwG94pj0Sfr4CtbCX24c" .
 
-om:inst_0JnwG94pj0Sfr4CtbCX26p a fso:Component,
+om:inst_0JnwG94pj0Sfr4CtbCX26p a fso:Segment,
         mep:DuctSegment ;
     fso:connectedWith om:inst_0JnwG94pj0Sfr4CtbCX24b ;
     props:hasGuid "0JnwG94pj0Sfr4CtbCX26p" .
 
-om:inst_0JnwG94pj0Sfr4CtbCX2O8 a fso:Component,
+om:inst_0JnwG94pj0Sfr4CtbCX2O8 a fso:Fitting,
         mep:DuctFitting ;
     fso:connectedWith om:inst_0JnwG94pj0Sfr4CtbCX2QQ ;
     props:hasGuid "0JnwG94pj0Sfr4CtbCX2O8" .
 
-om:inst_0JnwG94pj0Sfr4CtbCX2QQ a fso:Component,
+om:inst_0JnwG94pj0Sfr4CtbCX2QQ a fso:Segment,
         mep:DuctSegment ;
     fso:connectedWith om:inst_3ywDhlZfHF1OQ96cGksQRQ ;
     props:hasGuid "0JnwG94pj0Sfr4CtbCX2QQ" .
 
-om:inst_0JnwG94pj0Sfr4CtbCX2Ry a fso:Component,
+om:inst_0JnwG94pj0Sfr4CtbCX2Ry a fso:Segment,
         mep:DuctSegment ;
     fso:connectedWith om:inst_0JnwG94pj0Sfr4CtbCX2O8 ;
     props:hasGuid "0JnwG94pj0Sfr4CtbCX2Ry" .
 
-om:inst_0VZk6NVn93Cx7YwaVImAnH a fso:Component,
+om:inst_0VZk6NVn93Cx7YwaVImAnH a fso:FlowMovingDevice,
         mep:Pump ;
     fso:connectedWith om:inst_2eVCqj_0XAyh2oDdEscoba ;
     props:hasGuid "0VZk6NVn93Cx7YwaVImAnH" .
 
-om:inst_0X0T_l_MH4t9Y5p9QQx95A a fso:Component,
+om:inst_0X0T_l_MH4t9Y5p9QQx95A a fso:Fitting,
         mep:DuctFitting ;
     fso:connectedWith om:inst_0X0T_l_MH4t9Y5p9QQx96X ;
     props:hasGuid "0X0T_l$MH4t9Y5p9QQx95A" .
 
-om:inst_0X0T_l_MH4t9Y5p9QQx9Ry a fso:Component,
+om:inst_0X0T_l_MH4t9Y5p9QQx9Ry a fso:Fitting,
         mep:DuctFitting ;
     fso:connectedWith om:inst_0J2HntQTD0Cfj81Y7VmMt3 ;
     props:hasGuid "0X0T_l$MH4t9Y5p9QQx9Ry" .
 
-om:inst_0___6xnf51Re9mFagqlb_F a fso:Component,
+om:inst_0___6xnf51Re9mFagqlb_F a fso:Segment,
         mep:PipeSegment ;
     fso:connectedWith om:inst_1yHkGhWg9A9hDhc2VyR81v ;
     props:hasGuid "0__$6xnf51Re9mFagqlb$F" .
 
-om:inst_0___6xnf51Re9mFagqlbxq a fso:Component,
+om:inst_0___6xnf51Re9mFagqlbxq a fso:Segment,
         mep:PipeSegment ;
     fso:connectedWith om:inst_0___6xnf51Re9mFagqlbXN ;
     props:hasGuid "0__$6xnf51Re9mFagqlbxq" .
 
-om:inst_14aLuRP9HDNvsYDjDLwZsi a fso:Component,
+om:inst_14aLuRP9HDNvsYDjDLwZsi a fso:Segment,
         mep:DuctSegment ;
     fso:connectedWith om:inst_0JnwG94pj0Sfr4CtbCX24c ;
     props:hasGuid "14aLuRP9HDNvsYDjDLwZsi" .
 
-om:inst_14aLuRP9HDNvsYDjDLwZtT a fso:Component,
+om:inst_14aLuRP9HDNvsYDjDLwZtT a fso:Segment,
         mep:DuctSegment ;
     fso:connectedWith om:inst_3ywDhlZfHF1OQ96cGksQRs ;
     props:hasGuid "14aLuRP9HDNvsYDjDLwZtT" .
 
-om:inst_1tWBPyWV53Cu3aC1nq9kxJ a fso:Component,
+om:inst_1tWBPyWV53Cu3aC1nq9kxJ a fso:TreatmentDevice,
         mep:DuctSilencer ;
     fso:connectedWith om:inst_0J2HntQTD0Cfj81Y7VmMtq ;
     props:hasGuid "1tWBPyWV53Cu3aC1nq9kxJ" .
 
-om:inst_1yHkGhWg9A9hDhc2VyR81v a fso:Component,
+om:inst_1yHkGhWg9A9hDhc2VyR81v a fso:Fitting,
         mep:PipeFitting ;
     fso:connectedWith om:inst_1yHkGhWg9A9hDhc2VyR824 ;
     props:hasGuid "1yHkGhWg9A9hDhc2VyR81v" .
 
-om:inst_1yHkGhWg9A9hDhc2VyR8Aw a fso:Component,
+om:inst_1yHkGhWg9A9hDhc2VyR8Aw a fso:Fitting,
         mep:PipeFitting ;
     fso:connectedWith om:inst_1yHkGhWg9A9hDhc2VyR81p ;
     props:hasGuid "1yHkGhWg9A9hDhc2VyR8Aw" .
 
-om:inst_26gSXv3dP7TxpOtleMM7Bs a fso:Component,
+om:inst_26gSXv3dP7TxpOtleMM7Bs a fso:Segment,
         mep:DuctSegment ;
     fso:connectedWith om:inst_3ywDhlZfHF1OQ96cGksQRR ;
     props:hasGuid "26gSXv3dP7TxpOtleMM7Bs" .
 
-om:inst_26gSXv3dP7TxpOtleMM7CJ a fso:Component,
+om:inst_26gSXv3dP7TxpOtleMM7CJ a fso:Segment,
         mep:DuctSegment ;
     fso:connectedWith om:inst_26gSXv3dP7TxpOtleMM7Fi ;
     props:hasGuid "26gSXv3dP7TxpOtleMM7CJ" .
 
-om:inst_26gSXv3dP7TxpOtleMM7Fi a fso:Component,
+om:inst_26gSXv3dP7TxpOtleMM7Fi a fso:TreatmentDevice,
         mep:DuctSilencer ;
     props:hasGuid "26gSXv3dP7TxpOtleMM7Fi" .
 
-om:inst_2avJWZ6hTELg_evZJqM_JN a fso:Component,
+om:inst_2avJWZ6hTELg_evZJqM_JN a fso:FlowController,
         mep:Damper ;
     fso:connectedWith om:inst_3mUHM42X55veEDGhGiZ0bE ;
     props:hasGuid "2avJWZ6hTELg_evZJqM_JN" .
 
-om:inst_2blOxXvUzFGuvkYcbNYTw7 a fso:Component,
+om:inst_2blOxXvUzFGuvkYcbNYTw7 a fso:Fitting,
         mep:PipeFitting ;
     fso:connectedWith om:inst_2blOxXvUzFGuvkYcbNYTwX ;
     props:hasGuid "2blOxXvUzFGuvkYcbNYTw7" .
 
-om:inst_2blOxXvUzFGuvkYcbNYTwX a fso:Component,
+om:inst_2blOxXvUzFGuvkYcbNYTwX a fso:Segment,
         mep:PipeSegment ;
     fso:connectedWith om:inst_3azR3VHfb3EQ4JtVZXJri8 ;
     props:hasGuid "2blOxXvUzFGuvkYcbNYTwX" .
 
-om:inst_2eVCqj_0XAyh2oDdEscoYp a fso:Component,
+om:inst_2eVCqj_0XAyh2oDdEscoYp a fso:Fitting,
         mep:PipeFitting ;
     fso:connectedWith om:inst_2eVCqj_0XAyh2oDdEscobC,
         om:inst_2eVCqj_0XAyh2oDdEscob_ ;
     props:hasGuid "2eVCqj$0XAyh2oDdEscoYp" .
 
-om:inst_2eVCqj_0XAyh2oDdEscoYq a fso:Component,
+om:inst_2eVCqj_0XAyh2oDdEscoYq a fso:Segment,
         mep:PipeSegment ;
     fso:connectedWith om:inst_2eVCqj_0XAyh2oDdEscoYp ;
     props:hasGuid "2eVCqj$0XAyh2oDdEscoYq" .
 
-om:inst_2eVCqj_0XAyh2oDdEscoYx a fso:Component,
+om:inst_2eVCqj_0XAyh2oDdEscoYx a fso:Fitting,
         mep:PipeFitting ;
     fso:connectedWith om:inst_2eVCqj_0XAyh2oDdEscoYv,
         om:inst_2eVCqj_0XAyh2oDdEscobF ;
     props:hasGuid "2eVCqj$0XAyh2oDdEscoYx" .
 
-om:inst_2eVCqj_0XAyh2oDdEscob9 a fso:Component,
+om:inst_2eVCqj_0XAyh2oDdEscob9 a fso:FlowMovingDevice,
         mep:Pump ;
     fso:connectedWith om:inst_2eVCqj_0XAyh2oDdEscobC ;
     props:hasGuid "2eVCqj$0XAyh2oDdEscob9" .
 
-om:inst_2eVCqj_0XAyh2oDdEscobF a fso:Component,
+om:inst_2eVCqj_0XAyh2oDdEscobF a fso:Segment,
         mep:PipeSegment ;
     fso:connectedWith om:inst_2eVCqj_0XAyh2oDdEscob9 ;
     props:hasGuid "2eVCqj$0XAyh2oDdEscobF" .
 
-om:inst_2eVCqj_0XAyh2oDdEscobH a fso:Component,
+om:inst_2eVCqj_0XAyh2oDdEscobH a fso:Segment,
         mep:PipeSegment ;
     props:hasGuid "2eVCqj$0XAyh2oDdEscobH" .
 
-om:inst_2eVCqj_0XAyh2oDdEscobK a fso:Component,
+om:inst_2eVCqj_0XAyh2oDdEscobK a fso:Segment,
         mep:PipeSegment ;
     props:hasGuid "2eVCqj$0XAyh2oDdEscobK" .
 
-om:inst_2eVCqj_0XAyh2oDdEscobU a fso:Component,
+om:inst_2eVCqj_0XAyh2oDdEscobU a fso:Segment,
         mep:PipeSegment ;
     fso:connectedWith om:inst_2eVCqj_0XAyh2oDdEscobT ;
     props:hasGuid "2eVCqj$0XAyh2oDdEscobU" .
 
-om:inst_2eVCqj_0XAyh2oDdEscob_ a fso:Component,
+om:inst_2eVCqj_0XAyh2oDdEscob_ a fso:Segment,
         mep:PipeSegment ;
     props:hasGuid "2eVCqj$0XAyh2oDdEscob$" .
 
-om:inst_2eVCqj_0XAyh2oDdEscobk a fso:Component,
+om:inst_2eVCqj_0XAyh2oDdEscobk a fso:Segment,
         mep:PipeSegment ;
     fso:connectedWith om:inst_0VZk6NVn93Cx7YwaVImAnH ;
     props:hasGuid "2eVCqj$0XAyh2oDdEscobk" .
 
-om:inst_2y6Amr9816pA8zfOJsH40A a fso:Component,
+om:inst_2y6Amr9816pA8zfOJsH40A a fso:Segment,
         mep:PipeSegment ;
     fso:connectedWith om:inst_2y6Amr9816pA8zfOJsH43m ;
     props:hasGuid "2y6Amr9816pA8zfOJsH40A" .
 
-om:inst_2y6Amr9816pA8zfOJsH41W a fso:Component,
+om:inst_2y6Amr9816pA8zfOJsH41W a fso:Fitting,
         mep:PipeFitting ;
     fso:connectedWith om:inst_2y6Amr9816pA8zfOJsH40A ;
     props:hasGuid "2y6Amr9816pA8zfOJsH41W" .
 
-om:inst_2y6Amr9816pA8zfOJsH43m a fso:Component,
+om:inst_2y6Amr9816pA8zfOJsH43m a fso:Fitting,
         mep:PipeFitting ;
     fso:connectedWith om:inst_3azR3VHfb3EQ4JtVZXJriG ;
     props:hasGuid "2y6Amr9816pA8zfOJsH43m" .
 
-om:inst_2y6Amr9816pA8zfOJsH4EK a fso:Component,
+om:inst_2y6Amr9816pA8zfOJsH4EK a fso:Segment,
         mep:PipeSegment ;
     fso:connectedWith om:inst_2y6Amr9816pA8zfOJsH41W ;
     props:hasGuid "2y6Amr9816pA8zfOJsH4EK" .
 
-om:inst_3DhiIWbuLFNAZg_ray4X08 a fso:Component,
+om:inst_3DhiIWbuLFNAZg_ray4X08 a fso:Segment,
         mep:PipeSegment ;
     props:hasGuid "3DhiIWbuLFNAZg$ray4X08" .
 
-om:inst_3DhiIWbuLFNAZg_ray4X1H a fso:Component,
+om:inst_3DhiIWbuLFNAZg_ray4X1H a fso:Segment,
         mep:PipeSegment ;
     fso:connectedWith om:inst_3DhiIWbuLFNAZg_ray4X06 ;
     props:hasGuid "3DhiIWbuLFNAZg$ray4X1H" .
 
-om:inst_3azR3VHfb3EQ4JtVZXJriB a fso:Component,
+om:inst_3azR3VHfb3EQ4JtVZXJriB a fso:Segment,
         mep:PipeSegment ;
     fso:connectedWith om:inst_3azR3VHfb3EQ4JtVZXJri8 ;
     props:hasGuid "3azR3VHfb3EQ4JtVZXJriB" .
 
-om:inst_3ywDhlZfHF1OQ96cGksQRQ a fso:Component,
+om:inst_3ywDhlZfHF1OQ96cGksQRQ a fso:Fitting,
         mep:DuctFitting ;
     fso:connectedWith om:inst_26gSXv3dP7TxpOtleMM7Bs ;
     props:hasGuid "3ywDhlZfHF1OQ96cGksQRQ" .
 
-om:inst_3ywDhlZfHF1OQ96cGksQRR a fso:Component,
+om:inst_3ywDhlZfHF1OQ96cGksQRR a fso:Fitting,
         mep:DuctFitting ;
     fso:connectedWith om:inst_3ywDhlZfHF1OQ96cGksQV1 ;
     props:hasGuid "3ywDhlZfHF1OQ96cGksQRR" .
 
-om:inst_3ywDhlZfHF1OQ96cGksQRs a fso:Component,
+om:inst_3ywDhlZfHF1OQ96cGksQRs a fso:Fitting,
         mep:DuctFitting ;
     fso:connectedWith om:inst_0JnwG94pj0Sfr4CtbCX26p ;
     props:hasGuid "3ywDhlZfHF1OQ96cGksQRs" .
 
-om:inst_3ywDhlZfHF1OQ96cGksQRt a fso:Component,
+om:inst_3ywDhlZfHF1OQ96cGksQRt a fso:Fitting,
         mep:DuctFitting ;
     fso:connectedWith om:inst_14aLuRP9HDNvsYDjDLwZtT ;
     props:hasGuid "3ywDhlZfHF1OQ96cGksQRt" .
 
-om:inst_3ywDhlZfHF1OQ96cGksQV1 fso:connectedWith om:inst_3ywDhlZfHF1OQ96cGksQRt .
-
-om:inst_017WUZjPnF1RcjLmCulPvt a fso:Component,
+om:inst_017WUZjPnF1RcjLmCulPvt a fso:Segment,
         mep:PipeSegment ;
     props:hasGuid "017WUZjPnF1RcjLmCulPvt" .
 
-om:inst_017WUZjPnF1RcjLmCulPws a fso:Component,
+om:inst_017WUZjPnF1RcjLmCulPws a fso:Segment,
         mep:PipeSegment ;
     props:hasGuid "017WUZjPnF1RcjLmCulPws" .
 
-om:inst_0J2HntQTD0Cfj81Y7VmMt0 a fso:Component,
+om:inst_0J2HntQTD0Cfj81Y7VmMt0 a fso:Segment,
         mep:DuctSegment ;
     props:hasGuid "0J2HntQTD0Cfj81Y7VmMt0" .
 
-om:inst_0J2HntQTD0Cfj81Y7VmMt3 a fso:Component,
+om:inst_0J2HntQTD0Cfj81Y7VmMt3 a fso:Segment,
         mep:DuctSegment ;
     props:hasGuid "0J2HntQTD0Cfj81Y7VmMt3" .
 
-om:inst_0J2HntQTD0Cfj81Y7VmMtm a fso:Component,
+om:inst_0J2HntQTD0Cfj81Y7VmMtm a fso:Segment,
         mep:DuctSegment ;
     props:hasGuid "0J2HntQTD0Cfj81Y7VmMtm" .
 
-om:inst_0J2HntQTD0Cfj81Y7VmMtq a fso:Component,
+om:inst_0J2HntQTD0Cfj81Y7VmMtq a fso:Segment,
         mep:DuctSegment ;
     props:hasGuid "0J2HntQTD0Cfj81Y7VmMtq" .
 
-om:inst_0J2HntQTD0Cfj81Y7VmMts a fso:Component,
+om:inst_0J2HntQTD0Cfj81Y7VmMts a fso:Segment,
         mep:DuctSegment ;
     props:hasGuid "0J2HntQTD0Cfj81Y7VmMts" .
 
-om:inst_0X0T_l_MH4t9Y5p9QQx96X a fso:Component,
+om:inst_0X0T_l_MH4t9Y5p9QQx96X a fso:Segment,
         mep:DuctSegment ;
     props:hasGuid "0X0T_l$MH4t9Y5p9QQx96X" .
 
-om:inst_0___6xnf51Re9mFagqlbXN a fso:Component,
+om:inst_0___6xnf51Re9mFagqlbXN a fso:Fitting,
         mep:PipeFitting ;
     fso:connectedWith om:inst_0___6xnf51Re9mFagqlb_F ;
     props:hasGuid "0__$6xnf51Re9mFagqlbXN" .
 
-om:inst_1yHkGhWg9A9hDhc2VyR81p a fso:Component,
+om:inst_1yHkGhWg9A9hDhc2VyR81p a fso:Segment,
         mep:PipeSegment ;
     props:hasGuid "1yHkGhWg9A9hDhc2VyR81p" .
 
-om:inst_1yHkGhWg9A9hDhc2VyR824 a fso:Component,
+om:inst_1yHkGhWg9A9hDhc2VyR824 a fso:Segment,
         mep:PipeSegment ;
     props:hasGuid "1yHkGhWg9A9hDhc2VyR824" .
 
-om:inst_2eVCqj_0XAyh2oDdEscoYv a fso:Component,
+om:inst_2eVCqj_0XAyh2oDdEscoYv a fso:Segment,
         mep:PipeSegment ;
     props:hasGuid "2eVCqj$0XAyh2oDdEscoYv" .
 
-om:inst_2eVCqj_0XAyh2oDdEscobC a fso:Component,
+om:inst_2eVCqj_0XAyh2oDdEscobC a fso:Segment,
         mep:PipeSegment ;
     props:hasGuid "2eVCqj$0XAyh2oDdEscobC" .
 
-om:inst_2eVCqj_0XAyh2oDdEscobN a fso:Component,
+om:inst_2eVCqj_0XAyh2oDdEscobN a fso:Segment,
         mep:PipeSegment ;
     props:hasGuid "2eVCqj$0XAyh2oDdEscobN" .
 
-om:inst_2eVCqj_0XAyh2oDdEscobT a fso:Component,
+om:inst_2eVCqj_0XAyh2oDdEscobT a fso:Fitting,
         mep:PipeFitting ;
     fso:connectedWith om:inst_2eVCqj_0XAyh2oDdEscobH ;
     props:hasGuid "2eVCqj$0XAyh2oDdEscobT" .
 
-om:inst_2eVCqj_0XAyh2oDdEscoba a fso:Component,
+om:inst_2eVCqj_0XAyh2oDdEscoba a fso:Segment,
         mep:PipeSegment ;
     props:hasGuid "2eVCqj$0XAyh2oDdEscoba" .
 
-om:inst_3DhiIWbuLFNAZg_ray4X06 a fso:Component,
+om:inst_3DhiIWbuLFNAZg_ray4X06 a fso:Fitting,
         mep:PipeFitting ;
     fso:connectedWith om:inst_3DhiIWbuLFNAZg_ray4X08 ;
     props:hasGuid "3DhiIWbuLFNAZg$ray4X06" .
 
-om:inst_3DhiIWbuLFNAZg_ray4XEW a fso:Component,
+om:inst_3DhiIWbuLFNAZg_ray4XEW a fso:Segment,
         mep:PipeSegment ;
     props:hasGuid "3DhiIWbuLFNAZg$ray4XEW" .
 
-om:inst_3Se9_t3Ov5bRnojEeqfqgy a fso:Component,
+om:inst_3Se9_t3Ov5bRnojEeqfqgy a fso:Segment,
         mep:DuctSegment ;
     props:hasGuid "3Se9$t3Ov5bRnojEeqfqgy" .
 
-om:inst_3azR3VHfb3EQ4JtVZXJri8 a fso:Component,
+om:inst_3azR3VHfb3EQ4JtVZXJri8 a fso:Fitting,
         mep:PipeFitting ;
     fso:connectedWith om:inst_3azR3VHfb3EQ4JtVZXJriG ;
     props:hasGuid "3azR3VHfb3EQ4JtVZXJri8" .
 
-om:inst_3azR3VHfb3EQ4JtVZXJriG a fso:Component,
+om:inst_3azR3VHfb3EQ4JtVZXJriG a fso:Segment,
         mep:PipeSegment ;
     props:hasGuid "3azR3VHfb3EQ4JtVZXJriG" .
 
-om:inst_3mUHM42X55veEDGhGiZ0bE a fso:Component,
+om:inst_3mUHM42X55veEDGhGiZ0bE a fso:Segment,
         mep:DuctSegment ;
     props:hasGuid "3mUHM42X55veEDGhGiZ0bE" .
+
+om:inst_3ywDhlZfHF1OQ96cGksQV1 fso:connectedWith om:inst_3ywDhlZfHF1OQ96cGksQRt .
 

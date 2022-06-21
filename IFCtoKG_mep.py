@@ -296,7 +296,7 @@ for connection in connections:
         inst_1 = URIRef(NS_om + "inst_" + component_1.GlobalId.replace("$","_"))
         component_2 = connection.RelatingPort.Nests[0].RelatingObject              
         inst_2 = URIRef(NS_om + "inst_" + component_2.GlobalId.replace("$","_"))
-        graph.add((inst_1, connectedWith, inst_2))   
+        graph.add((inst_1, connectedWith, inst_2))    
 
 # Systems from grouped elements - IfcSystems need to be generated from enrichment processes
 
