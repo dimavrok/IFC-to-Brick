@@ -1,0 +1,35 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix schema: <http://schema.org/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix mep: <https://pi.pauwel.be/voc/distributionelement#> .
+@prefix fso: <http://www.w3id.org/fso#> .
+@prefix om: <http://openmetrics.eu/openmetrics#> .
+
+fso:FittingShape 
+    a sh:NodeShape ;
+    sh:targetClass fso:Fitting ;
+    sh:property [
+        sh:path fso:connectedWith ; 
+        sh:minCount 1 ; 
+        sh:name "Connection with other component" ; 
+    ] .
+
+
+fso:FittingRuleShape
+    a sh:NodeShape ;
+    sh:targetClass fso:fitting ; 
+        sh:rule [
+            a sh:SPARQLRule ;
+            sh:prefixes om: ; 
+            sh:construct """
+                CONSTRUCT {
+                        $this fso:connectedWith ?component .
+                }
+                WHERE {
+                    $this fso:connectedWith ?component .
+                }
+            """;
+            sh:condition fso:fittingShape ; # Rule only applies to Fittings that conform to fso:fittingShape
+        ] .

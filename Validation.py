@@ -1,6 +1,5 @@
 #%% Import packages
-from pyshacl import validate
-
+import pyshacl
 from rdflib import Graph
 
 #%% Parse the data graph and the shapes graph
@@ -12,14 +11,12 @@ shapes.parse('Shapes.ttl', format='ttl')
 
 
 #%% Validate and Print Results
-# HERE WE CHECK WHETHER THE RELATIONSHIP SYSTEM-ZONE CONFORMS WITH A REUSABLE STRUCTURE
 
-results = validate(
+results = pyshacl.validate(
     data_graph=graph,
     shacl_graph=shapes,
     data_graph_format="ttl",
     shacl_graph_format="ttl",
-    inference="rdfs",
     debug=True,
     serialize_report_graph="ttl",
     )
@@ -29,6 +26,11 @@ conforms, report_graph, report_text = results
 print("conforms", conforms)
 
 print(report_text)
+
+print("conforms", conforms)
+
+print(report_text)
+
 # %%
 
 report_g = Graph()
@@ -40,3 +42,5 @@ for s, p, o in sorted(report_g):
 
 
 report_g.serialize(destination="Validation_Report.ttl", format="turtle")
+
+# %%

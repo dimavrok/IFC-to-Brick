@@ -11,16 +11,16 @@
             sh:resultPath fso:connectedWith ;
             sh:resultSeverity sh:Violation ;
             sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
-            sh:sourceShape _:n1156a421435a40b68601ce345a7ec629b3 ],
+            sh:sourceShape _:n45fa8377dc844e90bd6c83d928863cd6b3 ],
         [ a sh:ValidationResult ;
             sh:focusNode om:inst_0VZk6NVn93Cx7YwaVImAnJ ;
             sh:resultMessage "Less than 1 values on om:inst_0VZk6NVn93Cx7YwaVImAnJ->fso:connectedWith" ;
             sh:resultPath fso:connectedWith ;
             sh:resultSeverity sh:Violation ;
             sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
-            sh:sourceShape _:n1156a421435a40b68601ce345a7ec629b3 ] .
+            sh:sourceShape _:n45fa8377dc844e90bd6c83d928863cd6b3 ] .
 
-_:n1156a421435a40b68601ce345a7ec629b3 sh:minCount 1 ;
-    sh:name "Tank problem" ;
+_:n45fa8377dc844e90bd6c83d928863cd6b3 sh:minCount 1 ;
+    sh:name "StorageDevice is not connected with any other components" ;
     sh:path fso:connectedWith .
 
