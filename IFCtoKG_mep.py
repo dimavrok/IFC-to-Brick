@@ -1,4 +1,7 @@
 #%% Import packages
+from re import U
+from signal import SIG_DFL
+from django.forms import URLInput
 import ifcopenshell
 import json
 import pandas as pd
@@ -19,7 +22,7 @@ NS_fso = "http://www.w3id.org/fso#"
 NS_props = "https://w3id.org/props#"
 
 #%% Import IFC file
-f = ifcopenshell.open("MoL_GM_Services_Example_Geometry_01.ifc")
+f = ifcopenshell.open("Basement_East_Plantroom.ifc")
 
 '''
 buildings = f.by_type("IfcBuilding")
@@ -71,7 +74,7 @@ nests = f.by_type("IfcRelNests")
 #%% 
 graph = Graph()
 graph.namespace_manager.bind("om", URIRef(NS_om))
-#graph.namespace_manager.bind("bot", URIRef(NS_bot))
+graph.namespace_manager.bind("bot", URIRef(NS_bot))
 #graph.namespace_manager.bind("brick", URIRef(NS_brick))
 graph.namespace_manager.bind("rdf", URIRef(NS_rdf))
 graph.namespace_manager.bind("owl", URIRef(NS_owl))
@@ -92,9 +95,7 @@ fso_StorageDevice = URIRef(NS_fso + "StorageDevice")
 fso_Terminal = URIRef(NS_fso + "Terminal")
 fso_TreatmentDevice = URIRef(NS_fso + "TreatmentDevice")
 
-
-
-
+bot_element = URIRef(NS_bot + "Element")
 props_guid = URIRef(NS_props + "hasGuid")
 
 #%% Converter 
@@ -147,7 +148,7 @@ for component in dampers:
         graph.add((inst, props_guid, Literal(component.GlobalId)))
       
 # IfcFan instances
-for component in airterminals:
+for component in fans:
         inst = URIRef(NS_om + "inst_" + component.GlobalId.replace("$","_"))
         mep = URIRef(NS_mep + "Fan")
         graph.add((inst, RDF.type, fso_FlowMovingDevice))
@@ -286,11 +287,10 @@ for component in pipefittings:
 ############################     Create Relationships      ##############################
 #########################################################################################
 
-# Distribution component Ports for connecivity of components (using BOT, FSO)
+# 1. Distribution component Ports for connecivity of components (using  BOT, FSO)
 
 connections = f.by_type("IFCRELCONNECTSPORTS")
 connectedWith = URIRef(NS_fso + "connectedWith")
-
 for connection in connections:
         component_1 = connection.RelatedPort.Nests[0].RelatingObject
         inst_1 = URIRef(NS_om + "inst_" + component_1.GlobalId.replace("$","_"))
@@ -298,7 +298,8 @@ for connection in connections:
         inst_2 = URIRef(NS_om + "inst_" + component_2.GlobalId.replace("$","_"))
         graph.add((inst_1, connectedWith, inst_2))    
 
-# Systems from grouped elements - IfcSystems need to be generated from enrichment processes
+
+# 2. Systems from grouped elements - IfcSystems need to be generated from enrichment processes
 
 systems = f.by_type("IfcSystem")
 distributionsystem = URIRef(NS_fso + "DistributionSystem")
@@ -306,16 +307,30 @@ distributionsystem = URIRef(NS_fso + "DistributionSystem")
 #hasSourceComponent = URIRef(NS_fso + "hasComponent")
 hascomponent = URIRef(NS_fso + "hasComponent")
 hasName = URIRef(NS_props + "hasName")
-
-
 for system in systems:
         inst_system = URIRef(NS_om + "inst_" + system.GlobalId.replace("$","_"))
         inst_system_name = Literal(str(system.ObjectType))
+        graph.add((inst_system, RDF.type, distributionsystem))
         graph.add((inst_system, hasName, inst_system_name))
         # Create relationship: inst_system fso:hascomponent inst_component
         for component in system.IsGroupedBy[0].RelatedObjects:
-                inst_component = URIRef(NS_om + "inst_" + component.GlobalId.replace("$","_"))
-                graph.add((inst_system, hascomponent, inst_component))   
+                if component.__dict__["type"] != "IfcDistributionPort":
+                        inst_component = URIRef(NS_om + "inst_" + component.GlobalId.replace("$","_"))
+                        graph.add((inst_system, hascomponent, inst_component))   
+
+
+# 3. Spatial Containment of elements/components
+
+containments = f.by_type("IFCRELCONTAINEDINSPATIALSTRUCTURE")
+hasElement = URIRef(NS_bot + "hasElement")
+for containment in containments: 
+        if containment.RelatingStructure.__dict__["type"] == "IfcSpace":
+                bot_space = URIRef(NS_bot + "Space")        
+                inst_space = URIRef(NS_om + "inst_" + containment.RelatingStructure.GlobalId.replace("$","_"))
+                graph.add((inst_space, RDF.type, bot_space))
+                for element in containment.RelatedElements: 
+                        inst_element = URIRef(NS_om + "inst_" + element.GlobalId.replace("$","_"))
+                        graph.add((inst_space, hasElement, inst_element))
 
 
 
