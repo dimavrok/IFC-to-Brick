@@ -25,7 +25,7 @@ fso:FittingRuleShape
             sh:prefixes om: ; 
             sh:construct """
                 CONSTRUCT {
-                        $this fso:connectedWith ?component .
+                        $this fso:connectedWith ?this .
                 }
                 WHERE {
                     $this fso:connectedWith ?component .
