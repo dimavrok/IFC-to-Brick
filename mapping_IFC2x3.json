@@ -1,0 +1,539 @@
+"IfcDistributionSystemType" : {
+   "AIRCONDITIONING": {
+     "bot": "",
+     "fso": "DistributionSystem",
+     "brick": "Air_System"
+   },
+   "CHILLEDWATER": {
+     "bot": "",
+     "fso": "DistributionSystem",
+     "brick": "Chilled_Water_System"
+   },
+   "CONDENSERWATER": {
+     "bot": "",
+     "fso": "DistributionSystem",
+     "brick": "Condenser_Water_System"
+   },
+   "DOMESTICHOTWATER": {
+     "bot": "",
+     "fso": "DistributionSystem",
+     "brick": "Domestic_Hot_Water_System"
+   },
+   "ELECTRICAL": {
+     "bot": "",
+     "fso": "DistributionSystem",
+     "brick": "Electrical_System"
+   },
+   "FIREPROTECTION": {
+     "bot": "",
+     "fso": "DistributionSystem",
+     "brick": "Fire_Safety_System"
+   },
+   "GAS": {
+     "bot": "",
+     "fso": "DistributionSystem",
+     "brick": "Gas_System"
+   },
+   "HEATING": {
+     "bot": "",
+     "fso": "DistributionSystem",
+     "brick": "HVAC_System"
+   },
+   "LIGHTING": {
+     "bot": "",
+     "fso": "DistributionSystem",
+     "brick": "Lighting_System"
+   },
+   "POWERGENERATION": {
+     "bot": "",
+     "fso": "DistributionSystem",
+     "brick": "Energy_Generation_System"
+   },
+   "SECURITY": {
+     "bot": "",
+     "fso": "DistributionSystem",
+     "brick": "Safety_System"
+   },
+   "VENTILATION": {
+     "bot": "",
+     "fso": "DistributionSystem",
+     "brick": "Ventilation_Air_System"
+   },
+   "WASTEWATER": {
+     "bot": "",
+     "fso": "DistributionSystem",
+     "brick": "Water_System"
+   },
+   "WATERSUPPLY": {
+     "bot": "",
+     "fso": "DistributionSystem",
+     "brick": "Water_System"
+   }
+
+
+
+
+
+
+{
+   "IfcActor": {
+      "bot": "",
+      "beo": "",
+      "fso": "",
+      "props": "",
+      "mep": "",
+      "saref": "",
+      "brick": "",
+      "rec": ""
+   },
+   "IfcOccupant": {
+      "bot": "",
+      "beo": "",
+      "fso": "",
+      "props": "",
+      "mep": "",
+      "saref": "",
+      "brick": "",
+      "rec": ""
+   },
+   "IfcSystem": {
+      "bot": "",
+      "beo": "",
+      "fso": "System",
+      "props": "",
+      "mep": "",
+      "saref": "",
+      "brick": "System",
+      "rec": ""
+   },
+   "IfcZone": {
+      "bot": "Zone",
+      "beo": "",
+      "fso": "",
+      "props": "",
+      "mep": "",
+      "saref": "",
+      "brick": "Zone",
+      "rec": ""
+   },
+   "IfcColumn": {
+      "bot": "Element",
+      "beo": "Column",
+      "fso": "",
+      "props": "",
+      "mep": "",
+      "saref": "",
+      "brick": "",
+      "rec": ""
+   },
+   "IfcCovering": {
+      "bot": "Element",
+      "beo": "Covering",
+      "fso": "",
+      "props": "",
+      "mep": "",
+      "saref": "",
+      "brick": "",
+      "rec": ""
+   },
+   "IfcCurtainWall": {
+      "bot": "Element",
+      "beo": "CurtainWall",
+      "fso": "",
+      "props": "",
+      "mep": "",
+      "saref": "",
+      "brick": "",
+      "rec": ""
+   },
+   "IfcDoor": {
+      "bot": "Element",
+      "beo": "Door",
+      "fso": "",
+      "props": "",
+      "mep": "",
+      "saref": "",
+      "brick": "",
+      "rec": ""
+   },
+   "IfcRoof": {
+      "bot": "Element",
+      "beo": "Roof",
+      "fso": "",
+      "props": "",
+      "mep": "",
+      "saref": "",
+      "brick": "",
+      "rec": ""
+   },
+   "IfcSlab": {
+      "bot": "Element",
+      "beo": "Slab",
+      "fso": "",
+      "props": "",
+      "mep": "",
+      "saref": "",
+      "brick": "",
+      "rec": ""
+   },
+   "IfcStair": {
+      "bot": "Element",
+      "beo": "Stair",
+      "fso": "",
+      "props": "",
+      "mep": "",
+      "saref": "",
+      "brick": "",
+      "rec": ""
+   },
+   "IfcWall": {
+      "bot": "Element",
+      "beo": "Wall",
+      "fso": "",
+      "props": "",
+      "mep": "",
+      "saref": "",
+      "brick": "",
+      "rec": ""
+   },
+   "IfcWindow": {
+      "bot": "Element",
+      "beo": "Window",
+      "fso": "",
+      "props": "",
+      "mep": "",
+      "saref": "",
+      "brick": "",
+      "rec": ""
+   },
+   "IfcDistributionElement": {
+      "bot": "",
+      "beo": "",
+      "fso": "",
+      "props": "",
+      "mep": "DistributionElement",
+      "saref": "",
+      "brick": "",
+      "rec": ""
+   },
+   "IfcDistributionControlElement": {
+      "bot": "",
+      "beo": "",
+      "fso": "",
+      "props": "",
+      "mep": "DistributionControlElement",
+      "saref": "DistributionControlDevice",
+      "brick": "",
+      "rec": ""
+   },
+   "IfcDistributionFlowElement": {
+      "bot": "",
+      "beo": "",
+      "fso": "",
+      "props": "",
+      "mep": "DistributionFlowElement",
+      "saref": "",
+      "brick": "",
+      "rec": ""
+   },
+   "IfcDistributionChamberElement": {
+      "bot": "",
+      "beo": "",
+      "fso": "",
+      "props": "",
+      "mep": "DistributionChamberElement",
+      "saref": "",
+      "brick": "",
+      "rec": ""
+   },
+   "IfcEnergyConversionDevice": {
+      "bot": "Element",
+      "beo": "",
+      "fso": "EnergyConversionDevice",
+      "props": "",
+      "mep": "EnergyConversionDevice",
+      "saref": "EnergyConversionDevice",
+      "brick": "HVAC_Equipment",
+      "rec": ""
+   },
+   "IfcFlowController": {
+      "bot": "Element",
+      "beo": "",
+      "fso": "FlowController",
+      "props": "",
+      "mep": "FlowController",
+      "saref": "FlowController",
+      "brick": "HVAC_Equipment",
+      "rec": ""
+   },
+   "IfcFlowFitting": {
+      "bot": "Element",
+      "beo": "",
+      "fso": "Fitting",
+      "props": "",
+      "mep": "FlowFitting",
+      "saref": "",
+      "brick": "",
+      "rec": ""
+   },
+   "IfcFlowMovingDevice": {
+      "bot": "Element",
+      "beo": "",
+      "fso": "FlowMovingDevice",
+      "props": "",
+      "mep": "FlowMovingDevice",
+      "saref": "FlowMovingDevice",
+      "brick": "HVAC_Equipment",
+      "rec": ""
+   },
+   "IfcFlowSegment": {
+      "bot": "Element",
+      "beo": "",
+      "fso": "Segment",
+      "props": "",
+      "mep": "FlowSegment",
+      "saref": "",
+      "brick": "",
+      "rec": ""
+   },
+   "IfcFlowStorageDevice": {
+      "bot": "Element",
+      "beo": "",
+      "fso": "StorageDevice",
+      "props": "",
+      "mep": "FlowStorageDevice",
+      "saref": "FlowStorageDevice",
+      "brick": "",
+      "rec": ""
+   },
+   "IfcTank": {
+      "bot": "Element",
+      "beo": "",
+      "fso": "StorageDevice",
+      "props": "",
+      "mep": "Tank",
+      "saref": "Tank",
+      "brick": "Water_Tank",
+      "rec": ""
+   },
+   "IfcFlowTerminal": {
+      "bot": "Element",
+      "beo": "",
+      "fso": "Terminal",
+      "props": "",
+      "mep": "FlowTerminal",
+      "saref": "FlowTerminal",
+      "brick": "",
+      "rec": ""
+   },
+   "IfcAirTerminal": {
+      "bot": "Element",
+      "beo": "",
+      "fso": "Terminal",
+      "props": "",
+      "mep": "AirTerminal",
+      "saref": "",
+      "brick": "Air_Diffuser",
+      "rec": ""
+   },
+   "IfcAudioVisualAppliance": {
+      "bot": "Element",
+      "beo": "",
+      "fso": "Terminal",
+      "props": "",
+      "mep": "AudioVisualAppliance",
+      "saref": "AudioVisualAppliance",
+      "brick": "",
+      "rec": ""
+   },
+   "IfcCommunicationsAppliance": {
+      "bot": "Element",
+      "beo": "",
+      "fso": "Terminal",
+      "props": "",
+      "mep": "CommunicationsAppliance",
+      "saref": "CommunicationAppliance",
+      "brick": "",
+      "rec": ""
+   },
+   "IfcElectricAppliance": {
+      "bot": "Element",
+      "beo": "",
+      "fso": "Terminal",
+      "props": "",
+      "mep": "ElectricAppliance",
+      "saref": "ElectricAppliance",
+      "brick": "",
+      "rec": ""
+   },
+   "IfcFireSuppressionTerminal": {
+      "bot": "Element",
+      "beo": "",
+      "fso": "Terminal",
+      "props": "",
+      "mep": "FireSuppressionTerminal",
+      "saref": "FireSuppressionTerminal",
+      "brick": "",
+      "rec": ""
+   },
+   "IfcLamp": {
+      "bot": "Element",
+      "beo": "",
+      "fso": "Terminal",
+      "props": "",
+      "mep": "Lamp",
+      "saref": "Lamp",
+      "brick": "Luminaire",
+      "rec": ""
+   },
+   "IfcLightFixture": {
+      "bot": "Element",
+      "beo": "",
+      "fso": "Terminal",
+      "props": "",
+      "mep": "LightFixture",
+      "saref": "",
+      "brick": "Lighting",
+      "rec": ""
+   },
+   "IfcMedicalDevice": {
+      "bot": "Element",
+      "beo": "",
+      "fso": "Terminal",
+      "props": "",
+      "mep": "MedicalDevice",
+      "saref": "MedicalDevice",
+      "brick": "",
+      "rec": ""
+   },
+   "IfcOutlet": {
+      "bot": "Element",
+      "beo": "",
+      "fso": "Terminal",
+      "props": "",
+      "mep": "Outlet",
+      "saref": "Outlet",
+      "brick": "",
+      "rec": ""
+   },
+   "IfcSanitaryTerminal": {
+      "bot": "Element",
+      "beo": "",
+      "fso": "Terminal",
+      "props": "",
+      "mep": "SanitaryTerminal",
+      "saref": "SanitaryTerminal",
+      "brick": "",
+      "rec": ""
+   },
+   "IfcSpaceHeater": {
+      "bot": "Element",
+      "beo": "",
+      "fso": "Terminal",
+      "props": "",
+      "mep": "SpaceHeater",
+      "saref": "SpaceHeater",
+      "brick": "",
+      "rec": ""
+   },
+   "IfcStackTerminal": {
+      "bot": "Element",
+      "beo": "",
+      "fso": "Terminal",
+      "props": "",
+      "mep": "StackTerminal",
+      "saref": "",
+      "brick": "",
+      "rec": ""
+   },
+   "IfcWasteTerminal": {
+      "bot": "Element",
+      "beo": "",
+      "fso": "Terminal",
+      "props": "",
+      "mep": "WasteTerminal",
+      "saref": "",
+      "brick": "",
+      "rec": ""
+   },
+   "IfcFlowTreatmentDevice": {
+      "bot": "Element",
+      "beo": "",
+      "fso": "TreatmentDevice",
+      "props": "",
+      "mep": "FlowTreatmentDevice",
+      "saref": "FlowTreatmentDevice",
+      "brick": "",
+      "rec": ""
+   },
+   "IfcDuctSilencer": {
+      "bot": "Element",
+      "beo": "",
+      "fso": "TreatmentDevice",
+      "props": "",
+      "mep": "DuctSilencer",
+      "saref": "DuctSsilencer",
+      "brick": "",
+      "rec": ""
+   },
+   "IfcFilter": {
+      "bot": "Element",
+      "beo": "",
+      "fso": "TreatmentDevice",
+      "props": "",
+      "mep": "Filter",
+      "saref": "Filter",
+      "brick": "",
+      "rec": ""
+   },
+   "IfcInterceptor": {
+      "bot": "Element",
+      "beo": "",
+      "fso": "TreatmentDevice",
+      "props": "",
+      "mep": "Interceptor",
+      "saref": "Interceptor",
+      "brick": "",
+      "rec": ""
+   },
+   "IfcBuildingStorey": {
+      "bot": "Storey",
+      "beo": "",
+      "fso": "",
+      "props": "",
+      "mep": "BuildingStorey",
+      "saref": "",
+      "brick": "",
+      "rec": ""
+   },
+   "IfcSite": {
+      "bot": "Site",
+      "beo": "",
+      "fso": "",
+      "props": "",
+      "mep": "Site",
+      "saref": "",
+      "brick": "",
+      "rec": ""
+   },
+   "IfcSpace": {
+      "bot": "Space",
+      "beo": "",
+      "fso": "",
+      "props": "",
+      "mep": "Space",
+      "saref": "",
+      "brick": "",
+      "rec": ""
+   },
+   "IfcSpatialZone": {
+      "bot": "",
+      "beo": "",
+      "fso": "",
+      "props": "",
+      "mep": "SpatialZone",
+      "saref": "",
+      "brick": "",
+      "rec": ""
+   }
+}

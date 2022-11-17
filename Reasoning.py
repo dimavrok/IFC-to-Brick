@@ -1,18 +1,13 @@
-#%% import graphs
+#%% 
+import brickschema # 
 
-"""Why I am using SHACL rules: It is more powerful that SPARQL Construct because
-we can specify a shape in the graph and then enrich only this shape. 
-So, perhaps, SPARQL Construct rules would work but we would need multiple SPARQL(?) """
+g = brickschema.Graph(load_brick=True)
 
-import pyshacl
-from rdflib import Graph
+g.load_file("Inputs.ttl") #add your ttl here
+g.expand(profile="owlrl")
+print(f"Inferred graph has {len(g)} triples")
 
-g = Graph()
-g.parse("Data_Graph.ttl")
+# %%
+g.serialize("Output.ttl") #export the enriched ttl here
 
-
-
-
-# %% Export the graph
-g.serialize(destination="Data_Graph_INFERRED.ttl", format="turtle")
-
+# %%

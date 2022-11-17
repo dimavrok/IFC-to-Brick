@@ -1,0 +1,547 @@
+{
+  "IfcBuildingSystem": {
+    "bot": "",
+    "fso": "DistributionSystem",
+    "brick": "System"
+  },
+  "IfcSystem": {
+    "bot": "",
+    "fso": "DistributionSystem",
+    "brick": "System"
+  },
+  "IfcDistributionSystem.AIRCONDITIONING": {
+    "bot": "",
+    "fso": "DistributionSystem",
+    "brick": "Air_System"
+  },
+  "IfcDistributionSystem.CHILLEDWATER": {
+    "bot": "",
+    "fso": "DistributionSystem",
+    "brick": "Chilled_Water_System"
+  },
+  "IfcDistributionSystem.CONDENSERWATER": {
+    "bot": "",
+    "fso": "DistributionSystem",
+    "brick": "Condenser_Water_System"
+  },
+  "IfcDistributionSystem.DOMESTICHOTWATER": {
+    "bot": "",
+    "fso": "DistributionSystem",
+    "brick": "Domestic_Hot_Water_System"
+  },
+  "IfcDistributionSystem.ELECTRICAL": {
+    "bot": "",
+    "fso": "DistributionSystem",
+    "brick": "Electrical_System"
+  },
+  "IfcDistributionSystem.FIREPROTECTION": {
+    "bot": "",
+    "fso": "DistributionSystem",
+    "brick": "Fire_Safety_System"
+  },
+  "IfcDistributionSystem.GAS": {
+    "bot": "",
+    "fso": "DistributionSystem",
+    "brick": "Gas_System"
+  },
+  "IfcDistributionSystem.HEATING": {
+    "bot": "",
+    "fso": "DistributionSystem",
+    "brick": "HVAC_System"
+  },
+  "IfcDistributionSystem.LIGHTING": {
+    "bot": "",
+    "fso": "DistributionSystem",
+    "brick": "Lighting_System"
+  },
+  "IfcDistributionSystem.POWERGENERATION": {
+    "bot": "",
+    "fso": "DistributionSystem",
+    "brick": "Energy_Generation_System"
+  },
+  "IfcDistributionSystem.SECURITY": {
+    "bot": "",
+    "fso": "DistributionSystem",
+    "brick": "Safety_System"
+  },
+  "IfcDistributionSystem.VENTILATION": {
+    "bot": "",
+    "fso": "DistributionSystem",
+    "brick": "Ventilation_Air_System"
+  },
+  "IfcDistributionSystem.WASTEWATER": {
+    "bot": "",
+    "fso": "DistributionSystem",
+    "brick": "Water_System"
+  },
+  "IfcDistributionSystem.WATERSUPPLY": {
+    "bot": "",
+    "fso": "DistributionSystem",
+    "brick": "Water_System"
+  },
+  "IfcDistributionCircuit": {
+    "bot": "",
+    "fso": "DistributionSystem",
+    "brick": "Electrical_System"
+  },
+  "IfcFlowInstrument": {
+    "bot": "Element",
+    "fso": "",
+    "brick": "Meter"
+  },
+  "IfcSensor": {
+    "bot": "Element",
+    "fso": "",
+    "brick": "Sensor"
+  },
+  "IfcSensor.CO2SENSOR": {
+    "bot": "Element",
+    "fso": "",
+    "brick": "CO2_Sensor"
+  },
+  "IfcSensor.CONDUCTANCESENSOR": {
+    "bot": "Element",
+    "fso": "",
+    "brick": "Conductivity_Sensor"
+  },
+  "IfcSensor.CONTACTSENSOR": {
+    "bot": "Element",
+    "fso": "",
+    "brick": "Contact_Sensor"
+  },
+  "IfcSensor.COSENSOR": {
+    "bot": "Element",
+    "fso": "",
+    "brick": "CO_Sensor"
+  },
+  "IfcSensor.FIRESENSOR": {
+    "bot": "Element",
+    "fso": "",
+    "brick": "Fire_Sensor"
+  },
+  "IfcSensor.FLOWSENSOR": {
+    "bot": "Element",
+    "fso": "",
+    "brick": "Flow_Sensor"
+  },
+  "IfcSensor.FROSTSENSOR": {
+    "bot": "Element",
+    "fso": "",
+    "brick": "Frost_Sensor"
+  },
+  "IfcSensor.GASSENSOR": {
+    "bot": "Element",
+    "fso": "",
+    "brick": "Gas_Sensor"
+  },
+  "IfcSensor.HEATSENSOR": {
+    "bot": "Element",
+    "fso": "",
+    "brick": "Heat_Sensor"
+  },
+  "IfcSensor.HUMIDITYSENSOR": {
+    "bot": "Element",
+    "fso": "",
+    "brick": "Humidity_Sensor"
+  },
+  "IfcSensor.LIGHTSENSOR": {
+    "bot": "Element",
+    "fso": "",
+    "brick": "Luminance_Sensor"
+  },
+  "IfcSensor.MOVEMENTSENSOR": {
+    "bot": "Element",
+    "fso": "",
+    "brick": "Motion_Sensor"
+  },
+  "IfcSensor.PRESSURESENSOR": {
+    "bot": "Element",
+    "fso": "",
+    "brick": "Pressure_Sensor"
+  },
+  "IfcSensor.SMOKESENSOR": {
+    "bot": "Element",
+    "fso": "",
+    "brick": "Smoke_Detector"
+  },
+  "IfcSensor.RADIATIONSENSOR": {
+    "bot": "Element",
+    "fso": "",
+    "brick": "Solar_Radiance_Sensor"
+  },
+  "IfcSensor.RAINSENSOR": {
+    "bot": "Element",
+    "fso": "",
+    "brick": "Rain_Sensor"
+  },
+  "IfcSensor.TEMPERATURESENSOR": {
+    "bot": "Element",
+    "fso": "",
+    "brick": "Temperature_Sensor"
+  },
+  "IfcUnitaryControlElement.THERMOSTAT": {
+    "bot": "Element",
+    "fso": "",
+    "brick": "Thermostat"
+  },
+  "IfcEnergyConversionDevice": {
+    "bot": "Element",
+    "fso": "EnergyConversionDevice",
+    "brick": "Equipment"
+  },
+  "IfcAirToAirHeatRecovery": {
+    "bot": "Element",
+    "fso": "EnergyConversionDevice",
+    "brick": "Heat_Wheel"
+  },
+  "IfcBoiler": {
+    "bot": "Element",
+    "fso": "EnergyConversionDevice",
+    "brick": "Boiler"
+  },
+  "IfcChiller.AIRCOOLED": {
+    "bot": "Element",
+    "fso": "EnergyConversionDevice",
+    "brick": "Chiller"
+  },
+  "IfcCoil": {
+    "bot": "Element",
+    "fso": "EnergyConversionDevice",
+    "brick": "Coil"
+  },
+  "IfcCoil.DXCOOLINGCOIL": {
+    "bot": "Element",
+    "fso": "EnergyConversionDevice",
+    "brick": "Cooling_Coil"
+  },
+  "IfcCoil.ELECTRICHEATINGCOIL": {
+    "bot": "Element",
+    "fso": "EnergyConversionDevice",
+    "brick": "Heating_Coil"
+  },
+  "IfcCoil.GASHEATINGCOIL": {
+    "bot": "Element",
+    "fso": "EnergyConversionDevice",
+    "brick": "Heating_Coil"
+  },
+  "IfcCoil.HYDRONICCOIL": {
+    "bot": "Element",
+    "fso": "EnergyConversionDevice",
+    "brick": "Cooling_Coil"
+  },
+  "IfcCoil.STEAMHEATINGCOIL": {
+    "bot": "Element",
+    "fso": "EnergyConversionDevice",
+    "brick": "Heating_Coil"
+  },
+  "IfcCoil.WATERCOOLINGCOIL": {
+    "bot": "Element",
+    "fso": "EnergyConversionDevice",
+    "brick": "Chilled_Water_Coil"
+  },
+  "IfcCoil.WATERHEATINGCOIL": {
+    "bot": "Element",
+    "fso": "EnergyConversionDevice",
+    "brick": "Hot_Water_Coil"
+  },
+  "IfcCondenser": {
+    "bot": "Element",
+    "fso": "EnergyConversionDevice",
+    "brick": "Condenser"
+  },
+  "IfcCooledBeam": {
+    "bot": "Element",
+    "fso": "EnergyConversionDevice",
+    "brick": "Chilled_Beam"
+  },
+  "IfcCooledBeam.ACTIVE": {
+    "bot": "Element",
+    "fso": "EnergyConversionDevice",
+    "brick": "Active_Chilled_Beam"
+  },
+  "IfcCooledBeam.PASSIVE": {
+    "bot": "Element",
+    "fso": "EnergyConversionDevice",
+    "brick": "Passive_Chilled_Beam"
+  },
+  "IfcCoolingTower": {
+    "bot": "Element",
+    "fso": "EnergyConversionDevice",
+    "brick": "Cooling_Tower"
+  },
+  "IfcHeatExchanger": {
+    "bot": "Element",
+    "fso": "EnergyConversionDevice",
+    "brick": "Heat_Exchanger"
+  },
+  "IfcHeatExchanger.PLATE": {
+    "bot": "Element",
+    "fso": "EnergyConversionDevice",
+    "brick": "Heat_Exchanger"
+  },
+  "IfcHumidifier": {
+    "bot": "Element",
+    "fso": "EnergyConversionDevice",
+    "brick": "Humidifier"
+  },
+  "IfcSolarDevice": {
+    "bot": "Element",
+    "fso": "EnergyConversionDevice",
+    "brick": "PV_Panel"
+  },
+  "IfcSolarDevice.SOLARCOLLECTOR": {
+    "bot": "Element",
+    "fso": "EnergyConversionDevice",
+    "brick": "Solar_Thermal_Collector"
+  },
+  "IfcSolarDevice.SOLARPANEL": {
+    "bot": "Element",
+    "fso": "EnergyConversionDevice",
+    "brick": "PVT_Panel"
+  },
+  "IfcTransformer": {
+    "bot": "Element",
+    "fso": "EnergyConversionDevice",
+    "brick": "Transformer"
+  },
+  "IfcUnitaryEquipment": {
+    "bot": "Element",
+    "fso": "EnergyConversionDevice",
+    "brick": "Terminal_Unit"
+  },
+  "IfcUnitaryEquipment.AIRCONDITIONINGUNIT": {
+    "bot": "Element",
+    "fso": "EnergyConversionDevice",
+    "brick": "Terminal_Unit"
+  },
+  "IfcUnitaryEquipment.AIRHANDLER": {
+    "bot": "Element",
+    "fso": "EnergyConversionDevice",
+    "brick": "AHU"
+  },
+  "IfcUnitaryEquipment.ROOFTOPUNIT": {
+    "bot": "Element",
+    "fso": "EnergyConversionDevice",
+    "brick": "RTU"
+  },
+  "IfcAirTerminalBox": {
+    "bot": "Element",
+    "fso": "FlowController",
+    "brick": "Terminal_Unit"
+  },
+  "IfcAirTerminalBox.CONSTANTFLOW": {
+    "bot": "Element",
+    "fso": "FlowController",
+    "brick": "CAV"
+  },
+  "IfcAirTerminalBox.VARIABLEFLOWPRESSUREDEPENDANT": {
+    "bot": "Element",
+    "fso": "FlowController",
+    "brick": "VAV"
+  },
+  "IfcAirTerminalBox.VARIABLEFLOWPRESSUREINDEPENDANT": {
+    "bot": "Element",
+    "fso": "FlowController",
+    "brick": "VAV"
+  },
+  "IfcDamper": {
+    "bot": "Element",
+    "fso": "FlowController",
+    "brick": "Damper"
+  },
+  "IfcDamper.RELIEFDAMPER": {
+    "bot": "Element",
+    "fso": "FlowController",
+    "brick": "Relief_Damper"
+  },
+  "IfcDamper.FIREDAMPER": {
+    "bot": "Element",
+    "fso": "FlowController",
+    "brick": "Damper"
+  },
+  "IfcFlowMeter": {
+    "bot": "Element",
+    "fso": "FlowController",
+    "brick": "Meter"
+  },
+  "IfcFlowMeter.ENERGYMETER": {
+    "bot": "Element",
+    "fso": "FlowController",
+    "brick": "Electrical Meter"
+  },
+  "IfcFlowMeter.GASMETER": {
+    "bot": "Element",
+    "fso": "FlowController",
+    "brick": "Gas_Meter"
+  },
+  "IfcFlowMeter.WATERMETER": {
+    "bot": "Element",
+    "fso": "FlowController",
+    "brick": "Water_Meter"
+  },
+  "IfcSwitchingDevice": {
+    "bot": "Element",
+    "fso": "FlowController",
+    "brick": "Disconnect_Switch"
+  },
+  "IfcSwitchingDevice.TOGGLESWITCH": {
+    "bot": "Element",
+    "fso": "FlowController",
+    "brick": "Disconnect_Switch"
+  },
+  "IfcSwitchingDevice.NOTDEFINED": {
+    "bot": "Element",
+    "fso": "FlowController",
+    "brick": "Disconnect_Switch"
+  },
+  "IfcValve": {
+    "bot": "Element",
+    "fso": "FlowController",
+    "brick": "Valve"
+  },
+  "IfcCompressor": {
+    "bot": "Element",
+    "fso": "FlowMovingDevice",
+    "brick": "Compressor"
+  },
+  "IfcFan": {
+    "bot": "Element",
+    "fso": "FlowMovingDevice",
+    "brick": "Fan"
+  },
+  "IfcFan.CENTRIFUGALBACKWARDINCLINEDCURVED": {
+    "bot": "Element",
+    "fso": "FlowMovingDevice",
+    "brick": "Fan"
+  },
+  "IfcElectricFlowStorageDevice": {
+    "bot": "Element",
+    "fso": "StorageDevice",
+    "brick": "Energy_Storage"
+  },
+  "IfcElectricFlowStorageDevice.BATTERY": {
+    "bot": "Element",
+    "fso": "StorageDevice",
+    "brick": "Battery"
+  },
+  "IfcTank": {
+    "bot": "Element",
+    "fso": "StorageDevice",
+    "brick": "Water_Tank"
+  },
+  "IfcTank.EXPANSION": {
+    "bot": "Element",
+    "fso": "StorageDevice",
+    "brick": "Water_Tank"
+  },
+  "IfcTank.VESSEL": {
+    "bot": "Element",
+    "fso": "StorageDevice",
+    "brick": "Water_Tank"
+  },
+  "IfcAirTerminal": {
+    "bot": "Element",
+    "fso": "Terminal",
+    "brick": "Air_Diffuser"
+  },
+  "IfcFlowTerminal": {
+    "bot": "Element",
+    "fso": "Terminal",
+    "brick": "Terminal_Unit"
+  },
+  "IfcElectricAppliance": {
+    "bot": "Element",
+    "fso": "Terminal",
+    "brick": "Equipment"
+  },
+  "IfcFireSuppressionTerminal": {
+    "bot": "Element",
+    "fso": "Terminal",
+    "brick": "Fire_Safety_Equipment"
+  },
+  "IfcLamp": {
+    "bot": "Element",
+    "fso": "Terminal",
+    "brick": "Lighting"
+  },
+  "IfcLightFixture": {
+    "bot": "Element",
+    "fso": "Terminal",
+    "brick": "Lighting"
+  },
+  "IfcSpaceHeater": {
+    "bot": "Element",
+    "fso": "Terminal",
+    "brick": "Space_Heater"
+  },
+  "IfcSpaceHeater.RADIATOR": {
+    "bot": "Element",
+    "fso": "Terminal",
+    "brick": "Radiator"
+  },
+  "IfcFilter": {
+    "bot": "Element",
+    "fso": "TreatmentDevice",
+    "brick": "Filter"
+  },
+  "IfcDuctSegment": {
+    "bot": "Element",
+    "fso": "Segment",
+    "brick": ""
+  },
+  "IfcDuctFitting": {
+    "bot": "Element",
+    "fso": "Fitting",
+    "brick": ""
+  },
+  "IfcDuctSilencer": {
+    "bot": "Element",
+    "fso": "TreatmentDevice",
+    "brick": ""
+  },
+  "IfcPipeSegment": {
+    "bot": "Element",
+    "fso": "Segment",
+    "brick": ""
+  },
+  "IfcPipeFitting": {
+    "bot": "Element",
+    "fso": "Fitting",
+    "brick": ""
+  },
+  "IfcBuildingStorey": {
+    "bot": "Storey",
+    "fso": "",
+    "brick": "Storey"
+  },
+  "IfcSite": {
+    "bot": "Site",
+    "fso": "",
+    "brick": "Site"
+  },
+  "IfcSpace": {
+    "bot": "Space",
+    "fso": "",
+    "brick": "Space"
+  },
+  "IfcSpace.PARKING": {
+    "bot": "Space",
+    "fso": "",
+    "brick": "Parking_Space"
+  },
+  "IfcSpatialZone": {
+    "bot": "Zone",
+    "fso": "",
+    "brick": "Zone"
+  },
+  "IfcSpatialZone.LIGHTING": {
+    "bot": "Zone",
+    "fso": "",
+    "brick": "Lighting_Zone"
+  },
+  "IfcZone": {
+    "bot": "Zone",
+    "fso": "",
+    "brick": "Zone"
+  }
+}

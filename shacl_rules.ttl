@@ -1,0 +1,30 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix schema: <http://schema.org/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix mep: <https://pi.pauwel.be/voc/distributionelement#> .
+@prefix fso: <http://www.w3id.org/fso#> .
+@prefix om: <http://openmetrics.eu/openmetrics#> .
+@prefix brick: <https://brickschema.org/schema/Brick#> .
+
+brick:AHUshape
+	a sh:NodeShape ;
+	sh:targetClass brick:AHU ;
+	sh:rule [
+		a sh:SPARQLRule ;
+		sh:prefixes brick: ;
+		sh:construct """
+			CONSTRUCT {
+				$this brick:feeds ?z .
+			}
+			WHERE {
+				$this fso:feedsFluidTo ?x .
+                ?x fso:Segment .
+				?x fso:feedsFluidTo ?y .
+                ?y fso:Segment .
+                ?y fso:feedsFluidTo ?z .
+			}
+			""" ;
+		sh:condition brick:AHUShape ; 
+	] ;

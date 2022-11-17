@@ -1,16 +1,19 @@
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix brick: <https://brickschema.org/schema/Brick#> .
+@prefix bot: <https://w3id.org/bot#> .
+@prefix fso: <https://www.w3id.org/fso#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix om: <http://openmetrics.eu/openmetrics#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix schema: <http://schema.org/> .
-@prefix sh: <http://www.w3.org/ns/shacl#> .
-@prefix mep: <https://pi.pauwel.be/voc/distributionelement#> .
-@prefix fso: <http://www.w3id.org/fso#> .
-@prefix om: <http://openmetrics.eu/openmetrics#> .
+@prefix kgg: <https://openmetrics.eu/kgg#> .
 
-
-fso:StorageDevice a rdfs:Class, sh:NodeShape ;
-	sh:property [
-		sh:path fso:connectedWith ;
-        sh:name "StorageDevice is not connected with any other components" ; 
-		sh:minCount 1 ;
-	].
+kgg:ContainmentShape a sh:PropertyShape ;
+    sh:targetClass brick:Air_Diffuser ;
+    sh:name "Air_Diffuser does not have location" ;
+    sh:path bot:hasLocation ;
+    sh:qualifiedMinCount 1 ;
+    sh:qualifiedValueShape [
+        sh:class bot:Space
+    ] .

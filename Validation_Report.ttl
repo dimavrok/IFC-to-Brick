@@ -1,26 +1,1292 @@
-@prefix fso: <http://www.w3id.org/fso#> .
-@prefix om: <http://openmetrics.eu/openmetrics#> .
+@prefix bot: <https://w3id.org/bot#> .
+@prefix kgg: <https://openmetrics.eu/kgg#> .
 @prefix sh: <http://www.w3.org/ns/shacl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 [] a sh:ValidationReport ;
     sh:conforms false ;
     sh:result [ a sh:ValidationResult ;
-            sh:focusNode om:inst_2eVCqj_0XAyh2oDdEscobw ;
-            sh:resultMessage "Less than 1 values on om:inst_2eVCqj_0XAyh2oDdEscobw->fso:connectedWith" ;
-            sh:resultPath fso:connectedWith ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dort5> ;
+            sh:resultPath bot:hasLocation ;
             sh:resultSeverity sh:Violation ;
-            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
-            sh:sourceShape _:n45fa8377dc844e90bd6c83d928863cd6b3 ],
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
         [ a sh:ValidationResult ;
-            sh:focusNode om:inst_0VZk6NVn93Cx7YwaVImAnJ ;
-            sh:resultMessage "Less than 1 values on om:inst_0VZk6NVn93Cx7YwaVImAnJ->fso:connectedWith" ;
-            sh:resultPath fso:connectedWith ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02doroC> ;
+            sh:resultPath bot:hasLocation ;
             sh:resultSeverity sh:Violation ;
-            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
-            sh:sourceShape _:n45fa8377dc844e90bd6c83d928863cd6b3 ] .
-
-_:n45fa8377dc844e90bd6c83d928863cd6b3 sh:minCount 1 ;
-    sh:name "StorageDevice is not connected with any other components" ;
-    sh:path fso:connectedWith .
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_14aLuRP9HDNvsYDjDLwaR2> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_14aLuRP9HDNvsYDjDLwaka> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dorzU> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_1JNb8L_4j1bvfENG27KodT> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_06gfh_mY50VuFvd6o5q28m> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_1JNb8L_4j1bvfENG27Kodk> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dor8f> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dorta> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_1JNb8L_4j1bvfENG27KoaB> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_1bHeuc2gH3EvW8ov4rKAni> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_1bHeuc2gH3EvW8ov4rKApS> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dorp5> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dortA> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dor9W> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dort6> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dor8h> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dor81> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dorun> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_06gfh_mY50VuFvd6o5q28e> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dort8> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dor_O> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_1bHeuc2gH3EvW8ov4rKAoE> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dor9h> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02doroD> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_1JNb8L_4j1bvfENG27Koa_> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_06gfh_mY50VuFvd6o5q2B7> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_0JXg239Sr7ow4cIflL0LDu> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dorpm> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_3YluWhOWvDC81F9Z8xYWcx> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_1JNb8L_4j1bvfENG27Kob0> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02doroH> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_25VDrRaRL28hF909MmH7_y> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_1JNb8L_4j1bvfENG27Kocs> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_06gfh_mY50VuFvd6o5q2B8> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dorpl> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dor9P> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dorty> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dortT> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_1JNb8L_4j1bvfENG27Kob5> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_06gfh_mY50VuFvd6o5q2Bw> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dor_K> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dorpn> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dortJ> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dor_3> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2x1aaiIbT9YA8HCzEW36lZ> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_1bHeuc2gH3EvW8ov4rKA_Y> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dor9L> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_1JNb8L_4j1bvfENG27KodO> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dor8U> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dor8d> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_1JNb8L_4j1bvfENG27Kod2> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_1JNb8L_4j1bvfENG27Kobd> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_1JNb8L_4j1bvfENG27KoaZ> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_06gfh_mY50VuFvd6o5q28Y> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_06gfh_mY50VuFvd6o5q2Bq> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dortc> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dorto> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dorox> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_06gfh_mY50VuFvd6o5q2BV> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dor8_> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_3YluWhOWvDC81F9Z8xYWc_> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_1WLPHSQKLFFw5bAmf2WU_i> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dor_Y> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02doroZ> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02doruo> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dorzB> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dor8g> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dor8T> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02doroG> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2x1aaiIbT9YA8HCzEW36lb> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_0v1c_ShDjAUfh3RIYJt_yG> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dorpj> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_1JNb8L_4j1bvfENG27KobH> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_1bHeuc2gH3EvW8ov4rKApU> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dorpa> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_1JNb8L_4j1bvfENG27Koaq> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dor8y> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dor9O> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_1JNb8L_4j1bvfENG27Koav> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2x1aaiIbT9YA8HCzEW36l_> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dor87> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_1bHeuc2gH3EvW8ov4rKApR> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_3YluWhOWvDC81F9Z8xYWag> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dor9Y> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dor_P> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dor_h> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_1JNb8L_4j1bvfENG27Koa1> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dorpx> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dor9V> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_1bHeuc2gH3EvW8ov4rKAmp> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dor_2> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_06gfh_mY50VuFvd6o5q2BU> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02doruj> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_1JNb8L_4j1bvfENG27Kod7> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dor_q> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dorp4> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dortl> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_06gfh_mY50VuFvd6o5q28Z> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_14aLuRP9HDNvsYDjDLwalD> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dor91> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_06gfh_mY50VuFvd6o5q2BT> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dor80> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dort7> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dorzA> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dor_X> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dor8z> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dorot> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_1bHeuc2gH3EvW8ov4rKAoM> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dor__> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_1bHeuc2gH3EvW8ov4rKApG> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_1JNb8L_4j1bvfENG27KobM> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02doroj> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_1JNb8L_4j1bvfENG27Kobz> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_1bHeuc2gH3EvW8ov4rKAnk> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_1JNb8L_4j1bvfENG27Kod_> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_1W8dbi71v1GwScsOTc98zJ> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_06gfh_mY50VuFvd6o5q28f> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dor8V> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02doroi> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_3TKh4wcqH5VhTNTUH8XdNs> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02doroQ> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dorpo> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dortf> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dorom> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_06gfh_mY50VuFvd6o5q28_> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_1bHeuc2gH3EvW8ov4rKA_X> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dor_V> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dorzT> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_1W8dbi71v1GwScsOTc98y1> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dor_L> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_1JNb8L_4j1bvfENG27KoaI> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dor8K> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dor8W> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_06gfh_mY50VuFvd6o5q2Bx> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dor_W> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dorzK> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dortS> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dor_u> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_06gfh_mY50VuFvd6o5q28n> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_1W8dbi71v1GwScsOTc98_n> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_1JNb8L_4j1bvfENG27Koa6> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dorow> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_06gfh_mY50VuFvd6o5q28t> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_1JNb8L_4j1bvfENG27Kocn> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02doruk> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_3TKh4wcqH5VhTNTUH8XcZW> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_1JNb8L_4j1bvfENG27Kodm> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_06gfh_mY50VuFvd6o5q28a> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_0JXg239Sr7ow4cIflL0LD_> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_1JNb8L_4j1bvfENG27Kodw> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_06gfh_mY50VuFvd6o5q2Bv> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_1JNb8L_4j1bvfENG27KobR> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_06gfh_mY50VuFvd6o5q2BA> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_1JNb8L_4j1bvfENG27Koda> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dort9> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dortb> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_1JNb8L_4j1bvfENG27KodC> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_1bHeuc2gH3EvW8ov4rKAnj> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dor9X> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2x1aaiIbT9YA8HCzEW36lm> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dor9M> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_1JNb8L_4j1bvfENG27Kobi> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dor92> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_14aLuRP9HDNvsYDjDLwaTb> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dor9q> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dor9_> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dortp> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_1JNb8L_4j1bvfENG27KodJ> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dor8A> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2x1aaiIbT9YA8HCzEW36lY> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dorzV> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2x1aaiIbT9YA8HCzEW36ly> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dorpk> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_1JNb8L_4j1bvfENG27KoaN> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02doroR> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2x1aaiIbT9YA8HCzEW36ln> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dor_1> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_06gfh_mY50VuFvd6o5q2Bu> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_1JNb8L_4j1bvfENG27Kodf> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02doroN> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2Flq8gAGL3n8sahAlOAKtn> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_06gfh_mY50VuFvd6o5q2B9> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_1bHeuc2gH3EvW8ov4rKApT> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dor9u> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_1bHeuc2gH3EvW8ov4rKAoN> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_1bHeuc2gH3EvW8ov4rKAct> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_1JNb8L_4j1bvfENG27KobY> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dor8c> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dor_M> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_06gfh_mY50VuFvd6o5q2Br> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dor9r> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_1bHeuc2gH3EvW8ov4rKApV> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_1bHeuc2gH3EvW8ov4rKA_Z> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dor93> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_0JXg239Sr7ow4cIflL0LDv> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02doroE> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dorte> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_3ywDhlZfHF1OQ96cGksT9g> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dor8B> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_3TKh4wcqH5VhTNTUH8XcZE> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_06gfh_mY50VuFvd6o5q2Bs> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_1JNb8L_4j1bvfENG27Koaj> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dorov> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_3TKh4wcqH5VhTNTUH8XcWK> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dor_r> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dorum> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dor9K> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_1JNb8L_4j1bvfENG27Kodr> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02doros> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_2qgcQZZLL09PWpA02dorul> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_1bHeuc2gH3EvW8ov4rKAmq> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://openmetrics.eu/openmetrics#inst_0v1c_ShDjAUfh3RIYJt__s> ;
+            sh:resultPath bot:hasLocation ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape kgg:ContainmentShape ] .
 
